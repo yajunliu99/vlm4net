@@ -1,0 +1,1124 @@
+[
+  {
+    "section_id": "in_EB",
+    "kind": "inbound_stopbar",
+    "direction": "EB",
+    "source_id": "satellite",
+    "regions": [
+      {
+        "region_id": "r1",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "Continuous asphalt travel strip with longitudinal painted boundaries and aligned vehicles. A bent white pavement marking is visible, but no arrow subtype is encoded here. Vehicles obscure portions of the surface.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_EB",
+            "bbox_xyxy": [
+              0.294,
+              0.311,
+              0.395,
+              0.43
+            ],
+            "finding": "Paved strip with white pavement marking between a dashed boundary and the adjacent track-bearing lane."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 1
+      },
+      {
+        "region_id": "r2",
+        "surface_type": "shared_rail_motor_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "Paired embedded rails run along paved roadway and continue into the intersection. Vehicles are aligned within the same track-bearing strip, supporting shared physical use rather than a separated rail reservation.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_EB",
+            "bbox_xyxy": [
+              0.398,
+              0.343,
+              0.487,
+              0.795
+            ],
+            "finding": "Vehicle over the track-bearing pavement, with exposed parallel rails continuing below it."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 2
+      },
+      {
+        "region_id": "r3",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "Continuous asphalt strip between the track-bearing lane and narrow green strip. Longitudinal lane paint and aligned vehicles support a separate motor travel lane.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_EB",
+            "bbox_xyxy": [
+              0.491,
+              0.302,
+              0.598,
+              0.864
+            ],
+            "finding": "Asphalt travel strip bounded by longitudinal white markings, with green pavement immediately to its right."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 3
+      },
+      {
+        "region_id": "r4",
+        "surface_type": "bicycle_strip",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "Narrow green-painted strip with longitudinal white boundaries continues toward the intersection between wider asphalt strips. The visible treatment and approximately 1.37 m width support bicycle-strip classification; no readable bicycle symbol is asserted.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_EB",
+            "bbox_xyxy": [
+              0.585,
+              0.185,
+              0.645,
+              0.558
+            ],
+            "finding": "Narrow green pavement treatment flanked by wider roadway strips."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": false,
+        "motor_lane_index": null
+      },
+      {
+        "region_id": "r5",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "medium",
+        "evidence": "Asphalt extends from the green strip to the physical curb and continues toward the intersection, with a vehicle near its upper end. Pale sidewalk paving lies beyond the curb. This supports a curbside motor travel lane, although its hinted width is relatively narrow and its exact movement function is not established. No parking stalls are discernible.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_EB",
+            "bbox_xyxy": [
+              0.635,
+              0.158,
+              0.737,
+              0.796
+            ],
+            "finding": "Continuous curbside asphalt beside the green strip; a curved curb separates the roadway from pale sidewalk paving."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 4
+      }
+    ],
+    "notes": [
+      "Travel direction is interpreted as upward. The two panels provide the same satellite observation, not independent corroboration.",
+      "Bounding boxes are normalized to the native satellite image, excluding sheet headings and margins.",
+      "Candidate polygons are annotation hypotheses; classifications rely on pavement, paint, rails, curb alignment and continuity.",
+      "No capture date or confirmed legal movement permissions are established."
+    ],
+    "count": {
+      "model_motor_count": 4,
+      "unclassified_regions": 0,
+      "model_count_range": [
+        4,
+        4
+      ],
+      "human_verified": false,
+      "coverage": "candidate_geometry_only"
+    }
+  },
+  {
+    "section_id": "in_NB",
+    "kind": "inbound_stopbar",
+    "direction": "NB",
+    "source_id": "satellite",
+    "regions": [
+      {
+        "region_id": "r1",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "Continuous asphalt strip between the yellow center-side marking and a white longitudinal boundary. A vehicle occupies this strip immediately before the intersection markings. Vehicle and pole shadows obscure some pavement.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_NB",
+            "bbox_xyxy": [
+              0.268,
+              0.177,
+              0.368,
+              0.488
+            ],
+            "finding": "Vehicle on asphalt between the yellow marking and white longitudinal boundary."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 1
+      },
+      {
+        "region_id": "r2",
+        "surface_type": "median_or_buffer",
+        "existence": "rejected",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "medium",
+        "evidence": "This is paved, but appears to be a separator rather than a travel lane: continuous white boundaries flank it, and a triangular diagonal marking is visible along its continuation below the proposed region. The marking is not interpreted as a travel arrow. Resolution and shadows limit certainty about the complete buffer treatment.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_NB",
+            "bbox_xyxy": [
+              0.348,
+              0.219,
+              0.449,
+              0.994
+            ],
+            "finding": "Parallel solid white boundaries enclose the strip; a triangular painted element is visible near its lower continuation."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": false,
+        "motor_lane_index": null
+      },
+      {
+        "region_id": "r3",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "Continuous roadway pavement lies between the solid separator-side boundary and a broken white lane divider. It continues toward the transverse intersection markings. A pole shadow covers part of its lower section.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_NB",
+            "bbox_xyxy": [
+              0.433,
+              0.209,
+              0.544,
+              0.844
+            ],
+            "finding": "Asphalt travel strip with a solid left boundary and broken white divider on the right."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 2
+      },
+      {
+        "region_id": "r4",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "Two clearly visible vehicles align within continuous roadway pavement bounded by longitudinal lane markings. The pavement continues to the intersection; vehicles obscure portions of its surface.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_NB",
+            "bbox_xyxy": [
+              0.531,
+              0.211,
+              0.638,
+              0.594
+            ],
+            "finding": "Aligned vehicles occupy the marked asphalt lane."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 3
+      },
+      {
+        "region_id": "r5",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "clear",
+        "confidence": "high",
+        "evidence": "A car-width asphalt strip extends from the outer lane divider to the real curb. The sidewalk, pavers and planting lie outside that curb. No bicycle symbol, green treatment, parking stalls or parked vehicles are discernible in the proposed strip. Its curbside position supports a motor lane, but no specific turning movement is confirmed.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_NB",
+            "bbox_xyxy": [
+              0.62,
+              0.204,
+              0.807,
+              0.813
+            ],
+            "finding": "Broad roadway pavement inside a continuous curb, with sidewalk and landscaped beds beyond the roadway edge."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 4
+      }
+    ],
+    "notes": [
+      "The two panels show the same satellite pixels and are not independent observations.",
+      "Bounding boxes refer to the native satellite image, excluding sheet margins and headings.",
+      "No readable directional arrows or confirmed legal movement permissions are established."
+    ],
+    "count": {
+      "model_motor_count": 4,
+      "unclassified_regions": 0,
+      "model_count_range": [
+        4,
+        4
+      ],
+      "human_verified": false,
+      "coverage": "candidate_geometry_only"
+    }
+  },
+  {
+    "section_id": "in_SB",
+    "kind": "inbound_stopbar",
+    "direction": "SB",
+    "source_id": "satellite",
+    "regions": [
+      {
+        "region_id": "r1",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "Continuous asphalt strip with longitudinal paint and several clearly visible vehicles. Vehicles obscure portions of the surface, but surrounding pavement supports a motor-vehicle lane rather than sidewalk or landscaping.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_SB",
+            "bbox_xyxy": [
+              0.245,
+              0.495,
+              0.33,
+              0.665
+            ],
+            "finding": "White vehicle occupies the paved strip beside a continuous longitudinal line."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 1
+      },
+      {
+        "region_id": "r2",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "clear",
+        "confidence": "medium",
+        "evidence": "Road-colored pavement continues toward the stop-bar area between longitudinal markings. The approximately 3 m width supports a motor-vehicle lane; no convincing curb, planted buffer, parking treatment or bicycle marking is resolved within this strip. Faint pavement symbols are not readable.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_SB",
+            "bbox_xyxy": [
+              0.325,
+              0.245,
+              0.405,
+              0.795
+            ],
+            "finding": "Continuous paved strip between longitudinal road markings, without a visible intervening physical island."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 2
+      },
+      {
+        "region_id": "r3",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "A clearly visible dark vehicle occupies continuous asphalt between lane markings. Pavement and lane-line continuity extend toward the intersection. The vehicle and shadows obscure some markings.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_SB",
+            "bbox_xyxy": [
+              0.392,
+              0.35,
+              0.493,
+              0.705
+            ],
+            "finding": "Dark vehicle within a marked asphalt lane, with longitudinal paint continuing below it."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 3
+      },
+      {
+        "region_id": "r4",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "clear",
+        "confidence": "high",
+        "evidence": "Car-width asphalt strip bounded by longitudinal lane paint and continuous with the approach pavement. No sidewalk texture, vegetation, parking stalls or readable bicycle marking is visible within the strip.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_SB",
+            "bbox_xyxy": [
+              0.482,
+              0.255,
+              0.58,
+              0.705
+            ],
+            "finding": "Unoccupied roadway strip with longitudinal painted separators on continuous asphalt."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 4
+      },
+      {
+        "region_id": "r5",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "The outer lane line and real kerb enclose a car-width paved strip, occupied by a vehicle near the stop bar. The light sidewalk and landscaping lie farther right. This supports a kerbside motor lane without requiring a readable turn arrow. The proposed lower-right flare is not wholly supported as roadway: portions approach or overlap the sidewalk/roadside structure and shadow, so pavement should not be extended to fill the polygon.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_SB",
+            "bbox_xyxy": [
+              0.555,
+              0.205,
+              0.747,
+              0.615
+            ],
+            "finding": "Vehicle on asphalt between the outer lane separator and the kerb; contrasting light sidewalk lies immediately right."
+          },
+          {
+            "source_id": "scene_in_SB",
+            "bbox_xyxy": [
+              0.635,
+              0.585,
+              0.795,
+              0.795
+            ],
+            "finding": "Roadside structure, sidewalk and shadow complicate the lower polygon boundary; its entire flare cannot be treated as pavement."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 5
+      }
+    ],
+    "notes": [
+      "The two panels are duplicate imagery, not independent observations. References use normalized coordinates within the native satellite image.",
+      "Supported classifications establish physical lane support, not exact polygon boundaries, permitted movements or confirmed legal access. No arrows are sufficiently readable to report."
+    ],
+    "count": {
+      "model_motor_count": 5,
+      "unclassified_regions": 0,
+      "model_count_range": [
+        5,
+        5
+      ],
+      "human_verified": false,
+      "coverage": "candidate_geometry_only"
+    }
+  },
+  {
+    "section_id": "in_WB",
+    "kind": "inbound_stopbar",
+    "direction": "WB",
+    "source_id": "satellite",
+    "regions": [
+      {
+        "region_id": "r1",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [
+          "left"
+        ],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "Continuous asphalt approach strip with longitudinal lane paint and a readable left-turn arrow. The strip reaches the intersection; overhead shadow obscures only part of it.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_WB",
+            "bbox_xyxy": [
+              0.29,
+              0.68,
+              0.39,
+              0.76
+            ],
+            "finding": "Left-turn arrow on asphalt between longitudinal boundaries."
+          }
+        ],
+        "basis": "observed",
+        "endpoint_eligible": true,
+        "motor_lane_index": 1
+      },
+      {
+        "region_id": "r2",
+        "surface_type": "unknown",
+        "existence": "uncertain",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "low",
+        "evidence": "Narrow longitudinal strip between the left-turn lane and the pale central track-like band. It may be part of a wider travel facility or its marginal separation; the image does not reliably establish an independent lane or a raised buffer.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_WB",
+            "bbox_xyxy": [
+              0.382,
+              0.44,
+              0.423,
+              0.79
+            ],
+            "finding": "Narrow dark strip adjoining the pale longitudinal band; its physical boundary is indistinct."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": false,
+        "motor_lane_index": null
+      },
+      {
+        "region_id": "r3",
+        "surface_type": "unknown",
+        "existence": "uncertain",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "low",
+        "evidence": "A pale longitudinal band with parallel edges is visible. Its appearance is compatible with track infrastructure, but a raised separator cannot be excluded at this resolution. A vehicle overlaps its upper portion in projection, which alone does not resolve the surface beneath it.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_WB",
+            "bbox_xyxy": [
+              0.416,
+              0.39,
+              0.464,
+              0.91
+            ],
+            "finding": "Continuous pale band with parallel dark edges; elevation and rail detail are unresolved."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": false,
+        "motor_lane_index": null
+      },
+      {
+        "region_id": "r4",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "medium",
+        "evidence": "Paved strip immediately to the right of the pale band, continuous with the vehicle-bearing approach. It appears to be only part of a wider travel lane, not a separate lane of the proposed polygon's width. Possible rail sharing remains unresolved.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_WB",
+            "bbox_xyxy": [
+              0.46,
+              0.4,
+              0.501,
+              0.81
+            ],
+            "finding": "Dark approach pavement extends beside the pale band toward a longitudinal lane divider."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 2
+      },
+      {
+        "region_id": "r5",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "Asphalt lane with a vehicle near the intersection, a longitudinal divider on its left, and a green bicycle strip on its right. Pavement continues along the approach.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_WB",
+            "bbox_xyxy": [
+              0.487,
+              0.225,
+              0.581,
+              0.825
+            ],
+            "finding": "Vehicle-bearing asphalt lane between lane paint and the green strip."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 3
+      },
+      {
+        "region_id": "r6",
+        "surface_type": "bicycle_strip",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "Narrow green-painted strip bounded by longitudinal white paint, continuing between the motor lane and the outer vehicle-storage strip. Its approximately 1.67 m width supports the bicycle interpretation; no readable bicycle symbol is required to distinguish the visible green treatment.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_WB",
+            "bbox_xyxy": [
+              0.575,
+              0.19,
+              0.634,
+              0.57
+            ],
+            "finding": "Green pavement treatment within a narrow longitudinally bounded strip."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": false,
+        "motor_lane_index": null
+      },
+      {
+        "region_id": "r7",
+        "surface_type": "shoulder_or_parking",
+        "existence": "rejected",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "medium",
+        "evidence": "This is paved kerbside space rather than sidewalk, but it lies outside the green bicycle strip and contains multiple kerb-aligned vehicles. Its narrow width and layout favor parking or shoulder use rather than a distinct motor travel lane. Vehicle motion and legal parking permissions cannot be determined.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_WB",
+            "bbox_xyxy": [
+              0.619,
+              0.106,
+              0.717,
+              0.376
+            ],
+            "finding": "Two vehicles occupy the outer paved strip between the green bicycle facility and the sidewalk kerb."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": false,
+        "motor_lane_index": null
+      }
+    ],
+    "notes": [
+      "The duplicated satellite panels were treated as one observation, not independent evidence.",
+      "Coordinates refer to the native satellite image, excluding the surrounding presentation sheet.",
+      "Supported roadway portions are not necessarily separate lanes; the candidate boundaries subdivide some physically ambiguous surfaces.",
+      "The central pale band's rail-versus-separator interpretation remains unresolved. No lane total or confirmed legal permissions are inferred."
+    ],
+    "count": {
+      "model_motor_count": 3,
+      "unclassified_regions": 2,
+      "model_count_range": [
+        3,
+        5
+      ],
+      "human_verified": false,
+      "coverage": "candidate_geometry_only"
+    }
+  },
+  {
+    "section_id": "out_EB",
+    "kind": "outbound_receiving",
+    "direction": "EB",
+    "source_id": "satellite",
+    "regions": [
+      {
+        "region_id": "r1",
+        "surface_type": "shared_rail_motor_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "medium",
+        "evidence": "Paved strip immediately inside the center-side painted separation, continuous with the rail-bearing carriageway. It appears to cover the left margin of a shared rail/motor lane, not an independent lane or a raised median.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_EB",
+            "bbox_xyxy": [
+              0.315,
+              0.22,
+              0.374,
+              0.61
+            ],
+            "finding": "Longitudinal painted separation and adjoining paved rail-lane margin continue through the candidate."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 1
+      },
+      {
+        "region_id": "r2",
+        "surface_type": "shared_rail_motor_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "The candidate follows the paved track slab between longitudinal rails. This is part of the rail-bearing carriageway rather than a separate narrow motor lane; shared use is inferred from the surrounding carriageway layout.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_EB",
+            "bbox_xyxy": [
+              0.355,
+              0.19,
+              0.425,
+              0.61
+            ],
+            "finding": "Parallel rail traces and intervening paved slab remain continuous above and below localized shadows."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 2
+      },
+      {
+        "region_id": "r3",
+        "surface_type": "shared_rail_motor_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "medium",
+        "evidence": "Pavement between the outer rail and the dashed motor-lane divider supports the outer margin of the same shared rail/motor lane. The proposed boundary does not establish an additional lane.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_EB",
+            "bbox_xyxy": [
+              0.409,
+              0.18,
+              0.467,
+              0.61
+            ],
+            "finding": "Paved continuity from the outer rail toward the dashed longitudinal lane divider."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 3
+      },
+      {
+        "region_id": "r4",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "Continuous asphalt lies between the dashed divider beside the rail-bearing lane and the solid boundary of the green bicycle strip. Pole and building shadows obscure patches but do not interrupt the physical roadway.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_EB",
+            "bbox_xyxy": [
+              0.448,
+              0.18,
+              0.551,
+              0.79
+            ],
+            "finding": "Dashed inner divider, asphalt travel surface and solid bicycle-strip boundary."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 4
+      },
+      {
+        "region_id": "r5",
+        "surface_type": "bicycle_strip",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "A narrow green-painted strip bounded by longitudinal white lines continues toward the intersection. The supplemental street view corroborates a bicycle strip with a curbside paved strip outside it; no lane ordinals are transferred between views.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_EB",
+            "bbox_xyxy": [
+              0.544,
+              0.447,
+              0.609,
+              0.812
+            ],
+            "finding": "Green surfacing and white boundaries remain visible on both sides of the transverse shadow."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": false,
+        "motor_lane_index": null
+      },
+      {
+        "region_id": "r6",
+        "surface_type": "shoulder_or_parking",
+        "existence": "rejected",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "medium",
+        "evidence": "The exposed portion is a curbside paved shoulder/parking strip outside the bicycle strip, not an additional through travel lane. The curb curves into the proposed rectangle near the intersection, so part of the hypothesis also overlaps sidewalk. Shadows limit exact delineation; legal parking permission is unknown.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_EB",
+            "bbox_xyxy": [
+              0.598,
+              0.64,
+              0.716,
+              0.861
+            ],
+            "finding": "Curbside asphalt outside the green strip meets a curving pale sidewalk edge that crosses the proposed rectangular extent."
+          },
+          {
+            "source_id": "gsv_WB_near_look_back",
+            "bbox_xyxy": [
+              0.265,
+              0.47,
+              0.698,
+              0.985
+            ],
+            "finding": "Physical cross-section shows a separate paved curbside strip between the sidewalk curb and green bicycle facility."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": false,
+        "motor_lane_index": null
+      }
+    ],
+    "notes": [
+      "Supported regions describe physical facility coverage, not independent lane counts. In particular, r1–r3 subdivide one rail-bearing carriageway band.",
+      "The satellite panels are duplicate imagery, not independent observations. Satellite travel is upward.",
+      "The supplemental reverse view is used for physical cross-section corroboration, not to equate the camera lane with the target receiving lane.",
+      "No readable directional arrows are assigned to the candidate regions. Physical support does not establish legal travel permissions."
+    ],
+    "count": {
+      "model_motor_count": 4,
+      "unclassified_regions": 0,
+      "model_count_range": [
+        4,
+        4
+      ],
+      "human_verified": false,
+      "coverage": "candidate_geometry_only"
+    }
+  },
+  {
+    "section_id": "out_NB",
+    "kind": "outbound_receiving",
+    "direction": "NB",
+    "source_id": "satellite",
+    "regions": [
+      {
+        "region_id": "r1",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "Continuous asphalt extends upward from the intersection. Longitudinal paint on the right and the painted center-side separation on the left support a travel lane. A vehicle partly obscures its intersection end; the region does not extend onto the sidewalk.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_NB",
+            "bbox_xyxy": [
+              0.328,
+              0.214,
+              0.453,
+              0.79
+            ],
+            "finding": "Asphalt corridor with longitudinal lane paint, continuous to the intersection."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 1
+      },
+      {
+        "region_id": "r2",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "clear",
+        "confidence": "high",
+        "evidence": "The proposed strip lies on roadway asphalt between visible longitudinal paint traces. Its surface continues through the receiving section, without a curb, pavers, vegetation or other non-road boundary crossing it. The vehicle farther upward is corroborating evidence, not the basis for identifying pavement.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_NB",
+            "bbox_xyxy": [
+              0.433,
+              0.205,
+              0.562,
+              0.794
+            ],
+            "finding": "Continuous interior roadway surface bounded by longitudinal paint traces."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 2
+      },
+      {
+        "region_id": "r3",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "medium",
+        "evidence": "Asphalt continues between the inner longitudinal marking and the actual curb adjoining the pale sidewalk. The curb follows the outer edge rather than cutting across most of this hypothesis. A structural shadow obscures a short portion near the intersection, but pavement is visible on both sides of it. This supports a curbside motor travel lane; exact operating restrictions are not established.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_NB",
+            "bbox_xyxy": [
+              0.54,
+              0.212,
+              0.727,
+              0.798
+            ],
+            "finding": "Curbside asphalt lies inward of the continuous pale sidewalk; a transverse shadow locally interrupts visibility."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 3
+      }
+    ],
+    "notes": [
+      "The two satellite panels are duplicate evidence. Candidate boundaries were not treated as detected lane lines.",
+      "The supplemental view is from the opposing approach. Its foreground lane ordinals were not transferred to the target receiving carriageway.",
+      "Classifications establish physical travel-surface support, not confirmed legal permissions. No readable arrows were identified."
+    ],
+    "count": {
+      "model_motor_count": 3,
+      "unclassified_regions": 0,
+      "model_count_range": [
+        3,
+        3
+      ],
+      "human_verified": false,
+      "coverage": "candidate_geometry_only"
+    }
+  },
+  {
+    "section_id": "out_SB",
+    "kind": "outbound_receiving",
+    "direction": "SB",
+    "source_id": "satellite",
+    "regions": [
+      {
+        "region_id": "r1",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "clear",
+        "confidence": "high",
+        "evidence": "Continuous asphalt lies immediately beside the longitudinal center separation. A dashed white divider separates this strip from the next strip to its right. Its connection to the intersection supports a motor travel lane rather than a median or paved buffer.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_SB",
+            "bbox_xyxy": [
+              0.31,
+              0.21,
+              0.45,
+              0.75
+            ],
+            "finding": "Asphalt strip between the center-side boundary and a visible dashed white lane divider."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 1
+      },
+      {
+        "region_id": "r2",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "The region occupies continuous roadway asphalt between longitudinal white lane divisions. A clearly visible white vehicle partly obscures the pavement; the lane classification is supported by pavement and marking continuity, not solely by the vehicle.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_SB",
+            "bbox_xyxy": [
+              0.423,
+              0.21,
+              0.567,
+              0.76
+            ],
+            "finding": "Middle asphalt strip with flanking white divider segments and a vehicle covering part of its surface."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 2
+      },
+      {
+        "region_id": "r3",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "The outer strip is asphalt on the roadway side of the curb, with a longitudinal white divider on its inner side. The pale sidewalk, frontage paving and vegetation remain outside the visible road edge. Shadow and vegetation obscure part of the intersection-end edge, so the proposed polygon is not treated as an exact curb boundary. Continuity supports an outer motor travel lane.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_SB",
+            "bbox_xyxy": [
+              0.54,
+              0.21,
+              0.73,
+              0.71
+            ],
+            "finding": "Outer asphalt lane bordered by an inner white divider and an outer curb adjoining pale sidewalk/frontage paving."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 3
+      }
+    ],
+    "notes": [
+      "The two satellite panels are duplicate evidence. Reference boxes use coordinates normalized to the satellite image itself, excluding sheet margins and headings.",
+      "Travel UP is supplied context, not inferred from a visible arrow. No readable arrows are identified within these regions.",
+      "The reverse auxiliary street view is consistent with a multilane paved roadway and curb-separated sidewalk; camera-lane ordinals were not transferred to the candidate regions.",
+      "These findings establish physical travel-facility support, not confirmed legal permissions or exact surveyed lane boundaries."
+    ],
+    "count": {
+      "model_motor_count": 3,
+      "unclassified_regions": 0,
+      "model_count_range": [
+        3,
+        3
+      ],
+      "human_verified": false,
+      "coverage": "candidate_geometry_only"
+    }
+  },
+  {
+    "section_id": "out_WB",
+    "kind": "outbound_receiving",
+    "direction": "WB",
+    "source_id": "satellite",
+    "regions": [
+      {
+        "region_id": "r1",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "clear",
+        "confidence": "medium",
+        "evidence": "The narrow candidate overlaps asphalt on the carriageway side of the central separation, beside a longitudinal dashed white line. It supports motor-road surface, but its proposed boundaries do not establish a complete, independent lane.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_WB",
+            "bbox_xyxy": [
+              0.35,
+              0.22,
+              0.413,
+              0.78
+            ],
+            "finding": "Asphalt continues alongside the central separation; dashed white paint lies near the candidate's right edge."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 1
+      },
+      {
+        "region_id": "r2",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "clear",
+        "confidence": "high",
+        "evidence": "Continuous asphalt lies between the dashed motor-lane divider and the solid boundary of the green bicycle strip. It continues away from the intersection without a curb or landscape interruption.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_WB",
+            "bbox_xyxy": [
+              0.39,
+              0.21,
+              0.51,
+              0.79
+            ],
+            "finding": "Continuous motor carriageway pavement with dashed paint to the left and the bicycle-strip boundary to the right."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 2
+      },
+      {
+        "region_id": "r3",
+        "surface_type": "bicycle_strip",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "clear",
+        "confidence": "high",
+        "evidence": "A narrow longitudinal strip has green surface treatment near the intersection and solid white lateral boundaries. Its continuity supports a bicycle facility; no directional arrow is reliably readable.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_WB",
+            "bbox_xyxy": [
+              0.505,
+              0.45,
+              0.565,
+              0.8
+            ],
+            "finding": "Green-painted strip bounded by longitudinal white lines, continuing to the intersection."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": false,
+        "motor_lane_index": null
+      },
+      {
+        "region_id": "r4",
+        "surface_type": "shoulder_or_parking",
+        "existence": "rejected",
+        "observed_arrows": [],
+        "visibility": "clear",
+        "confidence": "medium",
+        "evidence": "This is paved curbside space outside the bicycle strip, not vegetation or sidewalk. The actual curb separates it from the pale sidewalk and landscaping farther right. Its position and continuity support a shoulder/parking strip rather than a separate through-travel facility; parking permission is not established.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_WB",
+            "bbox_xyxy": [
+              0.56,
+              0.22,
+              0.675,
+              0.79
+            ],
+            "finding": "Dark curbside pavement lies outside the bicycle boundary, with a real curb and pale pedestrian surface along its outer edge."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": false,
+        "motor_lane_index": null
+      }
+    ],
+    "notes": [
+      "The satellite panels are duplicate evidence. Candidate widths and boundaries were not treated as lane detections.",
+      "Supported roadway overlap does not imply that r1 and r2 each represent a complete separate lane.",
+      "The supplemental reverse view places the target carriageway across the center separation; the camera's foreground lane layout was not transferred to these IDs.",
+      "Rejection of r4 concerns travel-facility status, not pavement existence."
+    ],
+    "count": {
+      "model_motor_count": 2,
+      "unclassified_regions": 0,
+      "model_count_range": [
+        2,
+        2
+      ],
+      "human_verified": false,
+      "coverage": "candidate_geometry_only"
+    }
+  }
+]

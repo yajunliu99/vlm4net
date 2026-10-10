@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"observations\": [\n    \"The clearest front-facing control view is gsv_detail_link_10881_92060448fe61, from the same panorama as gsv_control_link_10881_531bbffe14. Its overhead faces are unobstructed and substantially more readable than those in the wide views.\",\n    \"That detail visibly shows an illuminated left-pointing amber/yellow arrow, an adjacent sign reading 'LEFT ON GREEN ARROW ONLY', and a separate three-lens signal with its circular red lens illuminated. A still image cannot establish whether the arrow is flashing.\",\n    \"The green overhead street-name sign reads 'Rural Road'. An orange temporary warning sign stands on the right beyond the overhead controls; its precise lane diagram needs closer inspection.\",\n    \"The overhead faces appear oriented toward the incoming approach by camera alignment and roadway geometry. Their exact governing lanes, including any relationship to the embedded rail tracks, are not established by the proposed region boundaries.\",\n    \"The 2024 wide views have glare and smaller control faces; the 2013 view shows a different historical streetscape and more oblique nearby heads. No stop sign is clearly visible in these supplied views.\",\n    \"Supplied stations reference the road endpoint and a fallback junction envelope, not observed control or stopline distances. Visible signal states and sign text do not independently establish legal permission for a particular lane movement.\"\n  ],\n  \"detail_requests\": [\n    {\n      \"source_id\": \"gsv_detail_link_10881_92060448fe61\",\n      \"bbox_xyxy\": [0.615, 0.81, 0.719, 0.932],\n      \"question\": \"What exact lane-narrowing or merging diagram appears on the orange temporary warning sign?\"\n    }\n  ]\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "fd6bb7e74eff44c2ad6361abcfeaa748",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 11.575903
+  }
+}

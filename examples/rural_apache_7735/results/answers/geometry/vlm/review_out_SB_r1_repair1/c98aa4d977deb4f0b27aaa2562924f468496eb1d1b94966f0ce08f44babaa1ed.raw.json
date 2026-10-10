@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"issue_responses\": [],\n  \"edits\": [],\n  \"verdict\": \"accept\",\n  \"notes\": [\n    \"No geometry check keys were supplied; none have been invented.\",\n    \"The visible yellowish longitudinal marking supports retaining e1. Faint pale marking segments near e2 support retaining it, with part obscured by the vehicle and shadow.\",\n    \"The tonal transition near e3 does not clearly establish whether it is a painted separator or pavement variation. Its status remains unresolved; no removal or displacement is supported.\",\n    \"The rightmost boundary approximately follows the transition from darker pavement to the pale roadside surface. No additional roadway strip beyond it is clearly visible.\",\n    \"Acceptance means retaining the geometry without edits, not confirming the function or legal use of every strip.\"\n  ]\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "bde2acd4d7b640f19578e9ecc635c0d9",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 5.143034
+  }
+}

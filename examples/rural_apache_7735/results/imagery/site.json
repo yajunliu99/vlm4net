@@ -1,0 +1,49 @@
+{
+  "schema": "autoloop-site-1",
+  "site_id": "7735",
+  "node_id": 7735,
+  "name": "East Apache Boulevard x South Rural Road",
+  "satellite": {
+    "path": "cache/mapbox_sites/913e1f3479ac143ad5daa800a0189af7180fdc4e2565e40e4ba8d4059a42a6c9.jpg",
+    "georeference": {
+      "kind": "viewport",
+      "viewport": {
+        "width": 2560,
+        "height": 2560,
+        "mercator_bounds": [
+          -12459672.999618338,
+          3950391.321945992,
+          -12459481.907047624,
+          3950582.4145167046
+        ],
+        "provenance": "mapbox_static_centre_zoom: zoom 19, 512 px tiles, @2x; imagery alignment itself unverified",
+        "absolute_error_m": null
+      },
+      "ground_mpp": 0.062307077372852356
+    }
+  },
+  "network": {
+    "node_csv": "../net2cell_utdf/build/network/macronet/node.csv",
+    "link_csv": "../net2cell_utdf/build/network/macronet/link.csv"
+  },
+  "models": {
+    "draft": {
+      "preset": "default",
+      "max_tokens": 6144,
+      "temperature": 0.0
+    },
+    "review": {
+      "preset": "default",
+      "max_tokens": 6144,
+      "temperature": 0.0
+    }
+  },
+  "policy": {
+    "max_rounds": 3,
+    "max_vlm_calls": 48
+  },
+  "reference": {
+    "status": "withheld_from_inference",
+    "file": null
+  }
+}

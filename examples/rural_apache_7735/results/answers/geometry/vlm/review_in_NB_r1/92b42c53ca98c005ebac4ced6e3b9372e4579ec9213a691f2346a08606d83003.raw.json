@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"issue_responses\": [\n    {\n      \"issue\": \"possible_merged_lanes:r4:8e5a7414\",\n      \"decision\": \"edit\",\n      \"reason\": \"A faint longitudinal painted separator is visible inside r4, most clearly in its lower half, between the vehicle-occupied strip on the left and the kerb-side pavement on the right. The current region spans both sides of that separator.\"\n    }\n  ],\n  \"edits\": [\n    {\n      \"op\": \"split_region\",\n      \"region\": \"r4\",\n      \"xs\": [320, 320, 320, 320, 320],\n      \"evidence\": \"The satellite crop and isolated r4 pixels show a pale longitudinal separator near x320, particularly toward S3–S5. Its continuation toward S1–S2 is less distinct beside the vehicles; those station positions are geometric extrapolations of the visible alignment.\"\n    }\n  ],\n  \"verdict\": \"revise\",\n  \"notes\": [\n    \"The imagery does not establish the permitted movements or legal use of the resulting strips.\"\n  ]\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "4b259decfaa344bb9c832b5982dd1d26",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 14.089775
+  }
+}

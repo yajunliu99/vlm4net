@@ -1,0 +1,15 @@
+{
+  "response": "{\"lanes\":[{\"lane\":1,\"turns\":[\"left\"],\"evidence\":\"The satellite view shows a narrow left-turn pocket beside the central divider, with a legible bent-left pavement arrow.\"},{\"lane\":2,\"turns\":[],\"evidence\":\"A lane follows the approach-side streetcar tracks immediately right of the turn pocket. Vehicles in the satellite and street views support its use as a shared motor-traffic lane. No pavement arrow is legible.\"},{\"lane\":3,\"turns\":[],\"evidence\":\"A separate motor lane lies between the track-sharing lane and the green bicycle lane, with a dashed divider visible in the satellite view. No pavement arrow is legible.\"}],\"bicycle_lanes\":1,\"rail_or_bus_only_lanes\":0,\"parking_lanes\":1,\"count_confidence\":\"medium\",\"count_settled\":true,\"limitations\":\"Satellite blur, shadows and vehicles obscure some markings. The street views support the shared-track and bicycle-lane layout but do not clearly show every stop-bar marking. Curbside parking is visible upstream, outside the bicycle lane, rather than as an additional approach lane. Street-view dates are supplied labels; the satellite date is unknown. Empty movement lists mean no legible arrow, not a prohibition on movement.\"}",
+  "metadata": {
+    "sources": {},
+    "query_id": "7a2aa526e15741008191c708906d0bfc",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 28.125931
+  },
+  "thinking": "**Evaluating parking situation**\n\nI’m considering a three-point check on parking. In the left pocket, there's an arrow, and the rail lane has no arrows. The right side doesn’t have anything. I see a white car in the middle driving along the track lane and turning left into a pocket beside the tracks. As for parking, there’s space to the right of the bike cars. I have medium confidence in this assessment."
+}

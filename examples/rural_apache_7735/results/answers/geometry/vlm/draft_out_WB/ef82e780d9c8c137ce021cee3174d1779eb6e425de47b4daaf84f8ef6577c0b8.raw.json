@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"boundaries\": [\n    {\n      \"xs\": [162, 160, 157, 155, 153],\n      \"kind\": \"centre_or_median_edge\",\n      \"visibility\": \"partial\",\n      \"interpolated_stations\": [],\n      \"evidence\": \"The right-hand edge of the broad pale central separator borders the target carriageway. The edge trends slightly left toward S5; the roadway and vehicles to its left are excluded.\"\n    },\n    {\n      \"xs\": [181, 179, 176, 174, 172],\n      \"kind\": \"lane_line\",\n      \"visibility\": \"partial\",\n      \"interpolated_stations\": [\"S1\", \"S2\", \"S4\", \"S5\"],\n      \"evidence\": \"An intermittent white longitudinal marking runs through the dark pavement to the right of the central separator. Visible segments above S1, around S3 and between S4 and S5 establish its alignment across the gaps.\"\n    },\n    {\n      \"xs\": [229, 227, 225, 223, 221],\n      \"kind\": \"bicycle_line\",\n      \"visibility\": \"partial\",\n      \"interpolated_stations\": [\"S5\"],\n      \"evidence\": \"A narrow, nearly continuous pale line forms the left edge of a narrow surface strip with visible green coloration in the lower crop. Its continuation at S5 is less distinct near the transverse markings.\"\n    },\n    {\n      \"xs\": [251, 249, 247, 245, 243],\n      \"kind\": \"bicycle_line\",\n      \"visibility\": \"partial\",\n      \"interpolated_stations\": [\"S5\"],\n      \"evidence\": \"A second pale longitudinal line bounds the right side of the same narrow, partly green surface strip. Pavement continues to its right before reaching the kerb.\"\n    },\n    {\n      \"xs\": [293, 290, 287, 284, 281],\n      \"kind\": \"kerb_or_pavement_edge\",\n      \"visibility\": \"partial\",\n      \"interpolated_stations\": [\"S3\", \"S4\"],\n      \"evidence\": \"The outer pavement edge follows the pale kerb beside the vegetated verge. Shadow and low contrast obscure portions around S3 and S4; the edge is inferred between clearer stretches above and below.\"\n    }\n  ],\n  \"partial_strips\": [],\n  \"cannot_determine\": [\n    \"Coordinates are approximate because the crop is blurred and resampled, and several markings have weak contrast.\",\n    \"The exact edges of the central separator and outer kerb are less sharply resolved than their overall alignments.\",\n    \"The boundary types describe visible marking and surface evidence, not confirmed legal permissions or classifications of the intervening regions.\"\n  ]\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "e842b5c09f5a4cf0a41a8e903569a83a",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 20.132745
+  }
+}

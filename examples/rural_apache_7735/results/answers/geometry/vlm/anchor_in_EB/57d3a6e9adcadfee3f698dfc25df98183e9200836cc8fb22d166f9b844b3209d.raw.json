@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"stop_line\": {\n    \"y\": 758,\n    \"kind\": \"stop_bar\",\n    \"evidence\": \"A transverse white bar is visible just upstream of the southern crosswalk, most clearly across the rail-shared approach lane; vehicles obscure part of its continuation.\"\n  },\n  \"cross_sections\": [\n    {\n      \"y\": 758,\n      \"left_x\": 285,\n      \"right_x\": 507,\n      \"evidence\": \"The left limit follows the division between opposing directions within the rail corridor. The right limit is the kerb beside the approach, including the rail-shared lane and the roadway on both sides of the green bicycle strip.\"\n    },\n    {\n      \"y\": 1159,\n      \"left_x\": 285,\n      \"right_x\": 505,\n      \"evidence\": \"The dashed centre marking between opposing rail-shared lanes bounds the left side; the continuous kerb at the sidewalk bounds the right side, beyond the bicycle lane and outer roadway strip.\"\n    }\n  ],\n  \"confidence\": \"medium\",\n  \"notes\": \"Coordinates are approximate crop pixels. Blur, shadows and waiting vehicles limit the stop-bar reading. The junction is the broad crossing between the northern and southern crosswalks, not the position of the network cross. Inclusion of roadway strips does not establish legal lane permissions.\"\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "089cd4147f3642c4993163d300d9c1a4",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 15.261982
+  }
+}

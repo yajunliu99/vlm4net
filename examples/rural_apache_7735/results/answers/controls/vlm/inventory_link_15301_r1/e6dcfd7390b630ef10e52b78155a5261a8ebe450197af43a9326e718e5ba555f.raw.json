@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"observations\": [\n    \"The clearest supplied view of the forward-facing overhead controls is gsv_control_link_15301_eeeda77659: the heads and adjacent sign are larger and largely unobstructed, despite the upward pitch.\",\n    \"Three overhead signal heads and a separate right-side signal head are visible. Their placement suggests relevance to the incoming approach, but individual governing lanes are not established. Circular versus arrow indications cannot be resolved reliably at this scale.\",\n    \"A small white sign beside the leftmost overhead head is visible but unreadable. The green overhead street sign reads 'Apache Blvd'; smaller characters are not reliably readable.\",\n    \"No stop sign or readable turn restriction is identified in these views. This does not establish that restrictions are absent or that any movement is legally permitted.\",\n    \"The annotated regions do not establish lane assignments. Supplied stations reference the road endpoint and the estimated junction envelope, not observed distances to signals or stoplines.\"\n  ],\n  \"detail_requests\": [\n    {\n      \"source_id\": \"gsv_control_link_15301_eeeda77659\",\n      \"bbox_xyxy\": [0.483, 0.596, 0.525, 0.638],\n      \"question\": \"What exact text or symbols appear on the white sign beside the leftmost overhead head, and does that head contain circular indications or arrows?\"\n    },\n    {\n      \"source_id\": \"gsv_control_link_15301_eeeda77659\",\n      \"bbox_xyxy\": [0.539, 0.596, 0.562, 0.638],\n      \"question\": \"Does the middle overhead signal head contain circular indications or directional arrows? Resolve any visible arrow direction.\"\n    },\n    {\n      \"source_id\": \"gsv_control_link_15301_eeeda77659\",\n      \"bbox_xyxy\": [0.615, 0.596, 0.645, 0.638],\n      \"question\": \"Does the rightmost overhead signal head contain circular indications or directional arrows?\"\n    },\n    {\n      \"source_id\": \"gsv_control_link_15301_eeeda77659\",\n      \"bbox_xyxy\": [0.897, 0.625, 0.932, 0.672],\n      \"question\": \"Resolve the face of the separate right-side signal: are its indications circular or arrows, and is it facing this incoming approach?\"\n    }\n  ]\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "7b3de1c66d294b58a1de4539d332ef06",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 8.852261
+  }
+}

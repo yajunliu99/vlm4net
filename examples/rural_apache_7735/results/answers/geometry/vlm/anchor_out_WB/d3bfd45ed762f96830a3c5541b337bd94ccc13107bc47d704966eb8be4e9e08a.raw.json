@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"stop_line\": {\n    \"y\": 709,\n    \"kind\": \"crosswalk_edge\",\n    \"evidence\": \"The upper transverse white boundary of the crosswalk on the north side of the junction marks the downstream edge across the receiving carriageway.\"\n  },\n  \"cross_sections\": [\n    {\n      \"y\": 709,\n      \"left_x\": 365,\n      \"right_x\": 548,\n      \"evidence\": \"Left limit follows the visible directional centre marking between the opposing and receiving lanes, not the dashed network overlay. Right limit is the kerb beginning to flare into the junction; the rail-shared lane and roadway strips to its right are included.\"\n    },\n    {\n      \"y\": 308,\n      \"left_x\": 364,\n      \"right_x\": 536,\n      \"evidence\": \"Left limit follows the painted directional centre line beside the receiving rail-shared lane. Right limit follows the road-facing kerb beyond the narrow marked strip on the right.\"\n    }\n  ],\n  \"confidence\": \"medium\",\n  \"notes\": \"The junction lies between the upper and lower crosswalks. Image blur limits edge placement to several pixels, particularly at the curved right kerb. Lane uses and legal permissions are not confirmed.\"\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "51117f24ca644332b7cdd09f21feffe2",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 17.304522
+  }
+}

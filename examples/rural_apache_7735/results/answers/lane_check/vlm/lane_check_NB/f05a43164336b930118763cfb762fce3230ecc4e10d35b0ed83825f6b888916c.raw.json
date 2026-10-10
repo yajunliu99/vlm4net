@@ -1,0 +1,15 @@
+{
+  "response": "{\n  \"lanes\": [],\n  \"bicycle_lanes\": 0,\n  \"rail_or_bus_only_lanes\": 0,\n  \"parking_lanes\": 0,\n  \"count_confidence\": \"low\",\n  \"count_settled\": false,\n  \"limitations\": \"A reliable lane count at the stop bar cannot be established. The satellite crop shows approach vehicles and longitudinal markings, but the blurred markings do not clearly resolve all lane boundaries or any pavement arrows. Both street views appear to be taken from the opposing carriageway: the approach traffic is queued to the camera's right across the double-yellow line. Those vehicles obscure the approach's lane divisions and arrows. No bicycle, rail/bus-only, or parking lane is positively identified; the reported zeros do not confirm their absence. The empty lane list represents an unresolved layout, not zero motor-traffic lanes.\"\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "46bd35eeba18467188fe24f81ebda81f",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 35.69738
+  },
+  "thinking": "**Visualizing lane measurements**\n\nI'm picturing a car in the left lane at 220. It's positioned between 185 and 245. Then, I think about the measurements where 245 to 305 is a bike lane, which is 60 wide, compared to other travel lanes which are 110. Normally, a bike lane is about half the width of a typical lane. I'm curious how this all fits with traffic flow and safety!"
+}

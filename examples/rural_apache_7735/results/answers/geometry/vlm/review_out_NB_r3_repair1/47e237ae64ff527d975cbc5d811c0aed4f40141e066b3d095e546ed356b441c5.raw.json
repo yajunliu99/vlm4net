@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"issue_responses\": [],\n  \"edits\": [],\n  \"verdict\": \"accept\",\n  \"notes\": [\n    \"No geometry check keys were supplied; no issue keys have been invented.\",\n    \"The visible marking segments near e1 and e2 do not establish a displacement requiring correction.\",\n    \"The boundary at e3 remains unresolved: faint pavement variation and vehicle or shadow occlusion do not provide sufficient evidence to remove the boundary added in round 1.\",\n    \"Pavement and vehicles are visible left of e1, but this image does not confidently establish that space as part of the outbound receiving carriageway. No change to the previous removal is supported.\",\n    \"Near e4, dark roadway meets a lighter kerb-side surface; no additional roadway strip is clearly established beyond it.\",\n    \"Acceptance means retaining the current geometry without edits, not confirming uncertain boundaries, travel directions of individual vehicles, or legal permissions.\"\n  ]\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "f57ba45ba844473fb7cfc05f9d02af58",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 6.112646
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"stop_line\": {\n    \"y\": 730,\n    \"kind\": \"stop_bar\",\n    \"evidence\": \"A transverse white marking across the approach lanes lies just below the near-side crosswalk, whose upstream boundary is around y=706.\"\n  },\n  \"cross_sections\": [\n    {\n      \"y\": 730,\n      \"left_x\": 302,\n      \"right_x\": 548,\n      \"evidence\": \"The left limit follows the painted separation from opposing traffic, including the inner turn bay. The right limit is the outer kerb beyond the green bicycle lane and the vehicle lane alongside it.\"\n    },\n    {\n      \"y\": 1131,\n      \"left_x\": 302,\n      \"right_x\": 526,\n      \"evidence\": \"The left limit follows the longitudinal painted separation beside the inner approach lane; the right limit follows the road-side kerb. The rail-aligned lane and the outer roadway are included.\"\n    }\n  ],\n  \"confidence\": \"medium\",\n  \"notes\": \"Coordinates are approximate crop pixels. Blur, shadows and vehicles obscure portions of the stop marking and kerb. Directional grouping is inferred from the supplied traffic orientation and roadway geometry, not from the dashed network line.\"\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "d5e2510d700c4a7eae3575470e572e4d",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 13.995589
+  }
+}

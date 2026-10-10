@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"observations\": [\n    \"The clearest supplied front-facing detail is gsv_detail_link_10882_e06bbe999611, from the panorama used by gsv_control_link_10882_af13909bc1. The signal and adjacent regulation sign are unobstructed and readable.\",\n    \"That detail visibly shows an illuminated red left arrow beside a sign reading 'LEFT ON GREEN ARROW ONLY'. The neighboring head shows an illuminated circular green indication; its right edge is cropped in this detail.\",\n    \"The wider detail gsv_detail_link_10882_915de4775ae1 shows the same overhead assembly, a 'Rural Road' street-name sign, and an additional signal on the right support. These views provide evidence of a left-turn-specific control, but do not establish exact governing lane boundaries.\",\n    \"The near-side head in gsv_detail_link_10882_ca1f3535568d is viewed obliquely beside a partially obscured 'Apache Blvd' sign. Its upper red indication is visible, but the viewing angle does not reliably establish an arrow shape or its applicability to the requested approach.\",\n    \"No stop sign is clearly visible in the supplied street-level views. Empty YOLO proposals do not establish absence of controls.\",\n    \"The supplied stations reference the road endpoint and an estimated junction envelope, not observed control or stopline distances. No confirmed legal movement permissions are inferred from the captured signal states.\"\n  ],\n  \"detail_requests\": []\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "c5d2852378d44504a3294cae3c6d8f32",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 7.987349
+  }
+}

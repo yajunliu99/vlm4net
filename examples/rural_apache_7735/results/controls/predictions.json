@@ -1,0 +1,1189 @@
+[
+  {
+    "controls": [
+      {
+        "id": "c1",
+        "kind": "traffic_signal",
+        "observed_text": "",
+        "symbol": "left-pointing arrow",
+        "description": "Far-side overhead signal has a visibly illuminated amber/yellow left arrow in the 2025-10 detail. Other apertures are dark or indistinct; their symbols cannot be established. Context and detail show the same installation.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "The front faces the incoming eastbound roadway on a transverse arm. Association with the adjacent left-turn sign is visible, but exact lane correspondence is not established by the supplied candidate boundaries.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_10881_92060448fe61",
+            "bbox_xyxy": [
+              0.255,
+              0.433,
+              0.313,
+              0.558
+            ],
+            "finding": "Illuminated left arrow on the leftmost overhead head."
+          },
+          {
+            "source_id": "gsv_control_link_10881_531bbffe14",
+            "bbox_xyxy": [
+              0.509,
+              0.58,
+              0.526,
+              0.614
+            ],
+            "finding": "Same head in intersection context."
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "kind": "regulatory_sign",
+        "observed_text": "LEFT ON\nGREEN\nARROW\nONLY",
+        "symbol": "unknown",
+        "description": "White sign immediately beside the arrow signal is readable in the 2025-10 detail. No additional exception or time qualifier is visible on this face. Its wording is recorded without applying a movement constraint.",
+        "face_status": "front",
+        "readability": "readable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "Faces eastbound arrivals and is mounted directly beside the left-arrow head. This establishes an approach-level association, not exact binding to any supplied lane candidate.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_10881_92060448fe61",
+            "bbox_xyxy": [
+              0.315,
+              0.443,
+              0.374,
+              0.516
+            ],
+            "finding": "Readable four-line regulatory text."
+          },
+          {
+            "source_id": "gsv_control_link_10881_531bbffe14",
+            "bbox_xyxy": [
+              0.524,
+              0.582,
+              0.539,
+              0.605
+            ],
+            "finding": "Same white panel beside the signal in context."
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "kind": "traffic_signal",
+        "observed_text": "",
+        "symbol": "circular signal lenses",
+        "description": "Far-side overhead vertical head shows a brightly illuminated red circular top lamp in 2025-10. Lower circular lenses appear dim; the green-tinted lower lens is not clear evidence of illumination. No directional arrow is visible on this head.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "Front orientation and transverse-arm placement support eastbound approach applicability. Neither lateral image position nor the satellite regions establish an exact governed lane.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_10881_92060448fe61",
+            "bbox_xyxy": [
+              0.527,
+              0.447,
+              0.583,
+              0.558
+            ],
+            "finding": "Bright red circular lamp above two dim circular lenses."
+          },
+          {
+            "source_id": "gsv_control_link_10881_531bbffe14",
+            "bbox_xyxy": [
+              0.57,
+              0.583,
+              0.587,
+              0.613
+            ],
+            "finding": "Same head on the far-side arm."
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "kind": "street_name_sign",
+        "observed_text": "Rural\nRoad\n1300 S\n900 E",
+        "symbol": "small directional markers; shapes not fully resolved",
+        "description": "Green street-name panel on the far-side arm is readable in the 2025-10 detail. Small markers beside the address numbers are insufficiently clear for literal directional transcription.",
+        "face_status": "front",
+        "readability": "partial",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "not_applicable",
+        "binding_reason": "Panel faces eastbound arrivals and identifies the crossing street; it does not provide lane binding.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_10881_92060448fe61",
+            "bbox_xyxy": [
+              0.765,
+              0.456,
+              1.0,
+              0.567
+            ],
+            "finding": "Rural Road name and address numbers; panel extends to the image edge."
+          },
+          {
+            "source_id": "gsv_control_link_10881_531bbffe14",
+            "bbox_xyxy": [
+              0.626,
+              0.584,
+              0.705,
+              0.621
+            ],
+            "finding": "Same green panel in context."
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "kind": "other_sign",
+        "observed_text": "",
+        "symbol": "right-side line bends left toward a straight line, with dashed marking",
+        "description": "Portable orange diamond warning sign with two orange flags beyond the intersection on the right. The 2025-10 close view resolves a right-side narrowing/merge diagram, not a directional arrow. Orange targets at approximately the same roadside location in 2024-06 are possible earlier counterparts, but exact physical identity and their symbols are not confirmed.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "Sign faces approaching eastbound traffic along the continuing roadway. Its curbside position does not establish a particular affected lane or candidate region.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_10881_5c1219f47bf2",
+            "bbox_xyxy": [
+              0.42,
+              0.452,
+              0.572,
+              0.598
+            ],
+            "finding": "Orange diamond with black narrowing diagram."
+          },
+          {
+            "source_id": "gsv_detail_link_10881_92060448fe61",
+            "bbox_xyxy": [
+              0.625,
+              0.848,
+              0.704,
+              0.926
+            ],
+            "finding": "Same portable sign beside the downstream curb."
+          },
+          {
+            "source_id": "gsv_control_link_10881_531bbffe14",
+            "bbox_xyxy": [
+              0.598,
+              0.669,
+              0.621,
+              0.706
+            ],
+            "finding": "Same warning-sign location in wider 2025-10 context."
+          }
+        ]
+      },
+      {
+        "id": "c6",
+        "kind": "traffic_signal",
+        "observed_text": "",
+        "symbol": "circular green lamp",
+        "description": "A separate near-right upright signal installation shows a bright green circular lamp in the 2024-06 capture at station -30.0 m. Other lens details are too small to characterize. This is not the far-side red head recorded in 2025-10.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "medium",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "Its visible front faces the incoming roadway beside the near-right curb. Precise movement and lane scope cannot be resolved from this oblique context.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_control_link_10881_4c5f841b5f",
+            "bbox_xyxy": [
+              0.886,
+              0.43,
+              0.92,
+              0.498
+            ],
+            "finding": "Bright green circular lamp inset into the near-right upright."
+          }
+        ]
+      },
+      {
+        "id": "c7",
+        "kind": "street_name_sign",
+        "observed_text": "Apache\nBlvd",
+        "symbol": "unknown",
+        "description": "Oblique green panel on the near-right arm in 2013-04 reads Apache Blvd. Smaller address information is not reliably readable. The arm and panel are also visible obliquely in 2024-06, without enough detail to establish unchanged text.",
+        "face_status": "front",
+        "readability": "partial",
+        "confidence": "medium",
+        "applies_to": "other_approach",
+        "lane_candidates": [],
+        "binding_status": "not_applicable",
+        "binding_reason": "The arm recedes along the eastbound viewing direction and the panel is oblique, supporting a crossing-approach-facing installation rather than the far-side eastbound-facing arm.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_control_link_10881_d48c2df873",
+            "bbox_xyxy": [
+              0.876,
+              0.364,
+              1.0,
+              0.45
+            ],
+            "finding": "Oblique Apache Blvd panel at the right edge."
+          },
+          {
+            "source_id": "gsv_control_link_10881_4c5f841b5f",
+            "bbox_xyxy": [
+              0.829,
+              0.436,
+              0.869,
+              0.478
+            ],
+            "finding": "Possible repeat of the near-right street-name panel; text unresolved."
+          }
+        ]
+      }
+    ],
+    "unresolved": [
+      "Exact lane binding remains unresolved for all approach-facing signal heads and the left-arrow regulatory sign.",
+      "Distant and oblique signal assemblies on other arms cannot be reliably separated into circular, arrow, pedestrian or transit indications from these images. No front symbols are inferred from backs or sides.",
+      "The 2013-04 roadway lacks the clearly visible rail and green pavement configuration present in later captures; object and lane continuity across these dates must not be presumed.",
+      "The portable orange sign's 2024-06 identity and reading are not confirmed by its small context appearance."
+    ],
+    "notes": [
+      "Capture dates retained: 2013-04, 2024-06 and 2025-10. No nominated road-state period was supplied; none is labeled current. Satellite capture date is unknown.",
+      "The two 2025-10 detail images and their context share panorama DLN9tFm2l6W0-flcFvutmw and constitute one source, not independent corroboration.",
+      "Satellite regions r1 through r4 are unverified annotation hypotheses, not measured lane boundaries or semantic lane labels.",
+      "Lamp descriptions concern individual visible capture instants only. No phase sequence, timing, legal movement permission, lane constraint or movement constraint is applied."
+    ],
+    "resampling_requests": [],
+    "signal_phase_plan": "not_observable_from_static_imagery",
+    "movement_constraints_applied": false,
+    "human_verified": false,
+    "approach_id": "link_10881",
+    "direction": "EB",
+    "section_id": "in_EB",
+    "sampling_status": "reading_sufficient"
+  },
+  {
+    "controls": [
+      {
+        "id": "c1",
+        "kind": "traffic_signal",
+        "observed_text": "",
+        "symbol": "illuminated left-pointing arrow",
+        "description": "Three-position overhead head. The upper indication visibly appears red/orange and left-pointing in the October detail; the lower indications appear dark. No phase sequence or movement permission is inferred.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "candidate",
+        "binding_reason": "The head faces the incoming camera corridor on the arm extending across the roadway beside the Rural Road sign. Exact correspondence to satellite candidate regions is unresolved.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_10882_e06bbe999611",
+            "bbox_xyxy": [
+              0.313,
+              0.349,
+              0.433,
+              0.606
+            ],
+            "finding": "Left arrow visibly illuminated in the upper position."
+          },
+          {
+            "source_id": "gsv_detail_link_10882_915de4775ae1",
+            "bbox_xyxy": [
+              0.017,
+              0.386,
+              0.071,
+              0.506
+            ],
+            "finding": "Same head at the left end of the arm."
+          },
+          {
+            "source_id": "gsv_control_link_10882_af13909bc1",
+            "bbox_xyxy": [
+              0.58,
+              0.572,
+              0.602,
+              0.609
+            ],
+            "finding": "Context locates the head over the roadway ahead."
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "kind": "regulatory_sign",
+        "observed_text": "LEFT ON\nGREEN\nARROW\nONLY",
+        "symbol": "unknown",
+        "description": "White rectangular text sign next to c1. The complete main message is readable; no exception or time qualifier is visible. This records sign evidence only and applies no movement constraint.",
+        "face_status": "front",
+        "readability": "readable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "candidate",
+        "binding_reason": "Shares the forward-facing overhead assembly with c1. Association with the left-turn indication is supported by placement and text, but exact lane binding is not established.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_10882_e06bbe999611",
+            "bbox_xyxy": [
+              0.429,
+              0.348,
+              0.555,
+              0.51
+            ],
+            "finding": "Readable four-line message."
+          },
+          {
+            "source_id": "gsv_detail_link_10882_915de4775ae1",
+            "bbox_xyxy": [
+              0.067,
+              0.391,
+              0.126,
+              0.468
+            ],
+            "finding": "Same sign beside the arrow head."
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "kind": "traffic_signal",
+        "observed_text": "",
+        "symbol": "circular indications",
+        "description": "Overhead three-position head to the right of c1. The bottom circular lamp appears bright green in the October targeted views; the upper two appear dark. The separate October context at station 0.9 m shows a different reddish upper-lamp appearance, retained as a separate instantaneous observation rather than a timing inference.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "candidate",
+        "binding_reason": "Forward-facing head on the same roadway-spanning arm. Arm orientation supports approach association but does not establish individual lane coverage.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_10882_e06bbe999611",
+            "bbox_xyxy": [
+              0.913,
+              0.38,
+              1.0,
+              0.608
+            ],
+            "finding": "Partially cropped head with bright green circular bottom lamp."
+          },
+          {
+            "source_id": "gsv_detail_link_10882_915de4775ae1",
+            "bbox_xyxy": [
+              0.281,
+              0.422,
+              0.332,
+              0.521
+            ],
+            "finding": "Full head and circular green appearance."
+          },
+          {
+            "source_id": "gsv_control_link_10882_970cdb75ec",
+            "bbox_xyxy": [
+              0.721,
+              0.551,
+              0.746,
+              0.591
+            ],
+            "finding": "Corresponding overhead head has a reddish upper-lamp appearance in this different capture."
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "kind": "traffic_signal",
+        "observed_text": "",
+        "symbol": "circular indications",
+        "description": "Small three-position head mounted on the right support below the Rural Road sign. Its bottom lamp appears green in the October detail. No arrow is resolved.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "medium",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "candidate",
+        "binding_reason": "Face orientation appears aligned with the overhead heads and the incoming roadway; curbside position alone does not establish lane coverage.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_10882_915de4775ae1",
+            "bbox_xyxy": [
+              0.703,
+              0.618,
+              0.735,
+              0.687
+            ],
+            "finding": "Support-mounted head with green-looking bottom indication."
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "kind": "street_name_sign",
+        "observed_text": "Rural\nRoad\n1300 S\n800 E",
+        "symbol": "left-pointing and upward-pointing address-direction arrows",
+        "description": "Green street-name panel. Small arrows beside the address numbers are sign graphics, not signal indications.",
+        "face_status": "front",
+        "readability": "readable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "not_applicable",
+        "binding_reason": "Faces the camera corridor on the overhead arm; street identification does not bind a lane.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_10882_915de4775ae1",
+            "bbox_xyxy": [
+              0.482,
+              0.442,
+              0.679,
+              0.548
+            ],
+            "finding": "Readable Rural Road panel and address numbers."
+          },
+          {
+            "source_id": "gsv_control_link_10882_af13909bc1",
+            "bbox_xyxy": [
+              0.741,
+              0.57,
+              0.829,
+              0.611
+            ],
+            "finding": "Same panel in approach context."
+          }
+        ]
+      },
+      {
+        "id": "c6",
+        "kind": "traffic_signal",
+        "observed_text": "",
+        "symbol": "circular indications",
+        "description": "Near-side tall-support head in the November capture. Upper circular indication appears red; middle and lower lenses appear dark, with green coloration visible in the lower lens. The oblique hood obscures part of the upper lamp; its crescent-like appearance is not evidence of a directional arrow.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "high",
+        "applies_to": "unknown",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "The head is on a differently oriented near-side assembly carrying the partly obscured Apache sign. Oblique visibility from the WB camera does not prove it governs WB.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_10882_ca1f3535568d",
+            "bbox_xyxy": [
+              0.428,
+              0.327,
+              0.577,
+              0.678
+            ],
+            "finding": "Oblique three-lens face with red upper appearance."
+          },
+          {
+            "source_id": "gsv_control_link_10882_4d29410d16",
+            "bbox_xyxy": [
+              0.856,
+              0.301,
+              0.918,
+              0.413
+            ],
+            "finding": "Same head on the near-right tall support."
+          }
+        ]
+      },
+      {
+        "id": "c7",
+        "kind": "street_name_sign",
+        "observed_text": "[?]pache\n[?]vd\n900 E\n1200 S",
+        "symbol": "right-pointing and upward-pointing address-direction arrows",
+        "description": "Green panel partly hidden by the near-side support. Initial letters of both street-name lines are occluded and are not reconstructed.",
+        "face_status": "front",
+        "readability": "partial",
+        "confidence": "high",
+        "applies_to": "unknown",
+        "lane_candidates": [],
+        "binding_status": "not_applicable",
+        "binding_reason": "Panel belongs to the obliquely viewed near-side assembly; lane applicability is not a property established by this street-name panel.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_10882_ca1f3535568d",
+            "bbox_xyxy": [
+              0.611,
+              0.434,
+              0.911,
+              0.701
+            ],
+            "finding": "Visible street-name suffixes, address numbers and small direction arrows."
+          }
+        ]
+      },
+      {
+        "id": "c8",
+        "kind": "traffic_signal",
+        "observed_text": "",
+        "symbol": "circular lenses; illuminated state unresolved",
+        "description": "Another three-position head on the arm behind and left of c6 in the November close view. No directional arrow or reliably illuminated lamp is resolved.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "medium",
+        "applies_to": "unknown",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "Oblique view of the adjoining assembly does not establish governing approach.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_10882_ca1f3535568d",
+            "bbox_xyxy": [
+              0.231,
+              0.622,
+              0.291,
+              0.769
+            ],
+            "finding": "Three stacked circular lens positions on the arm."
+          }
+        ]
+      }
+    ],
+    "unresolved": [
+      "Exact lane binding is unresolved for all signal and regulatory-sign hypotheses; no candidate region is treated as a measured lane.",
+      "The near-side November assembly's governing approach is not established from its oblique faces.",
+      "Small dark fixtures below the right-support head cannot be classified confidently as pedestrian indications from these views.",
+      "Distant and back/side-facing equipment is insufficiently resolved for front-symbol interpretation.",
+      "October captures show differing instantaneous lamp appearances; they are not a synchronized observation or evidence of a phase sequence."
+    ],
+    "notes": [
+      "No lane or movement constraints have been applied.",
+      "Capture dates retained: gsv_control_link_10882_4d29410d16 and its detail are 2025-11; the other supplied GSV contexts and their details are 2025-10. No nominated road-state period exists.",
+      "Each detail and its parent panorama are one evidence source, not independent confirmation.",
+      "Satellite scene_in_WB has unknown date. Its r1-r4 regions are annotation hypotheses only.",
+      "Repeated views of identifiable objects are grouped; no fixed number of intersection approaches is assumed."
+    ],
+    "resampling_requests": [],
+    "signal_phase_plan": "not_observable_from_static_imagery",
+    "movement_constraints_applied": false,
+    "human_verified": false,
+    "approach_id": "link_10882",
+    "direction": "WB",
+    "section_id": "in_WB",
+    "sampling_status": "round_limit"
+  },
+  {
+    "controls": [
+      {
+        "id": "c1",
+        "kind": "traffic_signal",
+        "observed_text": "",
+        "symbol": "illuminated red left arrow",
+        "description": "Leftmost overhead three-section head. The upper section visibly displays a red left arrow in 2024-06; lower sections are not visibly illuminated. The corresponding head is much smaller in the 2025-10 contexts, where its indication is unresolved.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "Front faces the incoming SB roadway on the transverse far-side support. Exact lane binding is not established by its lateral position.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_11986_32110200fe22",
+            "bbox_xyxy": [
+              0.368,
+              0.377,
+              0.479,
+              0.645
+            ],
+            "finding": "Upper red left arrow clearly visible."
+          },
+          {
+            "source_id": "gsv_control_link_11986_283610b836",
+            "bbox_xyxy": [
+              0.396,
+              0.564,
+              0.415,
+              0.604
+            ],
+            "finding": "Same head at left end of overhead support."
+          },
+          {
+            "source_id": "gsv_control_link_11986_da22217389",
+            "bbox_xyxy": [
+              0.455,
+              0.509,
+              0.47,
+              0.525
+            ],
+            "finding": "Corresponding overhead head in 2025-10, too small for reliable arrow reading."
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "kind": "regulatory_sign",
+        "observed_text": "LEFT ON\nGREEN\nARROW\nONLY",
+        "symbol": "unknown",
+        "description": "Readable rectangular sign immediately beside the left-arrow head in 2024-06. No exception or time qualifier is visible on this face. Text is recorded without applying a movement constraint.",
+        "face_status": "front",
+        "readability": "readable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "Facing and shared overhead support associate the sign with incoming SB and the adjacent arrow head; exact candidate lanes remain unresolved.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_11986_32110200fe22",
+            "bbox_xyxy": [
+              0.509,
+              0.369,
+              0.655,
+              0.556
+            ],
+            "finding": "Full sign text visible."
+          },
+          {
+            "source_id": "gsv_control_link_11986_283610b836",
+            "bbox_xyxy": [
+              0.415,
+              0.565,
+              0.435,
+              0.602
+            ],
+            "finding": "Same sign beside leftmost overhead head."
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "kind": "traffic_signal",
+        "observed_text": "",
+        "symbol": "circular signal lenses",
+        "description": "Middle overhead three-section head displays a bright red upper circular lamp in 2024-06. Lower lenses appear colored but not comparably illuminated. The corresponding 2025-10 context head appears green at this scale; these are separate dated instantaneous observations.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "Head faces incoming SB on the overhead support across its roadway. No exact lane allocation is demonstrated.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_11986_c6184ea16ec4",
+            "bbox_xyxy": [
+              0.432,
+              0.356,
+              0.553,
+              0.635
+            ],
+            "finding": "Circular upper red lamp visibly illuminated."
+          },
+          {
+            "source_id": "gsv_control_link_11986_283610b836",
+            "bbox_xyxy": [
+              0.469,
+              0.564,
+              0.49,
+              0.603
+            ],
+            "finding": "Same middle overhead head."
+          },
+          {
+            "source_id": "gsv_control_link_11986_da22217389",
+            "bbox_xyxy": [
+              0.483,
+              0.509,
+              0.497,
+              0.526
+            ],
+            "finding": "Small corresponding head has a green-looking lamp in 2025-10."
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "kind": "traffic_signal",
+        "observed_text": "",
+        "symbol": "circular signal lenses",
+        "description": "Right overhead three-section head, immediately beside the street-name panel, displays a bright upper red circle in 2024-06. Corresponding small 2025-10 head appears green. No sequence or timing is inferred.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "Front-facing head on the transverse SB support; the sign and support establish object correspondence, not exact lane scope.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_11986_6d7bcd43d54a",
+            "bbox_xyxy": [
+              0.439,
+              0.351,
+              0.559,
+              0.634
+            ],
+            "finding": "Red circular upper lamp; no visible directional arrow."
+          },
+          {
+            "source_id": "gsv_control_link_11986_283610b836",
+            "bbox_xyxy": [
+              0.561,
+              0.563,
+              0.582,
+              0.603
+            ],
+            "finding": "Same head adjacent to Apache panel."
+          },
+          {
+            "source_id": "gsv_control_link_11986_da22217389",
+            "bbox_xyxy": [
+              0.519,
+              0.509,
+              0.535,
+              0.526
+            ],
+            "finding": "Corresponding head appears green in the later capture."
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "kind": "traffic_signal",
+        "observed_text": "",
+        "symbol": "circular signal lenses",
+        "description": "Separate three-section vehicle head mounted on the right vertical support. Upper circular lamp appears red in 2024-06. Lower lenses are visible without a clearly illuminated arrow.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "Faces incoming SB from the far-side curb support. Curb proximity alone does not bind it to a particular lane or movement.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_11986_6613c2d83809",
+            "bbox_xyxy": [
+              0.492,
+              0.421,
+              0.546,
+              0.54
+            ],
+            "finding": "Small vehicle head with illuminated red upper circle."
+          },
+          {
+            "source_id": "gsv_control_link_11986_283610b836",
+            "bbox_xyxy": [
+              0.711,
+              0.626,
+              0.732,
+              0.655
+            ],
+            "finding": "Same head on right upright."
+          }
+        ]
+      },
+      {
+        "id": "c6",
+        "kind": "pedestrian_signal",
+        "observed_text": "",
+        "symbol": "orange-red raised-hand appearance",
+        "description": "Square pedestrian head below the vehicle head on the right upright. An orange-red hand-like indication is visible in 2024-06; no readable countdown is established.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "medium",
+        "applies_to": "pedestrians",
+        "lane_candidates": [],
+        "binding_status": "not_applicable",
+        "binding_reason": "Pedestrian-sized square housing faces the crossing toward this viewpoint; exact crosswalk association is not fully resolved.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_11986_6613c2d83809",
+            "bbox_xyxy": [
+              0.486,
+              0.639,
+              0.55,
+              0.708
+            ],
+            "finding": "Orange-red hand-like display in square housing."
+          }
+        ]
+      },
+      {
+        "id": "c7",
+        "kind": "street_name_sign",
+        "observed_text": "Apache\nBlvd\n900 E\n1300 S",
+        "symbol": "left arrow beside 900 E; upward arrow beside 1300 S",
+        "description": "Green overhead street-name panel readable in 2024-06. Small arrows are address/direction markings on the street panel, not vehicle signal arrows or lane-use indications.",
+        "face_status": "front",
+        "readability": "readable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "not_applicable",
+        "binding_reason": "Panel faces incoming SB on the same transverse support; informational rather than lane-bound.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_11986_6613c2d83809",
+            "bbox_xyxy": [
+              0.002,
+              0.066,
+              0.438,
+              0.286
+            ],
+            "finding": "Apache Blvd and address numbers with small direction arrows."
+          },
+          {
+            "source_id": "gsv_control_link_11986_283610b836",
+            "bbox_xyxy": [
+              0.602,
+              0.563,
+              0.692,
+              0.603
+            ],
+            "finding": "Same green panel on overhead support."
+          }
+        ]
+      },
+      {
+        "id": "c8",
+        "kind": "street_name_sign",
+        "observed_text": "Rural\nRoad\n[?]",
+        "symbol": "unknown",
+        "description": "Oblique green street-name panel visible at the upper right of the 2025-10 context. Smaller address details are unresolved.",
+        "face_status": "front",
+        "readability": "partial",
+        "confidence": "medium",
+        "applies_to": "other_approach",
+        "lane_candidates": [],
+        "binding_status": "not_applicable",
+        "binding_reason": "Mounted on a differently oriented support at the near-right side, oblique to SB, consistent with serving a crossing approach rather than governing SB lanes.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_control_link_11986_b9bdb5c442",
+            "bbox_xyxy": [
+              0.897,
+              0.403,
+              0.998,
+              0.465
+            ],
+            "finding": "Rural Road text on oblique green panel."
+          }
+        ]
+      }
+    ],
+    "unresolved": [
+      "Exact signal and regulatory-sign binding to r1–r5 is unresolved; satellite regions are hypotheses, not verified lane boundaries.",
+      "2025-10 contexts are too distant to establish the left-arrow indication or reread the adjacent regulatory sign reliably.",
+      "Peripheral crossing-approach signal faces are too small or oblique to classify their indications reliably.",
+      "The pedestrian display's exact crosswalk association and any countdown remain unresolved."
+    ],
+    "notes": [
+      "No lane or movement constraints have been applied.",
+      "Capture dates are 2024-06 and 2025-10; neither is designated current. Satellite date is unknown.",
+      "The four detail views and their 2024-06 context share one panorama and are one source, not independent corroboration.",
+      "Different red and green appearances across dated captures are retained as instantaneous observations, not evidence of phase sequence, timing, or permanent permission.",
+      "Repeated views are grouped by support geometry and object position within that support; cross-date identity is a geometric correspondence hypothesis."
+    ],
+    "resampling_requests": [],
+    "signal_phase_plan": "not_observable_from_static_imagery",
+    "movement_constraints_applied": false,
+    "human_verified": false,
+    "approach_id": "link_11986",
+    "direction": "SB",
+    "section_id": "in_SB",
+    "sampling_status": "reading_sufficient"
+  },
+  {
+    "controls": [
+      {
+        "id": "c1",
+        "kind": "traffic_signal",
+        "observed_text": "",
+        "symbol": "illuminated red left arrow in upper indication",
+        "description": "Three-position overhead head. The upper indication visibly displays a red left arrow; lower indications appear dark and their symbols are not resolved. Repeated detail views show the same head.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "The far-side arm spans the receiving roadway and the head faces the incoming NB approach. Exact lane association is not established by its lateral position.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_15301_1517a82bd2a7",
+            "bbox_xyxy": [
+              0.405,
+              0.394,
+              0.486,
+              0.597
+            ],
+            "finding": "Red left arrow visible at the top of the leftmost head."
+          },
+          {
+            "source_id": "gsv_detail_link_15301_ccffb106a90e",
+            "bbox_xyxy": [
+              0.001,
+              0.391,
+              0.078,
+              0.596
+            ],
+            "finding": "Same arrow head, partially clipped at the image edge."
+          }
+        ]
+      },
+      {
+        "id": "c2",
+        "kind": "regulatory_sign",
+        "observed_text": "LEFT ON\nGREEN\nARROW\nONLY",
+        "symbol": "unknown",
+        "description": "White sign beside the overhead left-arrow head. All four text lines are readable. No additional exception or time qualifier is visible on this face.",
+        "face_status": "front",
+        "readability": "readable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "Sign faces NB and is mounted immediately beside the NB-facing arrow head. This supports approach-level association but not an exact lane binding.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_15301_1517a82bd2a7",
+            "bbox_xyxy": [
+              0.503,
+              0.393,
+              0.6,
+              0.516
+            ],
+            "finding": "Readable LEFT ON GREEN ARROW ONLY sign."
+          },
+          {
+            "source_id": "gsv_detail_link_15301_ccffb106a90e",
+            "bbox_xyxy": [
+              0.1,
+              0.385,
+              0.195,
+              0.511
+            ],
+            "finding": "Repeated view of the same sign."
+          }
+        ]
+      },
+      {
+        "id": "c3",
+        "kind": "traffic_signal",
+        "observed_text": "",
+        "symbol": "circular signal indications",
+        "description": "Middle overhead three-position head. Upper circular indication appears illuminated red; middle and lower indications appear dark.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "Front face and transverse far-side mounting support NB approach association. No individual lane assignment is proven.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_15301_ccffb106a90e",
+            "bbox_xyxy": [
+              0.484,
+              0.405,
+              0.575,
+              0.611
+            ],
+            "finding": "Upper red circular lamp on the middle overhead head."
+          },
+          {
+            "source_id": "gsv_detail_link_15301_1517a82bd2a7",
+            "bbox_xyxy": [
+              0.891,
+              0.403,
+              0.986,
+              0.614
+            ],
+            "finding": "Same head at the right edge of this detail."
+          }
+        ]
+      },
+      {
+        "id": "c4",
+        "kind": "traffic_signal",
+        "observed_text": "",
+        "symbol": "circular signal indications",
+        "description": "Rightmost overhead three-position head, distinct from c3. Upper circular indication appears red and illuminated; lower indications appear dark.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "Head faces NB on the same far-side transverse arm. Position near the curb side does not establish a particular lane or movement.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_15301_15aa01782ed3",
+            "bbox_xyxy": [
+              0.444,
+              0.414,
+              0.526,
+              0.61
+            ],
+            "finding": "Separate overhead head showing an upper red circular lamp."
+          }
+        ]
+      },
+      {
+        "id": "c5",
+        "kind": "street_name_sign",
+        "observed_text": "Apache\nBlvd [?]",
+        "symbol": "unknown",
+        "description": "Green street-name panel on the far-side signal arm. Apache and Blvd are readable in context; smaller right-hand text is unresolved.",
+        "face_status": "front",
+        "readability": "partial",
+        "confidence": "high",
+        "applies_to": "approach",
+        "lane_candidates": [],
+        "binding_status": "not_applicable",
+        "binding_reason": "Panel faces the NB approach and identifies the intersecting street rather than a lane-specific control.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_control_link_15301_eeeda77659",
+            "bbox_xyxy": [
+              0.68,
+              0.603,
+              0.741,
+              0.631
+            ],
+            "finding": "Apache Blvd panel on the NB-facing signal arm."
+          }
+        ]
+      },
+      {
+        "id": "c6",
+        "kind": "traffic_signal",
+        "observed_text": "",
+        "symbol": "unknown",
+        "description": "Three-position vehicle signal on the far-right corner pillar. The middle indication has a bright amber-colored appearance, but its shape cannot be reliably classified as circular or directional. Upper and lower indications appear dark. Two targeted views show the same object, not independent confirmation.",
+        "face_status": "front",
+        "readability": "not_applicable",
+        "confidence": "medium",
+        "applies_to": "unknown",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "Oblique visibility from NB establishes a visible face but not its governing travel path. Corner placement and proximity to the rightmost roadway area are insufficient to bind it.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_15301_1cdb958865c1",
+            "bbox_xyxy": [
+              0.455,
+              0.42,
+              0.532,
+              0.604
+            ],
+            "finding": "Corner vehicle head with bright amber-colored middle indication."
+          },
+          {
+            "source_id": "gsv_detail_link_15301_41b899f1d2d4",
+            "bbox_xyxy": [
+              0.455,
+              0.409,
+              0.538,
+              0.593
+            ],
+            "finding": "Repeated oblique view; middle indication shape remains indistinct."
+          }
+        ]
+      },
+      {
+        "id": "c7",
+        "kind": "pedestrian_signal",
+        "observed_text": "",
+        "symbol": "unknown",
+        "description": "Small square signal housing below the corner vehicle head, consistent with a pedestrian signal. Face appears dark; no hand, walking person or countdown is discernible.",
+        "face_status": "front",
+        "readability": "unreadable",
+        "confidence": "medium",
+        "applies_to": "pedestrians",
+        "lane_candidates": [],
+        "binding_status": "unresolved",
+        "binding_reason": "Low corner mounting beside the crossing supports pedestrian use, but the specific crossing governed is unresolved.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_detail_link_15301_41b899f1d2d4",
+            "bbox_xyxy": [
+              0.485,
+              0.675,
+              0.542,
+              0.747
+            ],
+            "finding": "Dark square face below the vehicle signal."
+          }
+        ]
+      },
+      {
+        "id": "c8",
+        "kind": "street_name_sign",
+        "observed_text": "Apache\nBlvd [?]",
+        "symbol": "unknown",
+        "description": "Separate green Apache Blvd panel on the nearer, left-side structure. Small supplementary text is not reliably readable. This is not grouped with the far-side panel because the structures are physically distinct.",
+        "face_status": "front",
+        "readability": "partial",
+        "confidence": "medium",
+        "applies_to": "unknown",
+        "lane_candidates": [],
+        "binding_status": "not_applicable",
+        "binding_reason": "Visible street identification; the oblique placement does not establish lane applicability.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_control_link_15301_3ab7c49552",
+            "bbox_xyxy": [
+              0.218,
+              0.416,
+              0.305,
+              0.455
+            ],
+            "finding": "Nearer green Apache Blvd panel."
+          }
+        ]
+      }
+    ],
+    "unresolved": [
+      "Exact lane bindings remain unresolved; satellite regions r1–r4 are hypotheses, not verified lane boundaries.",
+      "The corner vehicle head's middle indication shape and governing approach remain uncertain.",
+      "No pedestrian indication or countdown can be read on the corner square display.",
+      "Back/side-facing hardware on nearer structures cannot establish front symbols or lamp states; other small peripheral controls are not sufficiently resolved for reliable classification.",
+      "Small supplementary street-sign text is unreadable."
+    ],
+    "notes": [
+      "All supplied GSV captures are dated 2025-10; no nominated road-state period was supplied. Satellite capture date is unknown.",
+      "Details from panorama YXfpDvBJ9saCBYwoEsgliw and its context constitute one source. Repeated views of the same physical controls are grouped.",
+      "Lamp descriptions are instantaneous visible appearances only. No phase sequence, timing, legal permission, lane constraint or movement constraint is inferred or applied."
+    ],
+    "resampling_requests": [
+      {
+        "source_id": "gsv_detail_link_15301_41b899f1d2d4",
+        "bbox_xyxy": [
+          0.445,
+          0.402,
+          0.543,
+          0.605
+        ],
+        "problem": "unresolved_arrow",
+        "reason": "A sharper, more face-on view of the corner vehicle head could distinguish a directional middle indication from a circular one."
+      }
+    ],
+    "signal_phase_plan": "not_observable_from_static_imagery",
+    "movement_constraints_applied": false,
+    "human_verified": false,
+    "approach_id": "link_15301",
+    "direction": "NB",
+    "section_id": "in_NB",
+    "sampling_status": "round_limit"
+  }
+]

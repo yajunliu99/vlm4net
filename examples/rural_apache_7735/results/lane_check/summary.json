@@ -1,0 +1,12 @@
+{
+  "checked": 2,
+  "verdicts": {
+    "unclear": 1,
+    "neither": 1
+  },
+  "vlm_calls_this_run": 2,
+  "vlm_cache_hits_this_run": 0,
+  "model": "openai/gpt6_astra",
+  "method": "blind reading of the stop-bar lane layout; neither answer shown to the model",
+  "scope": "A model reading of the same imagery, not ground truth."
+}

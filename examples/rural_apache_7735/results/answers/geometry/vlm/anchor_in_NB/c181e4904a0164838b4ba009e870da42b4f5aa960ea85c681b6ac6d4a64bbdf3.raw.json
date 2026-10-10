@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"stop_line\": {\n    \"y\": 754,\n    \"kind\": \"stop_bar\",\n    \"evidence\": \"A transverse white bar across the upward approach lies just below the two white boundaries of the near-side crosswalk.\"\n  },\n  \"cross_sections\": [\n    {\n      \"y\": 754,\n      \"left_x\": 308,\n      \"right_x\": 576,\n      \"evidence\": \"The left limit follows the narrow painted centre separation beside the opposing lanes; the right limit is the kerb. The central approach lane is included.\"\n    },\n    {\n      \"y\": 1155,\n      \"left_x\": 310,\n      \"right_x\": 580,\n      \"evidence\": \"The carriageway extends from the painted centre separation to the right-hand kerb, including all lanes between them.\"\n    }\n  ],\n  \"confidence\": \"medium\",\n  \"notes\": \"The crossing road and its rail tracks occupy the broad junction above the near-side crosswalk. Markings are blurred and partly shadowed. The stop bar is slightly oblique, so its y is representative rather than constant across the carriageway; boundaries are approximate.\"\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "7ba3e009d19144aa9ca59da8c5bae748",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 18.093146
+  }
+}

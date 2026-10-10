@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"boundaries\": [\n    {\n      \"xs\": [116, 116, 116, 117, 119],\n      \"kind\": \"centre_or_median_edge\",\n      \"visibility\": \"partial\",\n      \"interpolated_stations\": [\"S5\"],\n      \"evidence\": \"A pale yellowish longitudinal marking separates the target pavement from the carriageway on its left. Its lower continuation is less distinct near the transverse markings.\"\n    },\n    {\n      \"xs\": [171, 171, 172, 172, 170],\n      \"kind\": \"lane_line\",\n      \"visibility\": \"partial\",\n      \"interpolated_stations\": [\"S1\", \"S2\", \"S3\", \"S4\"],\n      \"evidence\": \"Repeated pale longitudinal dash segments are visible, particularly above S2 and between S4 and S5. Station crossings are estimated by connecting these segments; the vehicle near S3 obscures part of the alignment.\"\n    },\n    {\n      \"xs\": [228, 228, 226, 225, 224],\n      \"kind\": \"unknown\",\n      \"visibility\": \"partial\",\n      \"interpolated_stations\": [\"S1\", \"S3\", \"S5\"],\n      \"evidence\": \"A faint, approximately longitudinal pale trace runs to the right of the dashed marking. Its contrast and continuity are weaker than those of the dashed line; whether it is a painted strip boundary rather than a pavement trace is uncertain.\"\n    },\n    {\n      \"xs\": [282, 287, 287, 284, 290],\n      \"kind\": \"kerb_or_pavement_edge\",\n      \"visibility\": \"partial\",\n      \"interpolated_stations\": [\"S3\", \"S5\"],\n      \"evidence\": \"The right-hand limit follows the transition from dark roadway to the lighter roadside surface. Shadow and a roadside interruption obscure the edge near S3, and the lower crossing area makes its continuation near S5 uncertain.\"\n    }\n  ],\n  \"partial_strips\": [],\n  \"cannot_determine\": [\n    \"Coordinates are approximate because the crop is blurred and resampled.\",\n    \"The faint third boundary is a low-confidence candidate; the image does not establish its marking type or confirm that it separates surface strips.\",\n    \"No additional continuous painted boundary can be distinguished confidently from longitudinal pavement shading.\",\n    \"The precise right kerb alignment at S5 is obscured.\"\n  ]\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "505ee70b3544418ba52f62026695e7ae",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 27.34834
+  }
+}

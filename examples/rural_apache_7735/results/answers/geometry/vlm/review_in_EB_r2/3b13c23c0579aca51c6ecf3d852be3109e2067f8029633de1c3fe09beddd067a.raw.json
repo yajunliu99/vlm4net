@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"issue_responses\": [\n    {\n      \"issue\": \"narrow_region_check_facility:r4:9db3e9d5\",\n      \"decision\": \"dismiss\",\n      \"reason\": \"The isolated r4 pixels show a narrow green-surfaced strip bounded by white longitudinal paint. The crop and lightened panel show these painted margins following e4 and e5, including where the green surface transitions to darker pavement. Its narrow width is consistent with a bicycle strip, not an extra boundary through uniform pavement.\"\n    }\n  ],\n  \"edits\": [],\n  \"verdict\": \"accept\",\n  \"notes\": [\n    \"The right-side roadway strip is already represented by r5: it extends from the bicycle-strip margin e5 to the visible pavement/kerb edge at e6. No additional roadway strip is visible beyond e6.\",\n    \"The street-view projections are laterally offset relative to the visible kerb and paint; that offset alone does not support moving the satellite boundaries.\",\n    \"Bicycle-strip identification is an inference from the green surface, bounding paint and geometry; no legal movement permissions are established.\"\n  ]\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "a432f45e7bc340a086d2357b71c0e589",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 9.206049
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "state": "complete",
+  "site_id": "7735",
+  "approaches": 4,
+  "control_hypotheses": 31,
+  "context_views": 18,
+  "detail_views": 14,
+  "api_calls": 14,
+  "cache_hits": 0,
+  "reviewer_answers_used": false,
+  "yolo_model": "yolo26n",
+  "movement_constraints_applied": false,
+  "sampling_stop_reasons": {
+    "link_10881": "reading_sufficient",
+    "link_10882": "round_limit",
+    "link_11986": "reading_sufficient",
+    "link_15301": "round_limit"
+  },
+  "acquisition_counts": {
+    "metadata_requests": 25,
+    "image_requests": 32,
+    "metadata_cache_hits": 0,
+    "image_cache_hits": 0
+  },
+  "acquisition_calls_this_audit": {
+    "metadata_requests": 11,
+    "image_requests": 20
+  }
+}

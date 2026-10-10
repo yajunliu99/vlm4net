@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"stop_line\": {\n    \"y\": 738,\n    \"kind\": \"crosswalk_edge\",\n    \"evidence\": \"The upper transverse white boundary of the crosswalk across the receiving carriageway marks its downstream edge. The junction opens below the crosswalk.\"\n  },\n  \"cross_sections\": [\n    {\n      \"y\": 738,\n      \"left_x\": 338,\n      \"right_x\": 507,\n      \"evidence\": \"Left limit follows the central separation beside the rail-bearing receiving lane; right limit is the kerb beside the outer lane. Includes the rail-bearing lane, bicycle strip and roadway between that strip and the kerb.\"\n    },\n    {\n      \"y\": 337,\n      \"left_x\": 344,\n      \"right_x\": 516,\n      \"evidence\": \"Left limit follows the central separator extending down from the median nose; right limit follows the pavement edge beside the sidewalk, outside the longitudinal white marking.\"\n    }\n  ],\n  \"confidence\": \"medium\",\n  \"notes\": \"Coordinates are approximate crop pixels. Shadows and image softness obscure portions of the kerb and central separator. Directional assignment follows the supplied orientation and geometric continuity, not the dashed network line; legal lane permissions are not established.\"\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "5a326da6507e418fb06d286060f1c508",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 15.98545
+  }
+}

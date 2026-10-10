@@ -1,0 +1,8 @@
+{
+  "base_atlas": "runs/geospatial_evidence_tempe_7735",
+  "base_data_sha256": "b938c91389f240455e2712328fa91ece22adef248f9b9c2167896d9d9034d046",
+  "audit_manifest_sha256": "4d04de7ee80f6beee1720b7d388efa5e35fd75cf79f8d553a815e2d0d6c8564a",
+  "audit_predictions_sha256": "b52607238e845b6015dc79099919af49e10e5ebb988ec50b2c2a0e6a9edef5dd",
+  "lane_and_movement_mutations": false,
+  "reviewer_answers_used": false
+}

@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"issue_responses\": [\n    {\n      \"issue\": \"possible_merged_lanes:r1:074d2d6c\",\n      \"decision\": \"dismiss\",\n      \"reason\": \"The isolated r1 pixels show one paved strip with a left-turn arrow near the bottom and no internal lane separator. Its edges follow the median-side marking and the separator beside the rail-bearing strip; its greater relative width does not support splitting it.\"\n    },\n    {\n      \"issue\": \"possible_merged_lanes:r5:6f87ab41\",\n      \"decision\": \"dismiss\",\n      \"reason\": \"The visible portions of r5 form one paved strip between the rail-lane separator and the green bicycle strip. No additional longitudinal separator is visible inside it. The narrower neighbouring strips are not a reliable motor-lane width reference.\"\n    },\n    {\n      \"issue\": \"street_view_count:4:6\",\n      \"decision\": \"edit\",\n      \"reason\": \"The crop shows e3 and e4 following the two embedded rails within a single road lane, rather than painted separators between lanes. The street view likewise shows paired rails within one paved traffic strip. Regions r2, r3 and r4 therefore subdivide one rail-bearing lane.\"\n    }\n  ],\n  \"edits\": [\n    {\n      \"op\": \"merge_regions\",\n      \"regions\": [\"r2\", \"r3\", \"r4\"],\n      \"evidence\": \"The longitudinal features at e3 and e4 are the paired embedded rails. Pavement extends between and outside those rails to the lane separators at e2 and e5; neither rail constitutes a separate lane boundary.\"\n    }\n  ],\n  \"verdict\": \"revise\",\n  \"notes\": [\n    \"Retain r6 as the visibly green bicycle strip and r7 as the paved strip between it and the kerb. The crop shows sidewalk or verge beyond e8, not an additional carriageway strip.\",\n    \"The street-view projection is laterally displaced relative to the bicycle strip and kerb; it is not used to move the crop boundaries.\",\n    \"Rail-bearing pavement is visible; confirmed legal permission for motor vehicles to use it is not established by these images.\"\n  ]\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "d2c7d45a1ace4913a4a5f4d48766b984",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 13.296041
+  }
+}

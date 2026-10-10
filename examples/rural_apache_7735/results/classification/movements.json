@@ -1,0 +1,793 @@
+[
+  {
+    "turn": "left",
+    "to_direction": "WB",
+    "status": "candidate",
+    "lane_pairs": [
+      {
+        "in_region_id": "r1",
+        "out_region_id": "r1",
+        "ib_lane": 1,
+        "ob_lane": 1
+      },
+      {
+        "in_region_id": "r1",
+        "out_region_id": "r2",
+        "ib_lane": 1,
+        "ob_lane": 2
+      }
+    ],
+    "basis": "mixed",
+    "confidence": "low",
+    "evidence_refs": [
+      "in_NB:r1",
+      "in_NB:r2",
+      "out_WB:r1",
+      "out_WB:r2",
+      "gsv_context_NB_near:o3",
+      "gsv_context_NB_mid:o1"
+    ],
+    "assumptions": [
+      "The upstream center-side left-turn marking in the full satellite image continues into in_NB:r1.",
+      "The two receiving pairs are alternative endpoint hypotheses, not a claim of two independently established receiving lanes."
+    ],
+    "reason": "The full satellite image shows upstream left-curving pavement arrows on the center-side approach, including one approximately along r1's continuation. Together with r1's center-side position, this supports a provisional left-turn hypothesis beyond the crop-based unknown-use prediction. Its exact continuity to the stopbar remains uncertain; the near GSV marking is incomplete and vehicle-occluded. WB r1 covers only a narrow motor-road margin, whereas r2 covers a more substantial motor corridor, so the landing region is not uniquely resolved. The neighboring upstream arrow does not authorize using in_NB:r2: that polygon remains endpoint-ineligible. No exclusive left-turn use or legal permission is confirmed.",
+    "from_direction": "NB",
+    "in_section_id": "in_NB",
+    "gsv_alignment_notes": [
+      "Region IDs are local surface annotations. Incoming and outgoing IDs are not matching lane numbers, and the WB and EB subdivisions do not establish independent lane counts.",
+      "The double yellow separator provisionally anchors incoming r1 to the image-right queue in the mid and far GSV views. White-divided pavement on the other side is opposing traffic; it cannot be counted as additional NB lanes. Framing and queues prevent individual GSV assignments to r3–r5.",
+      "The full satellite image exposes upstream left-curving markings beyond the audited stopbar crops. Their provisional connection to r1 supports a left candidate, but does not resolve the stopbar's obscured markings or justify promoting the endpoint-ineligible r2 strip to a motor lane.",
+      "The near-context rail-like-line interpretation conflicts with the grounded audit's inability to confirm embedded rails. Foreground placement and overhead wires do not bind a rail facility to a particular incoming polygon. No NB rail restriction or shared rail use is inferred from them.",
+      "Vehicle shadows and occlusion obscure r1 markings and internal approach boundaries; pole and structural shadows interrupt parts of the satellite pavement. Visible pavement on either side supports physical continuity, not hidden arrows or restrictions.",
+      "Near-view signs have no reliably readable lane-use text; the mid-view Apache Blvd sign identifies the street. No unassigned distant sign is applied as a restriction to all nearby lanes.",
+      "Near, mid and far GSV capture dates are supplied metadata of 2025-10. No satellite capture date is supplied, so temporal equivalence and unchanged pocket or lane arrangements are unverified. Duplicate satellite panels are not independent corroboration."
+    ],
+    "gsv_capture_dates": {
+      "near": "2025-10",
+      "mid": "2025-10",
+      "far": "2025-10"
+    },
+    "out_section_id": "out_WB",
+    "validation_flags": [],
+    "review_status": "needs_review",
+    "auto_apply": false
+  },
+  {
+    "turn": "through",
+    "to_direction": "NB",
+    "status": "candidate",
+    "lane_pairs": [
+      {
+        "in_region_id": "r3",
+        "out_region_id": "r1",
+        "ib_lane": 2,
+        "ob_lane": 1
+      },
+      {
+        "in_region_id": "r4",
+        "out_region_id": "r2",
+        "ib_lane": 3,
+        "ob_lane": 2
+      }
+    ],
+    "basis": "inferred",
+    "confidence": "low",
+    "evidence_refs": [
+      "in_NB:r3",
+      "in_NB:r4",
+      "in_NB:r5",
+      "out_NB:r1",
+      "out_NB:r2",
+      "out_NB:r3",
+      "gsv_context_NB_near:o4",
+      "gsv_context_NB_mid:o3"
+    ],
+    "assumptions": [
+      "The two interior incoming motor corridors continue approximately in order across the junction.",
+      "Unresolved operating restrictions do not eliminate these provisional physical connections."
+    ],
+    "reason": "The full satellite context places r3 and r4 opposite the supported interior NB receiving corridors r1 and r2. These are physical connectivity candidates, not observed trajectories or through-only assignments. GSV intersection guide fragments cannot be traced securely to individual incoming polygons, and queues obscure their boundaries. The model's unknown lane uses therefore remain unknown. Although curbside r5 also faces receiving pavement, alignment alone does not establish shared through/right use; no r5 through pair is proposed on that basis.",
+    "from_direction": "NB",
+    "in_section_id": "in_NB",
+    "gsv_alignment_notes": [
+      "Region IDs are local surface annotations. Incoming and outgoing IDs are not matching lane numbers, and the WB and EB subdivisions do not establish independent lane counts.",
+      "The double yellow separator provisionally anchors incoming r1 to the image-right queue in the mid and far GSV views. White-divided pavement on the other side is opposing traffic; it cannot be counted as additional NB lanes. Framing and queues prevent individual GSV assignments to r3–r5.",
+      "The full satellite image exposes upstream left-curving markings beyond the audited stopbar crops. Their provisional connection to r1 supports a left candidate, but does not resolve the stopbar's obscured markings or justify promoting the endpoint-ineligible r2 strip to a motor lane.",
+      "The near-context rail-like-line interpretation conflicts with the grounded audit's inability to confirm embedded rails. Foreground placement and overhead wires do not bind a rail facility to a particular incoming polygon. No NB rail restriction or shared rail use is inferred from them.",
+      "Vehicle shadows and occlusion obscure r1 markings and internal approach boundaries; pole and structural shadows interrupt parts of the satellite pavement. Visible pavement on either side supports physical continuity, not hidden arrows or restrictions.",
+      "Near-view signs have no reliably readable lane-use text; the mid-view Apache Blvd sign identifies the street. No unassigned distant sign is applied as a restriction to all nearby lanes.",
+      "Near, mid and far GSV capture dates are supplied metadata of 2025-10. No satellite capture date is supplied, so temporal equivalence and unchanged pocket or lane arrangements are unverified. Duplicate satellite panels are not independent corroboration."
+    ],
+    "gsv_capture_dates": {
+      "near": "2025-10",
+      "mid": "2025-10",
+      "far": "2025-10"
+    },
+    "out_section_id": "out_NB",
+    "validation_flags": [],
+    "review_status": "needs_review",
+    "auto_apply": false
+  },
+  {
+    "turn": "right",
+    "to_direction": "EB",
+    "status": "candidate",
+    "lane_pairs": [
+      {
+        "in_region_id": "r5",
+        "out_region_id": "r4",
+        "ib_lane": 4,
+        "ob_lane": 4
+      }
+    ],
+    "basis": "inferred",
+    "confidence": "low",
+    "evidence_refs": [
+      "in_NB:r5",
+      "out_EB:r4",
+      "out_EB:r5",
+      "out_EB:r6",
+      "gsv_context_NB_near:o6",
+      "gsv_context_NB_far:o7"
+    ],
+    "assumptions": [
+      "The supported curbside approach corridor can follow the corner into the outer EB motor corridor.",
+      "Any applicable turn restriction remains unresolved."
+    ],
+    "reason": "The curb return and supported motor pavement provide a plausible right-turn connection from r5 to EB r4, inward of the bicycle facility. Neither the approach position nor the corner establishes right-only or shared use, so this does not replace the model's unknown lane-use value with confirmed permission. EB r5 is a bicycle strip and r6 is rejected as a motor travel endpoint. EB r1–r3 subdivide one rail-bearing band; they are not three additional receiving lanes and are unnecessary for this conservative outer-lane hypothesis. No readable, spatially assigned sign restricts this pair.",
+    "from_direction": "NB",
+    "in_section_id": "in_NB",
+    "gsv_alignment_notes": [
+      "Region IDs are local surface annotations. Incoming and outgoing IDs are not matching lane numbers, and the WB and EB subdivisions do not establish independent lane counts.",
+      "The double yellow separator provisionally anchors incoming r1 to the image-right queue in the mid and far GSV views. White-divided pavement on the other side is opposing traffic; it cannot be counted as additional NB lanes. Framing and queues prevent individual GSV assignments to r3–r5.",
+      "The full satellite image exposes upstream left-curving markings beyond the audited stopbar crops. Their provisional connection to r1 supports a left candidate, but does not resolve the stopbar's obscured markings or justify promoting the endpoint-ineligible r2 strip to a motor lane.",
+      "The near-context rail-like-line interpretation conflicts with the grounded audit's inability to confirm embedded rails. Foreground placement and overhead wires do not bind a rail facility to a particular incoming polygon. No NB rail restriction or shared rail use is inferred from them.",
+      "Vehicle shadows and occlusion obscure r1 markings and internal approach boundaries; pole and structural shadows interrupt parts of the satellite pavement. Visible pavement on either side supports physical continuity, not hidden arrows or restrictions.",
+      "Near-view signs have no reliably readable lane-use text; the mid-view Apache Blvd sign identifies the street. No unassigned distant sign is applied as a restriction to all nearby lanes.",
+      "Near, mid and far GSV capture dates are supplied metadata of 2025-10. No satellite capture date is supplied, so temporal equivalence and unchanged pocket or lane arrangements are unverified. Duplicate satellite panels are not independent corroboration."
+    ],
+    "gsv_capture_dates": {
+      "near": "2025-10",
+      "mid": "2025-10",
+      "far": "2025-10"
+    },
+    "out_section_id": "out_EB",
+    "validation_flags": [],
+    "review_status": "needs_review",
+    "auto_apply": false
+  },
+  {
+    "turn": "u_turn",
+    "to_direction": "SB",
+    "status": "unresolved",
+    "lane_pairs": [],
+    "basis": "inferred",
+    "confidence": "low",
+    "evidence_refs": [
+      "in_NB:r1",
+      "out_SB:r1",
+      "out_SB:r2",
+      "out_SB:r3",
+      "gsv_context_NB_near:o6",
+      "gsv_context_NB_far:o7"
+    ],
+    "assumptions": [],
+    "reason": "Supported SB receiving pavement exists, but neither a U-turn indication nor an applicable permission or prohibition is established. The upstream left-turn marking does not establish U-turn permission. Junction width alone cannot resolve a permitted turning path or receiving-region assignment.",
+    "from_direction": "NB",
+    "in_section_id": "in_NB",
+    "gsv_alignment_notes": [
+      "Region IDs are local surface annotations. Incoming and outgoing IDs are not matching lane numbers, and the WB and EB subdivisions do not establish independent lane counts.",
+      "The double yellow separator provisionally anchors incoming r1 to the image-right queue in the mid and far GSV views. White-divided pavement on the other side is opposing traffic; it cannot be counted as additional NB lanes. Framing and queues prevent individual GSV assignments to r3–r5.",
+      "The full satellite image exposes upstream left-curving markings beyond the audited stopbar crops. Their provisional connection to r1 supports a left candidate, but does not resolve the stopbar's obscured markings or justify promoting the endpoint-ineligible r2 strip to a motor lane.",
+      "The near-context rail-like-line interpretation conflicts with the grounded audit's inability to confirm embedded rails. Foreground placement and overhead wires do not bind a rail facility to a particular incoming polygon. No NB rail restriction or shared rail use is inferred from them.",
+      "Vehicle shadows and occlusion obscure r1 markings and internal approach boundaries; pole and structural shadows interrupt parts of the satellite pavement. Visible pavement on either side supports physical continuity, not hidden arrows or restrictions.",
+      "Near-view signs have no reliably readable lane-use text; the mid-view Apache Blvd sign identifies the street. No unassigned distant sign is applied as a restriction to all nearby lanes.",
+      "Near, mid and far GSV capture dates are supplied metadata of 2025-10. No satellite capture date is supplied, so temporal equivalence and unchanged pocket or lane arrangements are unverified. Duplicate satellite panels are not independent corroboration."
+    ],
+    "gsv_capture_dates": {
+      "near": "2025-10",
+      "mid": "2025-10",
+      "far": "2025-10"
+    },
+    "out_section_id": "out_SB",
+    "validation_flags": [],
+    "review_status": "needs_review",
+    "auto_apply": false
+  },
+  {
+    "turn": "left",
+    "to_direction": "NB",
+    "status": "candidate",
+    "lane_pairs": [
+      {
+        "in_region_id": "r1",
+        "out_region_id": "r1",
+        "ib_lane": 1,
+        "ob_lane": 1
+      }
+    ],
+    "basis": "mixed",
+    "confidence": "medium",
+    "evidence_refs": [
+      "in_EB:r1",
+      "out_NB:r1",
+      "gsv_context_EB_near:o4",
+      "gsv_context_EB_near:o7"
+    ],
+    "assumptions": [
+      "The center-side NB receiving region is the conservative destination hypothesis; the exact turning trajectory is not marked clearly.",
+      "The satellite pocket need not exist as a separate lane at the upstream GSV camera positions."
+    ],
+    "reason": "The satellite shows a left-bending marking in the motor pocket immediately left of the inbound rails, consistent with the grounded r1 left-only prediction. A turn into supported out_NB r1 is plausible across the intersection. The destination pairing is inferred, not an observed vehicle trajectory or confirmed lane-assignment rule. No readable ONLY text establishes legal exclusivity. Blurred older GSV pavement does not contradict the satellite marking. No additional left-turn source or fan-out to other NB regions is established.",
+    "from_direction": "EB",
+    "in_section_id": "in_EB",
+    "gsv_alignment_notes": [
+      "Region IDs are local. Incoming r3 corresponds geometrically to outgoing EB r4, not outgoing r3. Outgoing EB r1–r3 subdivide one rail/motor band; their annotation count is not a lane count.",
+      "The mid-view rail–motor corridor–green strip–curbside corridor ordering supports correspondence to incoming r2, r3, r4 and r5. A separate r1 pocket is not securely visible at that upstream cross-section. Three upstream motor corridors therefore do not disprove the satellite stopbar pocket.",
+      "Near and far GSV captures are dated 2013-04; the mid capture is dated 2024-06. The satellite capture date is unknown. These views cannot establish a contemporaneous upstream-to-stopbar transition, and failure to identify rails in the older views does not establish their absence or a spatial rail transition.",
+      "Near-view blur and stitching, mid-view truck/bus/car occlusion, and far-view perspective compression prevent reliable lane-specific arrow inspection. Unreadable or occluded pavement is not evidence of absent markings.",
+      "Satellite shadows locally obscure incoming r5 and receiving-road edges. Visible pavement continuity supports the audited facilities, but shadow does not establish exact boundaries, terminal arrows or permissions. Duplicate satellite crops are not independent corroboration.",
+      "No readable, lane-bound distant movement restriction is supplied. Unassigned guide signs are not applied across the approach; the mid-view parking-restriction sign supplies no turn restriction.",
+      "Only surface-audit-supported motor endpoints are used. Bicycle strips and rejected shoulder, parking, buffer or sidewalk-overlapping regions are excluded. Reverse auxiliary views corroborate cross-sections without transferring camera-lane ordinals.",
+      "Candidate movements are hypotheses rather than confirmed permissions. The left-use prediction is retained provisionally; through and right candidates leave the corresponding model lane-use values unknown and do not establish shared use."
+    ],
+    "gsv_capture_dates": {
+      "near": "2013-04",
+      "mid": "2024-06",
+      "far": "2013-04"
+    },
+    "out_section_id": "out_NB",
+    "validation_flags": [
+      "gsv_capture_date_mismatch"
+    ],
+    "review_status": "needs_review",
+    "auto_apply": false
+  },
+  {
+    "turn": "through",
+    "to_direction": "EB",
+    "status": "candidate",
+    "lane_pairs": [
+      {
+        "in_region_id": "r2",
+        "out_region_id": "r2",
+        "ib_lane": 2,
+        "ob_lane": 2
+      },
+      {
+        "in_region_id": "r3",
+        "out_region_id": "r4",
+        "ib_lane": 3,
+        "ob_lane": 4
+      }
+    ],
+    "basis": "inferred",
+    "confidence": "medium",
+    "evidence_refs": [
+      "in_EB:r2",
+      "in_EB:r3",
+      "out_EB:r1",
+      "out_EB:r2",
+      "out_EB:r3",
+      "out_EB:r4",
+      "gsv_context_EB_mid:o1",
+      "gsv_context_EB_mid:o3",
+      "gsv_context_EB_mid:o6"
+    ],
+    "assumptions": [
+      "Motor traffic can continue along the physically continuous shared rail/motor corridor; lane-specific operating permission remains unknown.",
+      "out_EB r2 represents the central portion of the receiving rail/motor band; out_EB r1 and r3 are margins of that same facility, not additional receiving lanes."
+    ],
+    "reason": "The full satellite context shows the vehicle-bearing rail corridor continuing across the intersection and an adjacent motor corridor continuing between the rails and bicycle facility. These support candidate r2-to-r2 and r3-to-r4 paths. Physical motor-use evidence, not rails alone, supports the rail-corridor hypothesis. The grounded predictions for incoming r2 and r3 remain unknown as to permission: these candidates do not reclassify them as through-only or shared-turn lanes. No through path is proposed from the left-marked r1 or curbside r5. In particular, rejected out_EB r6 cannot supply an outer receiving lane, and a speculative merge from r5 is not established.",
+    "from_direction": "EB",
+    "in_section_id": "in_EB",
+    "gsv_alignment_notes": [
+      "Region IDs are local. Incoming r3 corresponds geometrically to outgoing EB r4, not outgoing r3. Outgoing EB r1–r3 subdivide one rail/motor band; their annotation count is not a lane count.",
+      "The mid-view rail–motor corridor–green strip–curbside corridor ordering supports correspondence to incoming r2, r3, r4 and r5. A separate r1 pocket is not securely visible at that upstream cross-section. Three upstream motor corridors therefore do not disprove the satellite stopbar pocket.",
+      "Near and far GSV captures are dated 2013-04; the mid capture is dated 2024-06. The satellite capture date is unknown. These views cannot establish a contemporaneous upstream-to-stopbar transition, and failure to identify rails in the older views does not establish their absence or a spatial rail transition.",
+      "Near-view blur and stitching, mid-view truck/bus/car occlusion, and far-view perspective compression prevent reliable lane-specific arrow inspection. Unreadable or occluded pavement is not evidence of absent markings.",
+      "Satellite shadows locally obscure incoming r5 and receiving-road edges. Visible pavement continuity supports the audited facilities, but shadow does not establish exact boundaries, terminal arrows or permissions. Duplicate satellite crops are not independent corroboration.",
+      "No readable, lane-bound distant movement restriction is supplied. Unassigned guide signs are not applied across the approach; the mid-view parking-restriction sign supplies no turn restriction.",
+      "Only surface-audit-supported motor endpoints are used. Bicycle strips and rejected shoulder, parking, buffer or sidewalk-overlapping regions are excluded. Reverse auxiliary views corroborate cross-sections without transferring camera-lane ordinals.",
+      "Candidate movements are hypotheses rather than confirmed permissions. The left-use prediction is retained provisionally; through and right candidates leave the corresponding model lane-use values unknown and do not establish shared use."
+    ],
+    "gsv_capture_dates": {
+      "near": "2013-04",
+      "mid": "2024-06",
+      "far": "2013-04"
+    },
+    "out_section_id": "out_EB",
+    "validation_flags": [
+      "gsv_capture_date_mismatch"
+    ],
+    "review_status": "needs_review",
+    "auto_apply": false
+  },
+  {
+    "turn": "right",
+    "to_direction": "SB",
+    "status": "candidate",
+    "lane_pairs": [
+      {
+        "in_region_id": "r5",
+        "out_region_id": "r3",
+        "ib_lane": 4,
+        "ob_lane": 3
+      }
+    ],
+    "basis": "inferred",
+    "confidence": "low",
+    "evidence_refs": [
+      "in_EB:r5",
+      "out_SB:r3",
+      "out_EB:r6",
+      "gsv_context_EB_mid:o2",
+      "gsv_context_EB_mid:o3",
+      "gsv_context_EB_mid:o5",
+      "gsv_context_EB_mid:o6"
+    ],
+    "assumptions": [
+      "The supported curbside incoming motor corridor reaches the corner without an unseen terminal restriction.",
+      "The outer SB motor region is the conservative receiving hypothesis; exact turn guidance is unknown."
+    ],
+    "reason": "Incoming r5 is supported motor pavement outside the green bicycle strip, not sidewalk or assumed parking. Its corner position supports a tentative right-turn path into the supported outer SB region r3. No readable right-turn arrow establishes this movement, and vehicle occlusion and shadow limit terminal inspection. This is a geometric movement hypothesis, not a change from the model's unknown lane-use prediction to right-only. The absence of an eligible outer EB receiving lane does not itself prove a mandatory right turn. There is insufficient evidence to add a right turn from r3 or infer shared through/right use. The crossed-out P sign concerns parking, not turning.",
+    "from_direction": "EB",
+    "in_section_id": "in_EB",
+    "gsv_alignment_notes": [
+      "Region IDs are local. Incoming r3 corresponds geometrically to outgoing EB r4, not outgoing r3. Outgoing EB r1–r3 subdivide one rail/motor band; their annotation count is not a lane count.",
+      "The mid-view rail–motor corridor–green strip–curbside corridor ordering supports correspondence to incoming r2, r3, r4 and r5. A separate r1 pocket is not securely visible at that upstream cross-section. Three upstream motor corridors therefore do not disprove the satellite stopbar pocket.",
+      "Near and far GSV captures are dated 2013-04; the mid capture is dated 2024-06. The satellite capture date is unknown. These views cannot establish a contemporaneous upstream-to-stopbar transition, and failure to identify rails in the older views does not establish their absence or a spatial rail transition.",
+      "Near-view blur and stitching, mid-view truck/bus/car occlusion, and far-view perspective compression prevent reliable lane-specific arrow inspection. Unreadable or occluded pavement is not evidence of absent markings.",
+      "Satellite shadows locally obscure incoming r5 and receiving-road edges. Visible pavement continuity supports the audited facilities, but shadow does not establish exact boundaries, terminal arrows or permissions. Duplicate satellite crops are not independent corroboration.",
+      "No readable, lane-bound distant movement restriction is supplied. Unassigned guide signs are not applied across the approach; the mid-view parking-restriction sign supplies no turn restriction.",
+      "Only surface-audit-supported motor endpoints are used. Bicycle strips and rejected shoulder, parking, buffer or sidewalk-overlapping regions are excluded. Reverse auxiliary views corroborate cross-sections without transferring camera-lane ordinals.",
+      "Candidate movements are hypotheses rather than confirmed permissions. The left-use prediction is retained provisionally; through and right candidates leave the corresponding model lane-use values unknown and do not establish shared use."
+    ],
+    "gsv_capture_dates": {
+      "near": "2013-04",
+      "mid": "2024-06",
+      "far": "2013-04"
+    },
+    "out_section_id": "out_SB",
+    "validation_flags": [
+      "gsv_capture_date_mismatch"
+    ],
+    "review_status": "needs_review",
+    "auto_apply": false
+  },
+  {
+    "turn": "u_turn",
+    "to_direction": "WB",
+    "status": "unresolved",
+    "lane_pairs": [],
+    "basis": "inferred",
+    "confidence": "low",
+    "evidence_refs": [
+      "in_EB:r1",
+      "out_WB:r1",
+      "out_WB:r2",
+      "gsv_context_EB_near:o6",
+      "gsv_context_EB_mid:o4"
+    ],
+    "assumptions": [],
+    "reason": "Supported WB motor pavement exists, but neither the left-bending marking nor the broad intersection establishes U-turn permission or a lane-specific return path. Center-separation extent and turning clearance are insufficiently resolved. No U-turn pairing is assigned; unreadable signs establish neither permission nor prohibition.",
+    "from_direction": "EB",
+    "in_section_id": "in_EB",
+    "gsv_alignment_notes": [
+      "Region IDs are local. Incoming r3 corresponds geometrically to outgoing EB r4, not outgoing r3. Outgoing EB r1–r3 subdivide one rail/motor band; their annotation count is not a lane count.",
+      "The mid-view rail–motor corridor–green strip–curbside corridor ordering supports correspondence to incoming r2, r3, r4 and r5. A separate r1 pocket is not securely visible at that upstream cross-section. Three upstream motor corridors therefore do not disprove the satellite stopbar pocket.",
+      "Near and far GSV captures are dated 2013-04; the mid capture is dated 2024-06. The satellite capture date is unknown. These views cannot establish a contemporaneous upstream-to-stopbar transition, and failure to identify rails in the older views does not establish their absence or a spatial rail transition.",
+      "Near-view blur and stitching, mid-view truck/bus/car occlusion, and far-view perspective compression prevent reliable lane-specific arrow inspection. Unreadable or occluded pavement is not evidence of absent markings.",
+      "Satellite shadows locally obscure incoming r5 and receiving-road edges. Visible pavement continuity supports the audited facilities, but shadow does not establish exact boundaries, terminal arrows or permissions. Duplicate satellite crops are not independent corroboration.",
+      "No readable, lane-bound distant movement restriction is supplied. Unassigned guide signs are not applied across the approach; the mid-view parking-restriction sign supplies no turn restriction.",
+      "Only surface-audit-supported motor endpoints are used. Bicycle strips and rejected shoulder, parking, buffer or sidewalk-overlapping regions are excluded. Reverse auxiliary views corroborate cross-sections without transferring camera-lane ordinals.",
+      "Candidate movements are hypotheses rather than confirmed permissions. The left-use prediction is retained provisionally; through and right candidates leave the corresponding model lane-use values unknown and do not establish shared use."
+    ],
+    "gsv_capture_dates": {
+      "near": "2013-04",
+      "mid": "2024-06",
+      "far": "2013-04"
+    },
+    "out_section_id": "out_WB",
+    "validation_flags": [
+      "gsv_capture_date_mismatch"
+    ],
+    "review_status": "needs_review",
+    "auto_apply": false
+  },
+  {
+    "turn": "left",
+    "to_direction": "EB",
+    "status": "candidate",
+    "lane_pairs": [
+      {
+        "in_region_id": "r1",
+        "out_region_id": "r2",
+        "ib_lane": 1,
+        "ob_lane": 2
+      },
+      {
+        "in_region_id": "r2",
+        "out_region_id": "r4",
+        "ib_lane": 2,
+        "ob_lane": 4
+      }
+    ],
+    "basis": "mixed",
+    "confidence": "medium",
+    "evidence_refs": [
+      "in_SB:r1",
+      "in_SB:r2",
+      "out_EB:r1",
+      "out_EB:r2",
+      "out_EB:r3",
+      "out_EB:r4",
+      "gsv_context_SB_far:o1",
+      "gsv_context_SB_far:o2",
+      "gsv_context_SB_far:o3"
+    ],
+    "assumptions": [
+      "The two upstream arrow-bearing corridors continue to the stopbar as in_SB r1 and r2.",
+      "Paired turns preserve inner-to-outer ordering.",
+      "out_EB r2 represents the shared rail/motor receiving band collectively covered by r1–r3; these are not three independent receiving lanes."
+    ],
+    "reason": "The grounded crop audit reports two unbranched left arrows within the two centre-side bounded corridors, supporting the model's predicted left-turn role. Its more specific interpretation strengthens the broader far-context observations, which initially left arrow identity and approach assignment uncertain. Vehicles prevent complete tracing to the stopbar, and no readable ONLY instruction confirms exclusivity. The inner turn is proposed into the supported rail/motor band and the outer turn into the adjacent asphalt lane. Exact trajectories and legal access remain inferred; no additional through use is assigned to these two approach regions merely from alignment.",
+    "from_direction": "SB",
+    "in_section_id": "in_SB",
+    "gsv_alignment_notes": [
+      "Region IDs are section-local. All pairs use supported motor-facility endpoints; candidate polygons and model lane indices are not independent lane detections.",
+      "Far and mid correspondence provisionally follows the centre-side pair, separate queued corridor, camera corridor, and kerbside pavement to in_SB r1–r5. The near view does not independently resolve that complete cross-section. Queues, foreshortening, and worn paint prevent continuous tracing.",
+      "The detailed far-crop audit resolves two left arrows more confidently than the initial broad context. This is refinement within the same source, not independent corroboration; satellite stopbar arrows remain unresolved.",
+      "No unassigned distant sign is applied to all nearby lanes. The portable lamp-topped panel beside the provisional r4 corridor is interpreted by the detailed audit as obstacle-passing/channelization evidence, not a permanent lane-use instruction. Temporary devices near r5 establish neither closure nor turn permission.",
+      "Satellite shadows obscure receiving surfaces and the outer approach edge. Pavement continuity supports facilities across local shadows, but does not justify extending r5 onto sidewalk or treating narrow EB rail-band subdivisions as separate lanes.",
+      "All three SB GSV capture dates are supplied metadata for 2025-10, not visibly verified dates. The satellite capture date is unknown. Temporary-device differences cannot establish either a temporal layout change or a spatial lane transition.",
+      "Duplicate satellite panels and crops of named GSV sources are not independent observations. Unknown lane use remains unknown even where a low-confidence movement candidate is proposed."
+    ],
+    "gsv_capture_dates": {
+      "near": "2025-10",
+      "mid": "2025-10",
+      "far": "2025-10"
+    },
+    "out_section_id": "out_EB",
+    "validation_flags": [],
+    "review_status": "needs_review",
+    "auto_apply": false
+  },
+  {
+    "turn": "through",
+    "to_direction": "SB",
+    "status": "candidate",
+    "lane_pairs": [
+      {
+        "in_region_id": "r3",
+        "out_region_id": "r1",
+        "ib_lane": 3,
+        "ob_lane": 1
+      },
+      {
+        "in_region_id": "r4",
+        "out_region_id": "r2",
+        "ib_lane": 4,
+        "ob_lane": 2
+      }
+    ],
+    "basis": "inferred",
+    "confidence": "low",
+    "evidence_refs": [
+      "in_SB:r3",
+      "in_SB:r4",
+      "in_SB:r5",
+      "out_SB:r1",
+      "out_SB:r2",
+      "out_SB:r3",
+      "gsv_context_SB_mid:o1",
+      "gsv_context_SB_mid:o2",
+      "gsv_context_SB_mid:o4"
+    ],
+    "assumptions": [
+      "The two interior corridors outside the predicted left pockets continue across the intersection without an unobserved reassignment.",
+      "Candidate paths preserve lateral ordering rather than equating region numbers across sections."
+    ],
+    "reason": "The full intersection layout, supported receiving lanes, and longitudinal approach corridors support tentative interior through paths. These are geometric movement hypotheses, not revisions to the model's unknown lane-use classifications or claims of through-only permission. No readable through arrows establish their use. Although r5 is also geometrically aligned with out_SB r3, that alone does not establish shared through/right use; its through movement remains unresolved and is not included. The portable panel near r4 does not establish a permanent turn restriction.",
+    "from_direction": "SB",
+    "in_section_id": "in_SB",
+    "gsv_alignment_notes": [
+      "Region IDs are section-local. All pairs use supported motor-facility endpoints; candidate polygons and model lane indices are not independent lane detections.",
+      "Far and mid correspondence provisionally follows the centre-side pair, separate queued corridor, camera corridor, and kerbside pavement to in_SB r1–r5. The near view does not independently resolve that complete cross-section. Queues, foreshortening, and worn paint prevent continuous tracing.",
+      "The detailed far-crop audit resolves two left arrows more confidently than the initial broad context. This is refinement within the same source, not independent corroboration; satellite stopbar arrows remain unresolved.",
+      "No unassigned distant sign is applied to all nearby lanes. The portable lamp-topped panel beside the provisional r4 corridor is interpreted by the detailed audit as obstacle-passing/channelization evidence, not a permanent lane-use instruction. Temporary devices near r5 establish neither closure nor turn permission.",
+      "Satellite shadows obscure receiving surfaces and the outer approach edge. Pavement continuity supports facilities across local shadows, but does not justify extending r5 onto sidewalk or treating narrow EB rail-band subdivisions as separate lanes.",
+      "All three SB GSV capture dates are supplied metadata for 2025-10, not visibly verified dates. The satellite capture date is unknown. Temporary-device differences cannot establish either a temporal layout change or a spatial lane transition.",
+      "Duplicate satellite panels and crops of named GSV sources are not independent observations. Unknown lane use remains unknown even where a low-confidence movement candidate is proposed."
+    ],
+    "gsv_capture_dates": {
+      "near": "2025-10",
+      "mid": "2025-10",
+      "far": "2025-10"
+    },
+    "out_section_id": "out_SB",
+    "validation_flags": [],
+    "review_status": "needs_review",
+    "auto_apply": false
+  },
+  {
+    "turn": "right",
+    "to_direction": "WB",
+    "status": "candidate",
+    "lane_pairs": [
+      {
+        "in_region_id": "r5",
+        "out_region_id": "r2",
+        "ib_lane": 5,
+        "ob_lane": 2
+      }
+    ],
+    "basis": "inferred",
+    "confidence": "low",
+    "evidence_refs": [
+      "in_SB:r5",
+      "out_WB:r2",
+      "gsv_context_SB_near:o2",
+      "gsv_context_SB_near:o4",
+      "gsv_context_SB_near:o7",
+      "gsv_context_SB_mid:o3",
+      "gsv_context_SB_mid:o5"
+    ],
+    "assumptions": [
+      "The supported kerbside asphalt remains connected around the corner despite temporary channelization.",
+      "The receiving endpoint is the motor pavement inside the bicycle strip, not curbside shoulder or parking space."
+    ],
+    "reason": "The kerbside motor corridor reaches the rounded corner and supports a plausible right-turn path into out_WB r2. This adds a candidate hypothesis without changing the model's unknown use to right-only or shared use. Neither a permanent applicable right-turn instruction nor closure is established. The unsupported sidewalk/shadow flare of in_SB r5 is excluded. out_WB r3 is a bicycle strip and r4 is rejected as a travel endpoint; neither is used. No second right-turn lane is supported.",
+    "from_direction": "SB",
+    "in_section_id": "in_SB",
+    "gsv_alignment_notes": [
+      "Region IDs are section-local. All pairs use supported motor-facility endpoints; candidate polygons and model lane indices are not independent lane detections.",
+      "Far and mid correspondence provisionally follows the centre-side pair, separate queued corridor, camera corridor, and kerbside pavement to in_SB r1–r5. The near view does not independently resolve that complete cross-section. Queues, foreshortening, and worn paint prevent continuous tracing.",
+      "The detailed far-crop audit resolves two left arrows more confidently than the initial broad context. This is refinement within the same source, not independent corroboration; satellite stopbar arrows remain unresolved.",
+      "No unassigned distant sign is applied to all nearby lanes. The portable lamp-topped panel beside the provisional r4 corridor is interpreted by the detailed audit as obstacle-passing/channelization evidence, not a permanent lane-use instruction. Temporary devices near r5 establish neither closure nor turn permission.",
+      "Satellite shadows obscure receiving surfaces and the outer approach edge. Pavement continuity supports facilities across local shadows, but does not justify extending r5 onto sidewalk or treating narrow EB rail-band subdivisions as separate lanes.",
+      "All three SB GSV capture dates are supplied metadata for 2025-10, not visibly verified dates. The satellite capture date is unknown. Temporary-device differences cannot establish either a temporal layout change or a spatial lane transition.",
+      "Duplicate satellite panels and crops of named GSV sources are not independent observations. Unknown lane use remains unknown even where a low-confidence movement candidate is proposed."
+    ],
+    "gsv_capture_dates": {
+      "near": "2025-10",
+      "mid": "2025-10",
+      "far": "2025-10"
+    },
+    "out_section_id": "out_WB",
+    "validation_flags": [],
+    "review_status": "needs_review",
+    "auto_apply": false
+  },
+  {
+    "turn": "u_turn",
+    "to_direction": "NB",
+    "status": "unresolved",
+    "lane_pairs": [],
+    "basis": "inferred",
+    "confidence": "low",
+    "evidence_refs": [
+      "in_SB:r1",
+      "out_NB:r1",
+      "out_NB:r2",
+      "out_NB:r3",
+      "gsv_context_SB_near:o7",
+      "gsv_context_SB_far:o1"
+    ],
+    "assumptions": [],
+    "reason": "Supported NB receiving pavement and an inner left-turn corridor do not establish a U-turn movement. No applicable U-turn instruction, confirmed permission, or sufficiently grounded lane-to-lane trajectory is supplied. Left arrows are not treated as U-turn authorization.",
+    "from_direction": "SB",
+    "in_section_id": "in_SB",
+    "gsv_alignment_notes": [
+      "Region IDs are section-local. All pairs use supported motor-facility endpoints; candidate polygons and model lane indices are not independent lane detections.",
+      "Far and mid correspondence provisionally follows the centre-side pair, separate queued corridor, camera corridor, and kerbside pavement to in_SB r1–r5. The near view does not independently resolve that complete cross-section. Queues, foreshortening, and worn paint prevent continuous tracing.",
+      "The detailed far-crop audit resolves two left arrows more confidently than the initial broad context. This is refinement within the same source, not independent corroboration; satellite stopbar arrows remain unresolved.",
+      "No unassigned distant sign is applied to all nearby lanes. The portable lamp-topped panel beside the provisional r4 corridor is interpreted by the detailed audit as obstacle-passing/channelization evidence, not a permanent lane-use instruction. Temporary devices near r5 establish neither closure nor turn permission.",
+      "Satellite shadows obscure receiving surfaces and the outer approach edge. Pavement continuity supports facilities across local shadows, but does not justify extending r5 onto sidewalk or treating narrow EB rail-band subdivisions as separate lanes.",
+      "All three SB GSV capture dates are supplied metadata for 2025-10, not visibly verified dates. The satellite capture date is unknown. Temporary-device differences cannot establish either a temporal layout change or a spatial lane transition.",
+      "Duplicate satellite panels and crops of named GSV sources are not independent observations. Unknown lane use remains unknown even where a low-confidence movement candidate is proposed."
+    ],
+    "gsv_capture_dates": {
+      "near": "2025-10",
+      "mid": "2025-10",
+      "far": "2025-10"
+    },
+    "out_section_id": "out_NB",
+    "validation_flags": [],
+    "review_status": "needs_review",
+    "auto_apply": false
+  },
+  {
+    "turn": "left",
+    "to_direction": "SB",
+    "status": "candidate",
+    "lane_pairs": [
+      {
+        "in_region_id": "r1",
+        "out_region_id": "r1",
+        "ib_lane": 1,
+        "ob_lane": 1
+      }
+    ],
+    "basis": "mixed",
+    "confidence": "medium",
+    "evidence_refs": [
+      "in_WB:r1",
+      "out_SB:r1",
+      "gsv_context_WB_mid:o4"
+    ],
+    "assumptions": [
+      "The center-side SB receiving lane is the leading receiving hypothesis; no readable turn guide establishes the exact receiving lane.",
+      "The satellite and street-view layouts are sufficiently comparable for this provisional correspondence."
+    ],
+    "reason": "The satellite left-pointing arrow is directly bound to the WB center-side pocket r1. The full intersection context supports a leftward connection into the SB carriageway, with out_SB:r1 the conservative center-side receiving candidate. The arrow supports proposing left use despite the model's unknown complete movement set; it does not establish left-only use. No additional left-turn lane or shared through use is inferred from alignment, and no alternative SB receiving lanes are asserted.",
+    "from_direction": "WB",
+    "in_section_id": "in_WB",
+    "gsv_alignment_notes": [
+      "All pairs use the revised supported, endpoint-eligible motor facilities. Bicycle strips and rejected parking, shoulder or sidewalk-overlapping regions are excluded.",
+      "Region IDs are local annotation identifiers. In_WB:r2-r4 jointly cover one rail-bearing motor lane; out_EB:r1-r3 likewise subdivide one rail-bearing facility. Their numerical indices are not independent lane counts or cross-view correspondences.",
+      "The grounded mid-view audit supports four physical approach motor lanes, whereas the far view supports two motor lanes with upstream parking. Pocket development can explain this difference; exact openings and bicycle transitions remain incompletely visible.",
+      "The earlier satellite note leaving the pale band unresolved conflicts with the later grounded audit. Embedded rails and the rail-to-divider ordering in the mid view favor the revised rail-bearing-lane interpretation, without establishing its motor movement permissions.",
+      "The r7 parking interpretation was revised using immediate-approach pavement, bicycle-strip and corner-curb relationships. Far-view marked parking should not automatically classify the downstream corner strip as parking, but its transition remains uncertain.",
+      "No distant overhead sign is legible or reliably assigned to an incoming lane. It is therefore used neither to prohibit movements across all lanes nor to confirm permission. The far-view forward arrow is assigned only to the narrow bicycle facility.",
+      "Vehicle occlusion, foreground shadows, foreshortening and worn markings limit incoming lane-use inspection. Structural shadows locally obscure NB curbside pavement, while vegetation and shadow limit the SB outer edge. These interruptions do not independently indicate missing roadway or permission.",
+      "The supplied GSV capture date is 2025-11 metadata, not a date independently visible in the images. No satellite capture date is supplied, so temporal equivalence is unverified.",
+      "Duplicate satellite panels and enlarged crops are not independent observations. Auxiliary reverse-view foreground lane ordinals are not transferred to receiving regions.",
+      "Candidate status denotes a supported movement hypothesis, not confirmed legal permission, exclusive lane use or an exhaustive set of permissible receiving lanes."
+    ],
+    "gsv_capture_dates": {
+      "near": "2025-11",
+      "mid": "2025-11",
+      "far": "2025-11"
+    },
+    "out_section_id": "out_SB",
+    "validation_flags": [],
+    "review_status": "needs_review",
+    "auto_apply": false
+  },
+  {
+    "turn": "through",
+    "to_direction": "WB",
+    "status": "candidate",
+    "lane_pairs": [
+      {
+        "in_region_id": "r5",
+        "out_region_id": "r2",
+        "ib_lane": 5,
+        "ob_lane": 2
+      }
+    ],
+    "basis": "inferred",
+    "confidence": "low",
+    "evidence_refs": [
+      "in_WB:r5",
+      "out_WB:r2",
+      "out_WB:r1",
+      "in_WB:r3",
+      "gsv_context_WB_mid:o3",
+      "gsv_context_WB_mid:o4",
+      "gsv_context_WB_far:o1"
+    ],
+    "assumptions": [
+      "The general motor corridor immediately inside the bicycle facility continues across the intersection into out_WB:r2.",
+      "This is a provisional connectivity hypothesis, not a determination of the lane's complete permitted movement set."
+    ],
+    "reason": "The approach r5 and receiving r2 occupy corresponding general-roadway corridors inside their bicycle strips, with continuous receiving asphalt and longitudinal boundary evidence. This supports a low-confidence through candidate, but no readable motor-lane through arrow or applicable sign confirms it. The far-view forward arrow belongs to the bicycle facility and supplies no motor permission. The rail-bearing approach r2-r4 is one physical lane, not three: its motor through connection remains unresolved because rail continuation does not establish motor permission, and out_WB:r1 is only partial roadway coverage rather than a securely delineated complete receiving lane. No through use is added to the arrow-bearing left pocket or curbside pocket merely because a path can be drawn. The model's unknown lane-use classification therefore remains appropriate even with this provisional pair.",
+    "from_direction": "WB",
+    "in_section_id": "in_WB",
+    "gsv_alignment_notes": [
+      "All pairs use the revised supported, endpoint-eligible motor facilities. Bicycle strips and rejected parking, shoulder or sidewalk-overlapping regions are excluded.",
+      "Region IDs are local annotation identifiers. In_WB:r2-r4 jointly cover one rail-bearing motor lane; out_EB:r1-r3 likewise subdivide one rail-bearing facility. Their numerical indices are not independent lane counts or cross-view correspondences.",
+      "The grounded mid-view audit supports four physical approach motor lanes, whereas the far view supports two motor lanes with upstream parking. Pocket development can explain this difference; exact openings and bicycle transitions remain incompletely visible.",
+      "The earlier satellite note leaving the pale band unresolved conflicts with the later grounded audit. Embedded rails and the rail-to-divider ordering in the mid view favor the revised rail-bearing-lane interpretation, without establishing its motor movement permissions.",
+      "The r7 parking interpretation was revised using immediate-approach pavement, bicycle-strip and corner-curb relationships. Far-view marked parking should not automatically classify the downstream corner strip as parking, but its transition remains uncertain.",
+      "No distant overhead sign is legible or reliably assigned to an incoming lane. It is therefore used neither to prohibit movements across all lanes nor to confirm permission. The far-view forward arrow is assigned only to the narrow bicycle facility.",
+      "Vehicle occlusion, foreground shadows, foreshortening and worn markings limit incoming lane-use inspection. Structural shadows locally obscure NB curbside pavement, while vegetation and shadow limit the SB outer edge. These interruptions do not independently indicate missing roadway or permission.",
+      "The supplied GSV capture date is 2025-11 metadata, not a date independently visible in the images. No satellite capture date is supplied, so temporal equivalence is unverified.",
+      "Duplicate satellite panels and enlarged crops are not independent observations. Auxiliary reverse-view foreground lane ordinals are not transferred to receiving regions.",
+      "Candidate status denotes a supported movement hypothesis, not confirmed legal permission, exclusive lane use or an exhaustive set of permissible receiving lanes."
+    ],
+    "gsv_capture_dates": {
+      "near": "2025-11",
+      "mid": "2025-11",
+      "far": "2025-11"
+    },
+    "out_section_id": "out_WB",
+    "validation_flags": [],
+    "review_status": "needs_review",
+    "auto_apply": false
+  },
+  {
+    "turn": "right",
+    "to_direction": "NB",
+    "status": "candidate",
+    "lane_pairs": [
+      {
+        "in_region_id": "r7",
+        "out_region_id": "r3",
+        "ib_lane": 6,
+        "ob_lane": 3
+      }
+    ],
+    "basis": "inferred",
+    "confidence": "low",
+    "evidence_refs": [
+      "in_WB:r7",
+      "out_NB:r3",
+      "gsv_context_WB_near:o2",
+      "gsv_context_WB_mid:o2",
+      "gsv_context_WB_far:o4"
+    ],
+    "assumptions": [
+      "The revised supported motor-facility classification of in_WB:r7 applies at the immediate approach.",
+      "A corner-following turn would initially enter the curbside NB receiving region r3."
+    ],
+    "reason": "The immediate approach has car-width pavement outside the bicycle strip extending toward the curving corner curb, supporting a right-turn-pocket hypothesis into the supported curbside NB roadway. This is stronger than treating satellite vehicle occupancy alone as parking evidence. However, the upstream parking-to-pocket transition and bicycle crossing are incompletely visible, and no readable right arrow or lane-bound restriction establishes right-only use. The candidate does not replace the model's unknown movement set with a confirmed restriction. No right turn from r5 across the intervening bicycle facility and r7 is proposed without additional evidence.",
+    "from_direction": "WB",
+    "in_section_id": "in_WB",
+    "gsv_alignment_notes": [
+      "All pairs use the revised supported, endpoint-eligible motor facilities. Bicycle strips and rejected parking, shoulder or sidewalk-overlapping regions are excluded.",
+      "Region IDs are local annotation identifiers. In_WB:r2-r4 jointly cover one rail-bearing motor lane; out_EB:r1-r3 likewise subdivide one rail-bearing facility. Their numerical indices are not independent lane counts or cross-view correspondences.",
+      "The grounded mid-view audit supports four physical approach motor lanes, whereas the far view supports two motor lanes with upstream parking. Pocket development can explain this difference; exact openings and bicycle transitions remain incompletely visible.",
+      "The earlier satellite note leaving the pale band unresolved conflicts with the later grounded audit. Embedded rails and the rail-to-divider ordering in the mid view favor the revised rail-bearing-lane interpretation, without establishing its motor movement permissions.",
+      "The r7 parking interpretation was revised using immediate-approach pavement, bicycle-strip and corner-curb relationships. Far-view marked parking should not automatically classify the downstream corner strip as parking, but its transition remains uncertain.",
+      "No distant overhead sign is legible or reliably assigned to an incoming lane. It is therefore used neither to prohibit movements across all lanes nor to confirm permission. The far-view forward arrow is assigned only to the narrow bicycle facility.",
+      "Vehicle occlusion, foreground shadows, foreshortening and worn markings limit incoming lane-use inspection. Structural shadows locally obscure NB curbside pavement, while vegetation and shadow limit the SB outer edge. These interruptions do not independently indicate missing roadway or permission.",
+      "The supplied GSV capture date is 2025-11 metadata, not a date independently visible in the images. No satellite capture date is supplied, so temporal equivalence is unverified.",
+      "Duplicate satellite panels and enlarged crops are not independent observations. Auxiliary reverse-view foreground lane ordinals are not transferred to receiving regions.",
+      "Candidate status denotes a supported movement hypothesis, not confirmed legal permission, exclusive lane use or an exhaustive set of permissible receiving lanes."
+    ],
+    "gsv_capture_dates": {
+      "near": "2025-11",
+      "mid": "2025-11",
+      "far": "2025-11"
+    },
+    "out_section_id": "out_NB",
+    "validation_flags": [],
+    "review_status": "needs_review",
+    "auto_apply": false
+  },
+  {
+    "turn": "u_turn",
+    "to_direction": "EB",
+    "status": "unresolved",
+    "lane_pairs": [],
+    "basis": "inferred",
+    "confidence": "low",
+    "evidence_refs": [
+      "in_WB:r1",
+      "out_EB:r1",
+      "out_EB:r2",
+      "out_EB:r3",
+      "out_EB:r4",
+      "gsv_context_WB_near:o7",
+      "gsv_context_WB_mid:o7"
+    ],
+    "assumptions": [],
+    "reason": "Supported EB receiving pavement exists, but neither the left arrow nor the open intersection establishes U-turn permission or a particular receiving endpoint. Turn radius, applicable restrictions and precise motor routing around the central rail infrastructure remain unresolved. No U-turn pair is assigned.",
+    "from_direction": "WB",
+    "in_section_id": "in_WB",
+    "gsv_alignment_notes": [
+      "All pairs use the revised supported, endpoint-eligible motor facilities. Bicycle strips and rejected parking, shoulder or sidewalk-overlapping regions are excluded.",
+      "Region IDs are local annotation identifiers. In_WB:r2-r4 jointly cover one rail-bearing motor lane; out_EB:r1-r3 likewise subdivide one rail-bearing facility. Their numerical indices are not independent lane counts or cross-view correspondences.",
+      "The grounded mid-view audit supports four physical approach motor lanes, whereas the far view supports two motor lanes with upstream parking. Pocket development can explain this difference; exact openings and bicycle transitions remain incompletely visible.",
+      "The earlier satellite note leaving the pale band unresolved conflicts with the later grounded audit. Embedded rails and the rail-to-divider ordering in the mid view favor the revised rail-bearing-lane interpretation, without establishing its motor movement permissions.",
+      "The r7 parking interpretation was revised using immediate-approach pavement, bicycle-strip and corner-curb relationships. Far-view marked parking should not automatically classify the downstream corner strip as parking, but its transition remains uncertain.",
+      "No distant overhead sign is legible or reliably assigned to an incoming lane. It is therefore used neither to prohibit movements across all lanes nor to confirm permission. The far-view forward arrow is assigned only to the narrow bicycle facility.",
+      "Vehicle occlusion, foreground shadows, foreshortening and worn markings limit incoming lane-use inspection. Structural shadows locally obscure NB curbside pavement, while vegetation and shadow limit the SB outer edge. These interruptions do not independently indicate missing roadway or permission.",
+      "The supplied GSV capture date is 2025-11 metadata, not a date independently visible in the images. No satellite capture date is supplied, so temporal equivalence is unverified.",
+      "Duplicate satellite panels and enlarged crops are not independent observations. Auxiliary reverse-view foreground lane ordinals are not transferred to receiving regions.",
+      "Candidate status denotes a supported movement hypothesis, not confirmed legal permission, exclusive lane use or an exhaustive set of permissible receiving lanes."
+    ],
+    "gsv_capture_dates": {
+      "near": "2025-11",
+      "mid": "2025-11",
+      "far": "2025-11"
+    },
+    "out_section_id": "out_EB",
+    "validation_flags": [],
+    "review_status": "needs_review",
+    "auto_apply": false
+  }
+]

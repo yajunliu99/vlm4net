@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"issue_responses\": [\n    {\n      \"issue\": \"key width_varies_along_section:r4:8e226e00\",\n      \"decision\": \"dismiss\",\n      \"reason\": \"The right pavement margin bends outward toward the bottom of the crop, while e4 continues along the straight painted divider. The widening of r4 therefore follows the visible roadside geometry rather than requiring a constant-width strip. Shadows partly obscure the margin near S4.\"\n    },\n    {\n      \"issue\": \"key street_view_count:5:4\",\n      \"decision\": \"edit\",\n      \"reason\": \"The crop shows an additional vehicle-width paved strip immediately left of e1, occupied by queued vehicles. A longitudinal painted separation near x65 forms its left margin; e1 follows its right-hand divider rather than the centre or median edge. This supports adding the omitted strip independently of the provisional street-view count.\"\n    }\n  ],\n  \"edits\": [\n    {\n      \"op\": \"add_region\",\n      \"side\": \"left\",\n      \"xs\": [65, 65, 65, 64, 64],\n      \"evidence\": \"A longitudinal painted separation is visible left of the queued vehicles, particularly in the lower crop. The pavement between that separation and e1 is a distinct vehicle-width strip. Vehicles obscure portions of its upper extent, so the station coordinates approximate the visible alignment.\"\n    }\n  ],\n  \"verdict\": \"revise\",\n  \"notes\": [\n    \"With the added left strip, e1 represents an internal divider, not the carriageway's centre-side edge.\",\n    \"The street-view projection is substantially offset toward the right roadside and is not used for precise crop coordinates. No turn permissions or lane-use arrows are inferred.\"\n  ]\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "20ccc06c17484173ad42380c6522073f",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 15.043353
+  }
+}

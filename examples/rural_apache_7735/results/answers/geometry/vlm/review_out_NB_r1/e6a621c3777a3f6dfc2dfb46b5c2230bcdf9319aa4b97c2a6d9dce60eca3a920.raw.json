@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"issue_responses\": [\n    {\n      \"issue\": \"possible_merged_lanes:r3:f255386a\",\n      \"decision\": \"edit\",\n      \"reason\": \"A faint longitudinal dashed white separator is visible inside r3, including below the upper vehicle and through the middle of the isolated region. It separates two pavement strips; the proposed split follows this marking rather than equalising widths.\"\n    }\n  ],\n  \"edits\": [\n    {\n      \"op\": \"split_region\",\n      \"region\": \"r3\",\n      \"xs\": [296, 292, 289, 285, 282],\n      \"evidence\": \"Repeated pale marking segments run inside r3 approximately parallel to e3 and the right pavement edge. The lower continuation is partly obscured by shadow, so its station positions are inferred from the visible alignment.\"\n    }\n  ],\n  \"verdict\": \"revise\",\n  \"notes\": [\n    \"The right outer boundary follows the transition from dark carriageway pavement to the lighter roadside surface; no additional road strip is visibly established beyond it.\",\n    \"The split identifies a visible separator, not confirmed lane-use permissions.\"\n  ]\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "f4d337ddb54c489182391b30c96198ac",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 10.840378
+  }
+}

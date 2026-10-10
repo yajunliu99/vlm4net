@@ -1,0 +1,690 @@
+[
+  {
+    "section_id": "out_EB",
+    "kind": "outbound_receiving",
+    "direction": "EB",
+    "source_id": "satellite",
+    "regions": [
+      {
+        "region_id": "r1",
+        "surface_type": "shared_rail_motor_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "medium",
+        "evidence": "This narrow candidate lies on the center-side portion of the paved, embedded-track carriageway, rather than representing a separate lane. The satellite shows continuity beside the center separation. November 2025 street views support a shared motor/rail facility here; exact polygon-to-track registration is approximate.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_EB",
+            "bbox_xyxy": [
+              0.32,
+              0.21,
+              0.42,
+              0.79
+            ],
+            "finding": "Longitudinal paved track corridor immediately beside the center separation."
+          },
+          {
+            "source_id": "gsv_out_EB_025_away",
+            "bbox_xyxy": [
+              0.01,
+              0.43,
+              0.47,
+              0.78
+            ],
+            "finding": "Embedded rails in paved carriageway beside the center separators."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 1
+      },
+      {
+        "region_id": "r2",
+        "surface_type": "shared_rail_motor_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "The candidate covers pavement within the embedded-track corridor. It is a fragment of the same physical facility as its neighboring narrow candidates, not an independently established lane. November 2025 GSV confirms paved rails with motor traffic using this corridor.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_EB",
+            "bbox_xyxy": [
+              0.35,
+              0.22,
+              0.44,
+              0.79
+            ],
+            "finding": "Parallel track features continue longitudinally through the candidate's vicinity."
+          },
+          {
+            "source_id": "gsv_out_EB_050_away",
+            "bbox_xyxy": [
+              0.04,
+              0.42,
+              0.44,
+              0.73
+            ],
+            "finding": "Track-bearing pavement and a motor vehicle alongside the raised center separation."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 2
+      },
+      {
+        "region_id": "r3",
+        "surface_type": "shared_rail_motor_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "medium",
+        "evidence": "Pavement continues between the outer rail and the dashed division from the adjacent motor lane. This supports travel-facility existence, but not a third separate lane. November 2025 street views support the shared rail/motor interpretation; the candidate boundary is not itself a physical lane edge.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_EB",
+            "bbox_xyxy": [
+              0.4,
+              0.22,
+              0.47,
+              0.79
+            ],
+            "finding": "Paved strip adjoining the outer track, with longitudinal lane paint on its right."
+          },
+          {
+            "source_id": "gsv_out_EB_050_away",
+            "bbox_xyxy": [
+              0.19,
+              0.48,
+              0.45,
+              0.7
+            ],
+            "finding": "Outer rail and dashed division between the track corridor and the camera-side motor lane."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 3
+      },
+      {
+        "region_id": "r4",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "Continuous asphalt lies between the track-side dashed marking and the solid boundary of the green bicycle strip. November 2025 away and reverse views place the camera-side motor lane in this position. Shadows obscure portions but do not interrupt the pavement.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_EB",
+            "bbox_xyxy": [
+              0.45,
+              0.22,
+              0.55,
+              0.79
+            ],
+            "finding": "Continuous motor-lane pavement immediately left of the green bicycle strip."
+          },
+          {
+            "source_id": "gsv_out_EB_025_away",
+            "bbox_xyxy": [
+              0.38,
+              0.43,
+              0.65,
+              0.73
+            ],
+            "finding": "Motor lane with a vehicle ahead, between the rail corridor and bicycle boundary."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 4
+      },
+      {
+        "region_id": "r5",
+        "surface_type": "bicycle_strip",
+        "existence": "supported",
+        "observed_arrows": [
+          "through"
+        ],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "The satellite candidate follows the narrow green-painted strip bounded by longitudinal white lines. November 2025 near-away GSV shows the corresponding green bicycle facility with a readable forward arrow, inside the curb and to the right of the motor lane.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_EB",
+            "bbox_xyxy": [
+              0.54,
+              0.44,
+              0.61,
+              0.8
+            ],
+            "finding": "Green-painted strip continues toward the intersection."
+          },
+          {
+            "source_id": "gsv_out_EB_025_away",
+            "bbox_xyxy": [
+              0.56,
+              0.49,
+              0.89,
+              0.83
+            ],
+            "finding": "White-bounded green bicycle strip with a visible through arrow."
+          }
+        ],
+        "basis": "observed",
+        "endpoint_eligible": false,
+        "motor_lane_index": null
+      },
+      {
+        "region_id": "r6",
+        "surface_type": "shoulder_or_parking",
+        "existence": "rejected",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "medium",
+        "evidence": "Most of this candidate follows the narrow curbside paved margin outside the bicycle strip, not another travel lane. November 2025 GSV shows a curbside shoulder/parking-like margin with cones and an outlined bay beside the sidewalk. Near the intersection the curb return also limits the candidate's usable pavement. Exact parking designation or permission is not established.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_EB",
+            "bbox_xyxy": [
+              0.6,
+              0.43,
+              0.71,
+              0.86
+            ],
+            "finding": "Narrow margin outside the green strip meets the real curb and its intersection return."
+          },
+          {
+            "source_id": "gsv_out_EB_025_away",
+            "bbox_xyxy": [
+              0.68,
+              0.43,
+              0.99,
+              0.64
+            ],
+            "finding": "Curbside paved margin with cones and bay-like paint, separated from the green travel strip; sidewalk and planting beyond."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": false,
+        "motor_lane_index": null
+      }
+    ],
+    "notes": [
+      "The satellite panels are duplicate pixels and provide one undated source. Satellite appearance alone cannot confirm the October–November 2025 state.",
+      "The supplied November 2025 street views support the physical layout during the target window. Curbside bicycle placement, rails and center separation support correspondence to the camera's nominal outgoing carriageway, not the opposing carriageway.",
+      "Paired headings at each location are one panorama, not independent observations. Farther views establish continuity rather than exact candidate boundaries.",
+      "Supported regions are not lane counts: r1, r2 and r3 subdivide one track-bearing travel corridor. No confirmed legal permissions are inferred."
+    ],
+    "count": {
+      "model_motor_count": 4,
+      "unclassified_regions": 0,
+      "model_count_range": [
+        4,
+        4
+      ],
+      "human_verified": false,
+      "coverage": "candidate_geometry_only"
+    },
+    "audit_source": "downstream_satellite_gsv",
+    "view_ids": [
+      "gsv_out_EB_025_away",
+      "gsv_out_EB_025_toward",
+      "gsv_out_EB_050_away",
+      "gsv_out_EB_050_toward",
+      "gsv_out_EB_100_away",
+      "gsv_out_EB_100_toward"
+    ]
+  },
+  {
+    "section_id": "out_NB",
+    "kind": "outbound_receiving",
+    "direction": "NB",
+    "source_id": "satellite",
+    "regions": [
+      {
+        "region_id": "r1",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "The candidate follows longitudinal asphalt inside the roadway, with a dashed white divider along its right side and continuity to the intersection. Vehicles partly obscure the near end, but do not provide the sole evidence of roadway. The undated satellite supports this physical classification; October 2025 street views corroborate a multi-lane receiving carriageway across the center separation, rather than the camera's own approach lanes.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_NB",
+            "bbox_xyxy": [
+              0.332,
+              0.215,
+              0.449,
+              0.798
+            ],
+            "finding": "Continuous roadway asphalt and longitudinal dashed divider; partial vehicle occlusion near the intersection."
+          },
+          {
+            "source_id": "gsv_out_NB_025_away",
+            "bbox_xyxy": [
+              0.62,
+              0.405,
+              0.99,
+              0.526
+            ],
+            "finding": "Receiving-side roadway lies to the right across the center separation, on the low-rise commercial frontage side."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 1
+      },
+      {
+        "region_id": "r2",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "The candidate occupies asphalt between longitudinal lane dividers, entirely inside the visible east-side curb. Pavement continues toward and away from the intersection; a pole shadow obscures a short portion without forming a physical edge. October 2025 GSV supports the receiving carriageway's motor-road layout, although exact polygon boundaries are established primarily from the undated satellite.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_NB",
+            "bbox_xyxy": [
+              0.429,
+              0.208,
+              0.562,
+              0.793
+            ],
+            "finding": "Interior paved travel strip with longitudinal white markings and continuous asphalt beneath a transverse shadow."
+          },
+          {
+            "source_id": "gsv_out_NB_025_away",
+            "bbox_xyxy": [
+              0.62,
+              0.405,
+              0.99,
+              0.526
+            ],
+            "finding": "Multiple paved motor travel strips are visible on the target side of the center separation."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 2
+      },
+      {
+        "region_id": "r3",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "medium",
+        "evidence": "This outer candidate remains on dark roadway pavement immediately inside the curb, rather than on the broad light-colored sidewalk farther right. A longitudinal white divider separates it from the adjacent interior strip. The curb rounds outward at the intersection; it does not visibly cut across the candidate to exclude its near end. Shadows reduce local detail. October 2025 GSV corroborates paved roadway along the target commercial frontage, but does not precisely resolve this polygon's outer boundary or establish a dedicated bicycle or parking designation.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_NB",
+            "bbox_xyxy": [
+              0.544,
+              0.205,
+              0.751,
+              0.912
+            ],
+            "finding": "Outer asphalt strip, adjacent light sidewalk, and outward-curving corner curb distinguish roadway from pedestrian surface."
+          },
+          {
+            "source_id": "gsv_out_NB_025_away",
+            "bbox_xyxy": [
+              0.747,
+              0.367,
+              0.993,
+              0.496
+            ],
+            "finding": "Low-rise frontage and its curb identify the target side, opposite the camera-side tall building."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 3
+      }
+    ],
+    "notes": [
+      "The satellite panels are duplicate pixels, not independent evidence; their capture date is unknown.",
+      "October 2025 GSV supplies target-window physical-layout corroboration. No November observation is supplied, and continuity throughout the entire window cannot be confirmed.",
+      "The north-facing views place the tall building on the camera-side left and the target commercial frontage across the center separation on the right. Camera-side lane ordinals were not transferred to the candidates.",
+      "No readable arrows are assigned to these regions. Physical support does not establish legal permissions, exact surveyed lane boundaries, or uninterrupted availability during construction."
+    ],
+    "count": {
+      "model_motor_count": 3,
+      "unclassified_regions": 0,
+      "model_count_range": [
+        3,
+        3
+      ],
+      "human_verified": false,
+      "coverage": "candidate_geometry_only"
+    },
+    "audit_source": "downstream_satellite_gsv",
+    "view_ids": [
+      "gsv_out_NB_025_away",
+      "gsv_out_NB_025_toward",
+      "gsv_out_NB_050_away",
+      "gsv_out_NB_050_toward",
+      "gsv_out_NB_100_away",
+      "gsv_out_NB_100_toward"
+    ]
+  },
+  {
+    "section_id": "out_SB",
+    "kind": "outbound_receiving",
+    "direction": "SB",
+    "source_id": "satellite",
+    "regions": [
+      {
+        "region_id": "r1",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "The candidate follows asphalt on the center-side of the receiving carriageway. Longitudinal paint separates it from the adjacent travel surface; it is not part of the opposing carriageway or sidewalk. The October 2025 south-facing view shows the yellow center separation to the left and motor lanes continuing south on its right, supporting the satellite correspondence. Satellite capture date is unknown.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_SB",
+            "bbox_xyxy": [
+              0.32,
+              0.21,
+              0.44,
+              0.76
+            ],
+            "finding": "Continuous paved strip beside the center separation, with longitudinal lane paint on its outer side."
+          },
+          {
+            "source_id": "gsv_out_SB_025_away",
+            "bbox_xyxy": [
+              0.3,
+              0.43,
+              0.62,
+              0.76
+            ],
+            "finding": "Yellow center separation bounds the southbound motor carriageway; a dashed white divider lies farther right."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 1
+      },
+      {
+        "region_id": "r2",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "The candidate occupies interior carriageway asphalt between longitudinal lane divisions. A vehicle obscures some pavement, but continuity above and below it supports a travel lane independently of that vehicle. October and November 2025 street views support a multi-lane motor carriageway between the center separation and the same curbside frontage; no exact lane-ordinal transfer between views is required.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_SB",
+            "bbox_xyxy": [
+              0.43,
+              0.21,
+              0.55,
+              0.76
+            ],
+            "finding": "Interior asphalt travel strip with longitudinal paint and local vehicle occlusion."
+          },
+          {
+            "source_id": "gsv_out_SB_025_away",
+            "bbox_xyxy": [
+              0.53,
+              0.43,
+              0.87,
+              0.67
+            ],
+            "finding": "Dashed white divisions define adjacent motor travel surfaces within the curb-bounded carriageway."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 2
+      },
+      {
+        "region_id": "r3",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "The candidate principally follows the outer asphalt lane immediately inside the real curb. Pale sidewalk and frontage paving lie beyond the curb to its right; they are not additional roadway. Tree and pole shadows obscure the intersection end. November 2025 paired views show the matching low-wall/palm frontage, raised sidewalk and a motor travel surface adjoining the curb, supporting an outer motor lane rather than a bicycle strip or parking area. The polygon is only an approximate boundary and may include a narrow curb-edge sliver.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_SB",
+            "bbox_xyxy": [
+              0.55,
+              0.21,
+              0.71,
+              0.78
+            ],
+            "finding": "Outer asphalt strip ends at the curb beside pale sidewalk/frontage paving; shadows reduce visibility near the intersection."
+          },
+          {
+            "source_id": "gsv_out_SB_050_away",
+            "bbox_xyxy": [
+              0.29,
+              0.4,
+              0.66,
+              0.68
+            ],
+            "finding": "Outer motor-lane pavement lies between a dashed white division and the raised curb, with sidewalk and palms beyond."
+          },
+          {
+            "source_id": "gsv_out_SB_050_toward",
+            "bbox_xyxy": [
+              0.38,
+              0.4,
+              0.86,
+              0.7
+            ],
+            "finding": "Reverse view connects the curbside motor surface to the intersection alongside the same low-wall frontage."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 3
+      }
+    ],
+    "notes": [
+      "Actual outgoing travel is upward in the satellite image. The two satellite panels are one undated source.",
+      "October and November 2025 views provide target-period physical-layout support. Paired headings from each panorama are not independent sources.",
+      "April 2013 views provide historical context only and are not used to confirm the 2025 state.",
+      "No readable directional arrows are assigned. These classifications establish physical travel surfaces, not confirmed legal permissions or exact surveyed lane boundaries."
+    ],
+    "count": {
+      "model_motor_count": 3,
+      "unclassified_regions": 0,
+      "model_count_range": [
+        3,
+        3
+      ],
+      "human_verified": false,
+      "coverage": "candidate_geometry_only"
+    },
+    "audit_source": "downstream_satellite_gsv",
+    "view_ids": [
+      "gsv_out_SB_025_away",
+      "gsv_out_SB_025_toward",
+      "gsv_out_SB_050_away",
+      "gsv_out_SB_050_toward",
+      "gsv_out_SB_100_away",
+      "gsv_out_SB_100_toward"
+    ]
+  },
+  {
+    "section_id": "out_WB",
+    "kind": "outbound_receiving",
+    "direction": "WB",
+    "source_id": "satellite",
+    "regions": [
+      {
+        "region_id": "r1",
+        "surface_type": "shared_rail_motor_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "medium",
+        "evidence": "The narrow candidate overlaps the edge of the paved track-bearing travel corridor, rather than representing a complete lane width. Embedded rails, the center separator and adjacent dashed motor-lane boundary support correspondence with the shared rail/motor corridor visible in October 2025. Exact lateral overlap is less certain than facility existence; legal access is not established.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_WB",
+            "bbox_xyxy": [
+              0.29,
+              0.2,
+              0.41,
+              0.79
+            ],
+            "finding": "Longitudinal track corridor immediately inward of the adjacent asphalt lane."
+          },
+          {
+            "source_id": "gsv_out_WB_025_away",
+            "bbox_xyxy": [
+              0.39,
+              0.39,
+              0.88,
+              0.99
+            ],
+            "finding": "Embedded rails on the camera's side of the yellow center separator, with a vehicle ahead and a dashed lane boundary to the right."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 1
+      },
+      {
+        "region_id": "r2",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "clear",
+        "confidence": "high",
+        "evidence": "Continuous asphalt lies between the track-side dashed divider and the solid bicycle-strip boundary. October 2025 away views show the corresponding motor lane beside the track corridor, with the same building frontage on the right. The satellite date is unknown.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_WB",
+            "bbox_xyxy": [
+              0.397,
+              0.215,
+              0.505,
+              0.785
+            ],
+            "finding": "Asphalt travel strip with dashed paint inward and a continuous white boundary outward."
+          },
+          {
+            "source_id": "gsv_out_WB_025_away",
+            "bbox_xyxy": [
+              0.61,
+              0.4,
+              0.99,
+              0.77
+            ],
+            "finding": "Motor lane containing the white minivan, between the track-side dashed divider and bicycle-strip boundary."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": true,
+        "motor_lane_index": 2
+      },
+      {
+        "region_id": "r3",
+        "surface_type": "bicycle_strip",
+        "existence": "supported",
+        "observed_arrows": [],
+        "visibility": "clear",
+        "confidence": "high",
+        "evidence": "The candidate follows the narrow white-bordered strip containing green pavement near the intersection. October 2025 near and mid views show this strip between the motor lane and curbside parking area. This is physical bicycle-facility support, not an inference from candidate width.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_WB",
+            "bbox_xyxy": [
+              0.503,
+              0.43,
+              0.566,
+              0.79
+            ],
+            "finding": "Green pavement within a narrow longitudinal white-bordered strip."
+          },
+          {
+            "source_id": "gsv_out_WB_025_away",
+            "bbox_xyxy": [
+              0.73,
+              0.47,
+              1.0,
+              0.645
+            ],
+            "finding": "Green bicycle strip continues along the outside of the motor lane."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": false,
+        "motor_lane_index": null
+      },
+      {
+        "region_id": "r4",
+        "surface_type": "shoulder_or_parking",
+        "existence": "rejected",
+        "observed_arrows": [],
+        "visibility": "partial",
+        "confidence": "high",
+        "evidence": "This is predominantly the paved curbside band outside the bicycle strip, not another through-travel lane. October 2025 views show parked vehicles in its continuation and a real curb separating it from the sidewalk and building frontage. Any polygon overlap beyond that curb must not be treated as roadway. Rejection concerns travel-facility existence, not pavement existence or confirmed parking permissions.",
+        "visual_refs": [
+          {
+            "source_id": "scene_out_WB",
+            "bbox_xyxy": [
+              0.558,
+              0.21,
+              0.671,
+              0.8
+            ],
+            "finding": "Outer paved band between the bicycle-strip boundary and the pale curb/sidewalk edge."
+          },
+          {
+            "source_id": "gsv_out_WB_050_away",
+            "bbox_xyxy": [
+              0.635,
+              0.397,
+              0.999,
+              0.572
+            ],
+            "finding": "Curbside vehicles occupy the band outside the bicycle strip; sidewalk and building frontage lie beyond the curb."
+          }
+        ],
+        "basis": "inferred",
+        "endpoint_eligible": false,
+        "motor_lane_index": null
+      }
+    ],
+    "notes": [
+      "The satellite panels are one undated source. Candidate boundaries are not adopted as lane boundaries.",
+      "October 2025 panoramas support the target-period physical layout. No supplied November observation independently establishes its persistence, and the unknown satellite date prevents a dated satellite-to-street-view change assessment.",
+      "The visible center separator, track alignment and building frontage place the target on the camera-side carriageway: to the right in away views and to the left in toward views.",
+      "Paired headings at each location are views of one panorama, not independent observations. No readable directional arrow is assigned to a target region."
+    ],
+    "count": {
+      "model_motor_count": 2,
+      "unclassified_regions": 0,
+      "model_count_range": [
+        2,
+        2
+      ],
+      "human_verified": false,
+      "coverage": "candidate_geometry_only"
+    },
+    "audit_source": "downstream_satellite_gsv",
+    "view_ids": [
+      "gsv_out_WB_025_away",
+      "gsv_out_WB_025_toward",
+      "gsv_out_WB_050_away",
+      "gsv_out_WB_050_toward",
+      "gsv_out_WB_100_away",
+      "gsv_out_WB_100_toward"
+    ]
+  }
+]

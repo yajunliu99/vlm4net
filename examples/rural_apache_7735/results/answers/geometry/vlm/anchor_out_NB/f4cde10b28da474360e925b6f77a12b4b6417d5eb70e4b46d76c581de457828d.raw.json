@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"stop_line\": {\n    \"y\": 730,\n    \"kind\": \"crosswalk_edge\",\n    \"evidence\": \"The upper crosswalk across the road is bounded by transverse white lines near y=730 and y=800. Its upper edge is downstream of the junction for the receiving traffic.\"\n  },\n  \"cross_sections\": [\n    {\n      \"y\": 730,\n      \"left_x\": 294,\n      \"right_x\": 537,\n      \"evidence\": \"The left limit is the inferred directional division between the opposing and receiving central rail-bearing lanes; the right limit is the kerb at the crosswalk's eastern end.\"\n    },\n    {\n      \"y\": 329,\n      \"left_x\": 294,\n      \"right_x\": 530,\n      \"evidence\": \"The left limit follows the inferred division between the two directions, including the receiving rail-bearing lane. The right limit is the visible boundary between asphalt and the pale sidewalk.\"\n    }\n  ],\n  \"confidence\": \"medium\",\n  \"notes\": \"Coordinates are approximate crop pixels. The junction occupies the crossing-road area below the upper crosswalk. The opposing stop bar above that crosswalk is not used. Blur and vehicles obscure some markings; the directional division is a geometric inference rather than a clearly resolved painted centre line.\"\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "a6015bf1604a433483a7fa273e2b28bc",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 27.071108
+  }
+}

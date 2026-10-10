@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"issue_responses\": [\n    {\n      \"issue\": \"e3_review\",\n      \"decision\": \"unresolved\",\n      \"reason\": \"The possible marking beneath e3 is too faint to distinguish reliably from pavement variation at this resolution. Vehicles and shadow also obscure portions. This does not provide sufficient evidence to undo the boundary added in round 1.\"\n    },\n    {\n      \"issue\": \"left_outer_strip\",\n      \"decision\": \"unresolved\",\n      \"reason\": \"Paved, vehicle-occupied space is visible left of e1, but its membership in the outbound receiving carriageway cannot be established confidently from this crop. There is insufficient evidence to restore the outer boundary removed in round 2.\"\n    },\n    {\n      \"issue\": \"right_outer_strip\",\n      \"decision\": \"dismiss\",\n      \"reason\": \"The dark roadway meets a lighter kerb-side surface near e4. No separate roadway strip is visibly established between e4 and that edge.\"\n    }\n  ],\n  \"edits\": [],\n  \"verdict\": \"accept\",\n  \"notes\": [\n    \"No geometry checks were supplied.\",\n    \"The visible marking segments near e1 and e2 do not support a definite displacement correction.\",\n    \"Acceptance retains the current geometry without resolving the uncertain boundary or confirming lane use or legal permissions.\"\n  ]\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "b9b9505a02ff4517bb80ccbcbfb39053",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 24.033284
+  }
+}

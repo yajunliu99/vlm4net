@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"issue_responses\": [\n    {\n      \"issue\": \"width_varies_along_section:r4:8e226e00\",\n      \"decision\": \"dismiss\",\n      \"reason\": \"The satellite pixels show the right-hand pavement edge bending outward toward S4–S5 while the painted separator at e4 stays approximately straight. The widening of r4 therefore follows visible roadside geometry rather than requiring a constant-width strip. Shadows obscure portions of the edge, but do not establish a different boundary.\"\n    }\n  ],\n  \"edits\": [],\n  \"verdict\": \"accept\",\n  \"notes\": [\n    \"The satellite crop supports painted separators at the interior boundaries and a pavement-to-roadside transition at e5. No additional separator is clearly visible within the outermost strip.\",\n    \"The street-view projections are laterally offset toward the kerb; their placement alone is not evidence that the satellite strips include sidewalk. Lane uses and legal permissions are not determined.\"\n  ]\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "13529956a2fc42f2b9ecbfc273a9e5e6",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 13.072564
+  }
+}

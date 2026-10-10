@@ -1,0 +1,814 @@
+{
+  "NB": {
+    "regions": [
+      {
+        "region_id": "r1",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "surface_reason": "Retain the motor-lane classification. Satellite shows vehicle-occupied pavement immediately inside the yellow directional separator. Mid and far street views support an incoming motor lane on that side of the double yellow line.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "low",
+        "binding": "The centerline-side position provides a provisional satellite-to-GSV correspondence. The requested near-view crop exposes only disconnected white marking fragments beside a vehicle; neither a complete directional arrow nor applicable ONLY text is resolved.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_NB",
+            "bbox_xyxy": [
+              0.268,
+              0.177,
+              0.368,
+              0.488
+            ],
+            "finding": "Vehicle-occupied paved strip adjacent to the yellow directional separator."
+          },
+          {
+            "source_id": "gsv_NB_near_forward",
+            "bbox_xyxy": [
+              0.69,
+              0.59,
+              1.0,
+              0.87
+            ],
+            "finding": "White pavement-marking fragments remain obscured by the vehicle and its shadow; no complete arrow or ONLY marking is readable."
+          }
+        ]
+      },
+      {
+        "region_id": "r2",
+        "surface_type": "median_or_buffer",
+        "existence": "uncertain",
+        "surface_reason": "The painted-buffer interpretation remains plausible but is not securely established. The native satellite crop shows two longitudinal boundaries and a pale triangular feature attached to one boundary, without resolving a complete separator treatment. GSV queues and framing prevent an independent identification of this exact strip.",
+        "use": "not_applicable",
+        "allowed_turns": [],
+        "basis": "inferred",
+        "confidence": "low",
+        "binding": "This is the satellite strip between r1 and r3. The crop does not establish that its triangular feature is a lane-use arrow, but it also does not justify treating the preliminary buffer classification as certain. No GSV motor lane can be confidently bound to this polygon.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_NB",
+            "bbox_xyxy": [
+              0.32,
+              0.65,
+              0.47,
+              0.99
+            ],
+            "finding": "Parallel longitudinal markings and a blurred boundary-adjacent triangular feature; its function remains unresolved."
+          }
+        ]
+      },
+      {
+        "region_id": "r3",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "surface_reason": "Retain the motor-lane interpretation. Satellite shows a continuous car-width paved corridor between r2 and a broken white divider. GSV supports a multilane incoming roadway, although it does not independently expose this polygon's boundaries.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "low",
+        "binding": "Bound principally by satellite ordering: immediately outside r2 and inside the vehicle-occupied r4 strip. Neither the crops nor the farther views provide a readable movement marking applicable to r3. Straight alignment is not evidence of through-only permission.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_NB",
+            "bbox_xyxy": [
+              0.433,
+              0.209,
+              0.544,
+              0.844
+            ],
+            "finding": "Continuous paved corridor with a broken white divider on its outer side."
+          }
+        ]
+      },
+      {
+        "region_id": "r4",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "surface_reason": "Retain the motor-lane interpretation. Satellite vehicles occupy a marked paved strip inward of the curbside region. The street views show incoming traffic queues rather than evidence that this roadway is exclusively parking.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "low",
+        "binding": "Satellite lane-divider and curb ordering identify r4 between r3 and r5. Individual GSV queues cannot be securely matched to this polygon. No readable arrow or applicable lane-use sign establishes its movements.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_NB",
+            "bbox_xyxy": [
+              0.531,
+              0.211,
+              0.638,
+              0.594
+            ],
+            "finding": "Two vehicles occupy the marked paved strip inward of r5."
+          },
+          {
+            "source_id": "gsv_NB_far_forward",
+            "bbox_xyxy": [
+              0.51,
+              0.49,
+              1.0,
+              0.65
+            ],
+            "finding": "Incoming queues obscure internal lane boundaries and prevent individual polygon assignments."
+          }
+        ]
+      },
+      {
+        "region_id": "r5",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "surface_reason": "Retain the motor-lane classification. The satellite strip is car-width pavement extending to the actual curb, with sidewalk and landscaping outside it. No bicycle marking, parking stalls or parked vehicles are resolved within the strip. GSV supplies no spatially bound evidence requiring reclassification.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "low",
+        "binding": "The curb return and landscaped sidewalk anchor the satellite region. A right-turn function is plausible, but the supplied views do not resolve an applicable arrow, ONLY marking, sign or sufficiently clear pocket transition. Curbside location alone does not establish dedicated permission.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_NB",
+            "bbox_xyxy": [
+              0.62,
+              0.204,
+              0.807,
+              0.813
+            ],
+            "finding": "Broad roadway strip reaches the curb; sidewalk and planting are outside the road."
+          }
+        ]
+      }
+    ],
+    "detail_requests": [],
+    "street_view_counts": [
+      {
+        "source_id": "gsv_NB_near_forward",
+        "motor_lanes": null,
+        "other_lanes": "No confirmed bicycle, dedicated bus or rail lane. Foreground longitudinal lines do not securely establish embedded rails.",
+        "unmatched": "Only part of the centerline-side incoming lane, provisionally r1, is exposed at image right. The remaining incoming cross-section is outside the frame. r2 is provisionally a buffer, not a counted motor lane.",
+        "settled": false
+      },
+      {
+        "source_id": "gsv_NB_mid_forward",
+        "motor_lanes": null,
+        "other_lanes": "No separately identifiable bicycle, rail or parking lane.",
+        "unmatched": "The queue immediately right of the double yellow line provisionally corresponds to r1. The right curb and complete camera-position cross-section are not visible, so r3-r5 cannot be individually counted or matched. The white-divided lanes left of the yellow line are opposing traffic, not additional NB candidates.",
+        "settled": false
+      },
+      {
+        "source_id": "gsv_NB_far_forward",
+        "motor_lanes": null,
+        "other_lanes": "A bus and curbside vehicles are visible, but no dedicated bus or parking lane is established.",
+        "unmatched": "Incoming traffic lies right of the double yellow separator. The complete centerline-to-curb cross-section at the camera is not exposed. Upstream lanes cannot be assigned one-for-one to stopbar polygons; no specific unrepresented incoming lane is established.",
+        "settled": false
+      }
+    ],
+    "notes": [
+      "Null counts indicate an unresolvable complete camera-position cross-section, not zero motor lanes.",
+      "The requested crops do not resolve a complete directional arrow or applicable ONLY marking. Enlarging the satellite blur does not provide additional evidence.",
+      "Four satellite regions remain supported motor-lane candidates. The fifth, r2, remains a low-confidence buffer interpretation with uncertain existence as that facility.",
+      "Near, mid and far views were considered. Occlusion and framing prevent tracing all possible pockets, splits or bicycle crossings between the upstream segment and stopbar.",
+      "GSV capture dates are supplied metadata; no satellite date is supplied. Temporal equivalence is unverified.",
+      "Unknown uses are not claims that restrictions or arrows are absent, and no legal movement permission is confirmed."
+    ]
+  },
+  "EB": {
+    "regions": [
+      {
+        "region_id": "r1",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "surface_reason": "Retain the motor-lane classification. The satellite shows a paved pocket immediately left of the inbound rail corridor, bounded by longitudinal paint and occupied by vehicles. Its separate upstream extent is not established in the street views.",
+        "use": "left_only",
+        "allowed_turns": [
+          "left"
+        ],
+        "basis": "inferred",
+        "confidence": "medium",
+        "binding": "The requested crop resolves a left-bending directional arrow inside r1, between the dashed boundary on its left and the rail corridor on its right. Left-only is a lane-use prediction from this single-direction marking, not confirmed legal exclusivity: no applicable ONLY marking is readable. The mid-view camera cross-section does not securely show this additional pocket.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_EB",
+            "bbox_xyxy": [
+              0.289,
+              0.29,
+              0.397,
+              0.551
+            ],
+            "finding": "Left-bending pavement arrow in the strip immediately left of the inbound rail lane; no readable ONLY text."
+          }
+        ]
+      },
+      {
+        "region_id": "r2",
+        "surface_type": "shared_rail_motor_lane",
+        "existence": "supported",
+        "surface_reason": "Retain shared rail/motor pavement. Satellite vehicles occupy the embedded-rail corridor. The mid street view shows embedded rails on paved roadway separated from the camera lane by broken white markings, rather than a physically segregated reservation.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "low",
+        "binding": "The inbound rail pair immediately left of the mid-view camera corridor matches r2 through the rail–motor lane–green strip–curb ordering. Rail continuation does not establish motor turn permissions. Failure to identify rails in the older views does not demonstrate a spatial transition.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_EB",
+            "bbox_xyxy": [
+              0.398,
+              0.343,
+              0.487,
+              0.795
+            ],
+            "finding": "Vehicle-bearing pavement with embedded parallel rails."
+          },
+          {
+            "source_id": "gsv_EB_mid_forward",
+            "bbox_xyxy": [
+              0.002,
+              0.572,
+              0.427,
+              0.985
+            ],
+            "finding": "Embedded rails left of the camera corridor with broken white separation."
+          }
+        ]
+      },
+      {
+        "region_id": "r3",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "surface_reason": "Retain motor lane. Satellite and mid street view both show a full-width motor corridor between the inbound rails and the narrow green strip.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "low",
+        "binding": "The mid-view camera and utility truck lie between rails on the left and green pavement on the right, binding this corridor to r3. No readable lane-specific directional marking establishes through-only or shared movements.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_EB",
+            "bbox_xyxy": [
+              0.491,
+              0.302,
+              0.598,
+              0.864
+            ],
+            "finding": "Separate asphalt lane between the rail corridor and green strip."
+          },
+          {
+            "source_id": "gsv_EB_mid_forward",
+            "bbox_xyxy": [
+              0.31,
+              0.548,
+              0.744,
+              0.986
+            ],
+            "finding": "Camera corridor and truck between rails and green pavement; downstream markings are obscured."
+          }
+        ]
+      },
+      {
+        "region_id": "r4",
+        "surface_type": "bicycle_strip",
+        "existence": "supported",
+        "surface_reason": "Retain bicycle strip. The satellite crop confirms narrow green pavement inside the curbside motor corridor. The mid view preserves this ordering, while the older far view shows a narrow white-bordered strip with a faint bicycle marking.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "low",
+        "binding": "Bound by r3 on its left and the curbside asphalt corridor on its right. The requested crop does not resolve a bicycle crossing or terminal movement marking. The older bicycle facility cannot establish unchanged stopbar continuity.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_EB",
+            "bbox_xyxy": [
+              0.586,
+              0.16,
+              0.727,
+              0.57
+            ],
+            "finding": "Narrow green strip beside curbside asphalt; no readable terminal bicycle movement marking."
+          },
+          {
+            "source_id": "gsv_EB_far_forward",
+            "bbox_xyxy": [
+              0.481,
+              0.554,
+              0.594,
+              0.701
+            ],
+            "finding": "White-bordered bicycle strip with a faint bicycle pavement marking upstream."
+          }
+        ]
+      },
+      {
+        "region_id": "r5",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "surface_reason": "Retain motor lane, not parking or bicycle space. The satellite crop shows car-width asphalt running between the green strip and physical curb, with sidewalk beyond. Mid and far street views show the corresponding outer paved corridor. A stopped vehicle alone does not establish parking, and no parking stalls are identifiable within this region.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "low",
+        "binding": "The green strip on the left and sidewalk curb on the right bind the crop to r5. A right-turn function is geometrically plausible, but the crop supplies no readable directional arrow or applicable restriction. A vehicle obscures the upper portion, and shadow crosses the exposed pavement. The curbside parking-restriction sign does not establish movement use.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_EB",
+            "bbox_xyxy": [
+              0.586,
+              0.16,
+              0.727,
+              0.57
+            ],
+            "finding": "Continuous curbside asphalt outside the green strip; vehicle and shadow obscure portions, with no readable turn arrow."
+          },
+          {
+            "source_id": "gsv_EB_mid_forward",
+            "bbox_xyxy": [
+              0.571,
+              0.46,
+              0.997,
+              0.925
+            ],
+            "finding": "Bus and red car occupy the outer corridor between green pavement and sidewalk curb."
+          }
+        ]
+      }
+    ],
+    "detail_requests": [],
+    "street_view_counts": [
+      {
+        "source_id": "gsv_EB_near_forward",
+        "motor_lanes": 3,
+        "other_lanes": "Bicycle strip cannot be reliably separated in the blurred foreground.",
+        "unmatched": "Provisional count only: the complete centreline-to-curb cross-section is not recoverable. Correspondence to upstream r2, r3 and r5 is tentative; a separate r1 pocket is not established. No additional lane without a region is identifiable.",
+        "settled": false
+      },
+      {
+        "source_id": "gsv_EB_mid_forward",
+        "motor_lanes": 3,
+        "other_lanes": "One green bicycle strip corresponding to r4; embedded rails in the r2 motor corridor.",
+        "unmatched": "At the camera position, the supported ordering is r2 rail/motor corridor, r3 camera lane, r4 bicycle strip and r5 curbside motor corridor. Revise the preliminary four-lane count: r1 is not securely present as a separate lane at this cross-section and may be a downstream pocket. No additional unrepresented motor lane is established.",
+        "settled": false
+      },
+      {
+        "source_id": "gsv_EB_far_forward",
+        "motor_lanes": 3,
+        "other_lanes": "One narrow marked bicycle strip between the main motor roadway and curbside motor corridor.",
+        "unmatched": "Two motor lanes between median and bicycle strip, plus the curbside motor corridor, provisionally correspond to upstream r2, r3 and r5. The bicycle strip corresponds to r4. No separate r1 pocket is visible at the camera position; r2 rail identity is not established in this older view.",
+        "settled": true
+      }
+    ],
+    "notes": [
+      "The crops are details of the same satellite observation, not independent confirmations.",
+      "Surface existence is better supported than movement use; region confidence primarily describes the lane-use prediction.",
+      "The supplied near and far views are dated 2013-04 and the mid view 2024-06. The satellite date is unknown. These observations cannot establish one contemporaneous far-to-stopbar transition.",
+      "Pocket entry, bicycle crossing and terminal lane continuity remain incompletely visible. No confirmed legal permissions are asserted."
+    ]
+  },
+  "SB": {
+    "regions": [
+      {
+        "region_id": "r1",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "surface_reason": "Retain the physical motor lane. Satellite vehicles occupy continuous roadway between longitudinal boundaries. The far-view crop resolves two marked motor-lane corridors on the centre side of the approach, consistent with r1 and r2 rather than parking or a buffer.",
+        "use": "left_only",
+        "allowed_turns": [
+          "left"
+        ],
+        "basis": "inferred",
+        "confidence": "medium",
+        "binding": "The farther-left bent pavement arrow belongs to the innermost of the two long-line-bounded corridors. Counting inward from the landscaped right kerb and three outer corridors provisionally binds this corridor to r1. The crop supports a left-turn-pocket interpretation, but no ONLY text is readable and queued vehicles interrupt tracing to the stopbar; dedicated use is a prediction, not confirmed legal permission.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_SB_far_forward",
+            "bbox_xyxy": [
+              0.075,
+              0.58,
+              0.16,
+              0.61
+            ],
+            "finding": "Farther-left bent directional arrow in the inner of the two left-side marked corridors; no readable ONLY text."
+          },
+          {
+            "source_id": "scene_in_SB",
+            "bbox_xyxy": [
+              0.245,
+              0.205,
+              0.33,
+              0.795
+            ],
+            "finding": "Innermost candidate occupies roadway containing queued vehicles and a longitudinal separator."
+          }
+        ]
+      },
+      {
+        "region_id": "r2",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "surface_reason": "Retain the motor lane. The satellite strip is asphalt between adjacent vehicle corridors. The far crop shows a second full-width arrow-bearing corridor, not a bicycle strip or painted buffer.",
+        "use": "left_only",
+        "allowed_turns": [
+          "left"
+        ],
+        "basis": "inferred",
+        "confidence": "medium",
+        "binding": "The nearer/right-hand left arrow lies in the outer member of the two left-side corridors, inside the three lanes extending toward the right kerb. This ordering provisionally binds it to r2. Its unbranched left arrow and pocket boundaries support predicted dedicated left use, although ONLY text is not readable and downstream continuity is partly obscured.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_SB_far_forward",
+            "bbox_xyxy": [
+              0.21,
+              0.58,
+              0.285,
+              0.615
+            ],
+            "finding": "Resolved bent left arrow in the second left-side corridor, between longitudinal boundaries."
+          },
+          {
+            "source_id": "scene_in_SB",
+            "bbox_xyxy": [
+              0.325,
+              0.205,
+              0.405,
+              0.795
+            ],
+            "finding": "Continuous paved candidate between the innermost occupied strip and central vehicle corridor."
+          }
+        ]
+      },
+      {
+        "region_id": "r3",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "surface_reason": "Retain the motor lane. Satellite paint and an occupying dark vehicle establish roadway. In the mid view, a separate queued corridor lies between the two left-side corridors and the camera corridor.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "low",
+        "binding": "Provisionally corresponds to the silver-hatchback corridor immediately left of the mid-view camera lane, with two further corridors toward the centre side. The satellite crop does not resolve a directional marking. Neither queue alignment nor position outside the left-turn pockets establishes through-only use.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_SB",
+            "bbox_xyxy": [
+              0.4,
+              0.2,
+              0.49,
+              0.49
+            ],
+            "finding": "Dark vehicle and surrounding asphalt; exposed pale markings remain unresolved."
+          },
+          {
+            "source_id": "gsv_SB_mid_forward",
+            "bbox_xyxy": [
+              0.17,
+              0.55,
+              0.4,
+              0.79
+            ],
+            "finding": "Separate queued motor corridor left of the camera corridor, bounded by broken white paint."
+          }
+        ]
+      },
+      {
+        "region_id": "r4",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "surface_reason": "Retain the motor lane. Satellite pavement forms a full-width corridor inside the kerbside strip. Far and mid views show the corresponding penultimate motor corridor with lane separators.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "low",
+        "binding": "Provisionally the far/mid camera corridor, one lane inward from the raised right kerb, occupied by the nearest white sedan in the mid view. The portable sign beside it is a temporary obstacle-passing/channelization graphic, not a bound permanent turn instruction. No readable pavement instruction establishes this lane's movements.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_SB",
+            "bbox_xyxy": [
+              0.485,
+              0.205,
+              0.575,
+              0.795
+            ],
+            "finding": "Continuous roadway immediately inside the kerbside candidate."
+          },
+          {
+            "source_id": "gsv_SB_mid_forward",
+            "bbox_xyxy": [
+              0.63,
+              0.56,
+              0.68,
+              0.7
+            ],
+            "finding": "Portable lamp-topped panel carries an obstacle-passing graphic; it does not establish intersection turn use."
+          }
+        ]
+      },
+      {
+        "region_id": "r5",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "surface_reason": "Retain the kerbside motor lane, excluding unsupported parts of the polygon flare. Satellite imagery shows a vehicle on asphalt beside the sidewalk. Far and mid views show car-width pavement outside the camera corridor extending to the raised kerb, without resolved bicycle markings, parking stalls or parked-car treatment. The lower-right polygon extends toward sidewalk and shadow and is not entirely lane pavement.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "low",
+        "binding": "Correspondence follows the outer lane separator, landscaped sidewalk and rounded intersection corner. A right-turn role is plausible, but neither crop resolves an applicable permanent right-turn instruction. Temporary devices constrain the visible corridor without proving its closure or permanent use. Cross-street green surfacing is not an incoming bicycle strip.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_SB",
+            "bbox_xyxy": [
+              0.565,
+              0.205,
+              0.75,
+              0.795
+            ],
+            "finding": "Kerbside vehicle on roadway; lower flare approaches sidewalk and roadside shadow."
+          },
+          {
+            "source_id": "gsv_SB_mid_forward",
+            "bbox_xyxy": [
+              0.63,
+              0.43,
+              0.9,
+              0.7
+            ],
+            "finding": "Raised sidewalk bounds the outer asphalt strip. Small roadside signs do not resolve a permanent lane-use instruction."
+          },
+          {
+            "source_id": "gsv_SB_near_forward",
+            "bbox_xyxy": [
+              0.59,
+              0.46,
+              1.0,
+              0.76
+            ],
+            "finding": "Outer pavement reaches the rounded corner beside temporary delineators."
+          }
+        ]
+      }
+    ],
+    "detail_requests": [],
+    "street_view_counts": [
+      {
+        "source_id": "gsv_SB_near_forward",
+        "motor_lanes": 5,
+        "other_lanes": "No separate incoming bicycle, parking or rail lane resolved; green pavement is on the cross street.",
+        "unmatched": "No unmatched lane established. Five-lane r1-r5 correspondence is provisional: the complete cross-section at this camera position is not independently resolved.",
+        "settled": false
+      },
+      {
+        "source_id": "gsv_SB_mid_forward",
+        "motor_lanes": 5,
+        "other_lanes": "No separate bicycle, parking, rail or bus lane identified. Temporary devices occur beside the outer corridors.",
+        "unmatched": "None identified: centre-side pair maps provisionally to r1-r2, hatchback corridor to r3, camera/white-sedan corridor to r4, and kerbside pavement to r5.",
+        "settled": true
+      },
+      {
+        "source_id": "gsv_SB_far_forward",
+        "motor_lanes": 5,
+        "other_lanes": "No separate bicycle, parking, rail or bus lane identified.",
+        "unmatched": "None identified: two left-arrow corridors map provisionally to r1-r2, followed outward by r3, camera corridor r4 and kerbside corridor r5.",
+        "settled": true
+      }
+    ],
+    "notes": [
+      "The far crop resolves two left-pointing arrows sufficiently to revise r1 and r2 to inferred left-only predictions. It does not reveal readable ONLY text or independently confirm stopbar permissions.",
+      "The satellite crop remains blurred and supplies no reliable additional lane-use marking.",
+      "No additional split or incoming bicycle crossing can be securely traced across the far, mid and near bands. Queues and worn paint limit continuity.",
+      "Crops are portions of their named sources, not independent confirmations. GSV capture dates are supplied metadata; the satellite date is unknown. Temporary-device differences cannot establish a spatial transition or temporal change by themselves.",
+      "Unknown use does not mean unrestricted permission. Physical motor-lane existence is better supported than movement permissions."
+    ]
+  },
+  "WB": {
+    "regions": [
+      {
+        "region_id": "r1",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "surface_reason": "Retained. Satellite shows an asphalt pocket with a left-turn arrow, between the central separation and the incoming rail-bearing lane. The mid-view separator and rail ordering are consistent with this pocket.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "medium",
+        "binding": "The native crop binds a left-pointing arrow directly to r1. It does not resolve an applicable ONLY marking or conclusively exclude another arrow branch. Left-turn use is evidenced, but the complete movement set and dedicated status remain unresolved; the preliminary left_only prediction is withdrawn.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_WB",
+            "bbox_xyxy": [
+              0.285,
+              0.57,
+              0.395,
+              0.83
+            ],
+            "finding": "Left-pointing pavement arrow in r1; no legible ONLY text can be established from the crop."
+          }
+        ]
+      },
+      {
+        "region_id": "r2",
+        "surface_type": "shared_rail_motor_lane",
+        "existence": "supported",
+        "surface_reason": "Revised from the audit's unknown class. Joint evidence supports this narrow polygon as the left margin of a wider embedded-rail motor lane, rather than an independent lane or raised buffer.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "medium",
+        "binding": "r2-r4 jointly correspond to the paved rail-bearing lane between the left pocket and r5. The correspondence uses the track band and adjacent longitudinal divider, not vehicle heading. Neither crop establishes movement restrictions for this lane.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_WB_mid_forward",
+            "bbox_xyxy": [
+              0.01,
+              0.53,
+              0.45,
+              0.84
+            ],
+            "finding": "Embedded rails with adjoining paved margins on the incoming carriageway."
+          }
+        ]
+      },
+      {
+        "region_id": "r3",
+        "surface_type": "shared_rail_motor_lane",
+        "existence": "supported",
+        "surface_reason": "Revised from unknown. The satellite pale band corresponds to embedded track pavement within the carriageway. Mid and far views support rails, rather than a raised separator, at this position.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "medium",
+        "binding": "The band lies between r1 and the divider bordering r5, matching the incoming track alignment. It is the central portion of the same physical lane as r2 and r4. Track continuation does not establish motor-vehicle permissions.",
+        "visual_refs": [
+          {
+            "source_id": "scene_in_WB",
+            "bbox_xyxy": [
+              0.416,
+              0.39,
+              0.464,
+              0.91
+            ],
+            "finding": "Pale longitudinal band within the wider approach pavement."
+          },
+          {
+            "source_id": "gsv_WB_mid_forward",
+            "bbox_xyxy": [
+              0.01,
+              0.55,
+              0.44,
+              0.85
+            ],
+            "finding": "Embedded track pair follows the incoming paved lane."
+          }
+        ]
+      },
+      {
+        "region_id": "r4",
+        "surface_type": "shared_rail_motor_lane",
+        "existence": "supported",
+        "surface_reason": "Refined from motor_vehicle_lane. This polygon covers the right paved margin of the rail-bearing lane, not a separate narrow lane.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "medium",
+        "binding": "The satellite track-to-divider ordering matches the mid-view pavement between the right rail and the broken divider adjoining r5. r2-r4 must be counted together. The overhead crop supplies no readable, lane-bound restriction.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_WB_mid_forward",
+            "bbox_xyxy": [
+              0.08,
+              0.58,
+              0.45,
+              0.92
+            ],
+            "finding": "Paved margin between embedded rail and broken motor-lane divider."
+          },
+          {
+            "source_id": "gsv_WB_mid_forward",
+            "bbox_xyxy": [
+              0.47,
+              0.445,
+              0.6,
+              0.49
+            ],
+            "finding": "Requested overhead-panel crop remains insufficient to read movement restrictions or bind them to a lane."
+          }
+        ]
+      },
+      {
+        "region_id": "r5",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "surface_reason": "Retained. Satellite and street views show motor-width pavement between the rail lane's divider and the narrow bicycle strip.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "medium",
+        "binding": "The rail lane, broken divider, general lane and green-strip sequence binds r5 across sources. No readable arrow or applicable sign establishes its movement set. Straight alignment alone is insufficient.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_WB_mid_forward",
+            "bbox_xyxy": [
+              0.3,
+              0.6,
+              0.59,
+              0.98
+            ],
+            "finding": "Motor lane between the rail-side broken divider and bicycle-strip boundary."
+          }
+        ]
+      },
+      {
+        "region_id": "r6",
+        "surface_type": "bicycle_strip",
+        "existence": "supported",
+        "surface_reason": "Retained. Narrow white-bounded pavement with green treatment occupies the same position between r5 and kerbside pavement in satellite, mid and near views.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "medium",
+        "binding": "The far-view forward arrow is within the upstream narrow bicycle facility, not either neighboring motor lane. Continuity toward the green approach strip is supported, but the arrow does not establish a complete stopbar movement set.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_WB_far_forward",
+            "bbox_xyxy": [
+              0.51,
+              0.6,
+              0.63,
+              0.7
+            ],
+            "finding": "Forward arrow within the narrow strip separating general travel pavement from parking."
+          },
+          {
+            "source_id": "gsv_WB_near_forward",
+            "bbox_xyxy": [
+              0.0,
+              0.69,
+              0.37,
+              0.99
+            ],
+            "finding": "Green bicycle treatment remains inside the kerbside paved strip."
+          }
+        ]
+      },
+      {
+        "region_id": "r7",
+        "surface_type": "motor_vehicle_lane",
+        "existence": "supported",
+        "surface_reason": "Revised from parking. Mid and near views show car-width pavement outside the bicycle strip extending to the corner kerb, without visible parking stalls or parked vehicles in that immediate approach section. The bicycle strip, sidewalk and corner geometry support correspondence with r7; satellite vehicle occupancy alone does not establish parking.",
+        "use": "unknown",
+        "allowed_turns": [],
+        "basis": "unknown",
+        "confidence": "medium",
+        "binding": "A right-turn pocket is the leading geometric interpretation, but no readable movement arrow or applicable restriction establishes dedicated use. The preliminary right_only prediction is therefore left unresolved. Far-view marked parking is upstream; its exact transition into this approach lane and the bicycle crossing into the pocket are not fully visible.",
+        "visual_refs": [
+          {
+            "source_id": "gsv_WB_near_forward",
+            "bbox_xyxy": [
+              0.3,
+              0.62,
+              0.85,
+              0.99
+            ],
+            "finding": "Car-width approach pavement between the bicycle treatment and curving corner kerb."
+          },
+          {
+            "source_id": "gsv_WB_mid_forward",
+            "bbox_xyxy": [
+              0.57,
+              0.57,
+              0.99,
+              0.99
+            ],
+            "finding": "Kerbside paved strip outside the bicycle facility continues toward the intersection."
+          }
+        ]
+      }
+    ],
+    "detail_requests": [],
+    "street_view_counts": [
+      {
+        "source_id": "gsv_WB_near_forward",
+        "motor_lanes": 4,
+        "other_lanes": "One bicycle strip; embedded rails share one motor lane.",
+        "unmatched": "Estimated centre-to-kerb correspondence: r1, r2-r4 jointly, r5, bicycle strip r6, motor lane r7. r2-r4 are not three separate lanes. Leftmost incoming pavement is partly outside the frame, so the camera-position count is not fully settled.",
+        "settled": false
+      },
+      {
+        "source_id": "gsv_WB_mid_forward",
+        "motor_lanes": 4,
+        "other_lanes": "One bicycle strip; one motor lane contains embedded rails.",
+        "unmatched": "From separator to kerb: r1 pocket, r2-r4 jointly rail-sharing lane, r5 motor lane, r6 bicycle strip, r7 kerbside motor lane. No single candidate covers the entire rail-sharing lane.",
+        "settled": true
+      },
+      {
+        "source_id": "gsv_WB_far_forward",
+        "motor_lanes": 2,
+        "other_lanes": "One bicycle strip and marked kerbside parking; embedded rails share the inner motor lane.",
+        "unmatched": "Motor lanes align downstream with r2-r4 jointly and r5. The r1 pocket is not present at this camera cross-section. Parking outside the bicycle strip is upstream of r7's approach-lane interpretation, not a third motor travel lane here.",
+        "settled": true
+      }
+    ],
+    "notes": [
+      "The native crops do not resolve ONLY text or overhead lane-use restrictions. Enlargement is not treated as additional evidence.",
+      "Surface existence and lane-use certainty are separate: unresolved movements do not make a visibly motor-width approach strip an unknown surface.",
+      "Four approach motor lanes are supported by the mid-view interpretation, versus two at the far camera position. Exact pocket openings and bicycle-crossing transitions remain incompletely visible.",
+      "The supplied street-view date is metadata; no satellite date is supplied, so cross-source temporal equivalence is unverified.",
+      "Allowed-turn lists are unresolved model outputs, not statements that movements are prohibited. No confirmed legal permissions are claimed."
+    ]
+  }
+}

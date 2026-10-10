@@ -1,0 +1,15 @@
+{
+  "response": "{\n  \"stop_line\": {\n    \"y\": 741,\n    \"kind\": \"crosswalk_edge\",\n    \"evidence\": \"The upper, downstream boundary of the crosswalk on the north side of the junction crosses the receiving carriageway at approximately this row.\"\n  },\n  \"cross_sections\": [\n    {\n      \"y\": 741,\n      \"left_x\": 376,\n      \"right_x\": 548,\n      \"evidence\": \"The left limit follows the visible central yellow dividing line; the right limit is the road edge where the crosswalk meets the eastern kerb.\"\n    },\n    {\n      \"y\": 340,\n      \"left_x\": 376,\n      \"right_x\": 542,\n      \"evidence\": \"The central yellow dividing line bounds the receiving lanes on the left, and the visible kerb beside the sidewalk bounds them on the right.\"\n    }\n  ],\n  \"confidence\": \"medium\",\n  \"notes\": \"Coordinates are approximate because the paint and kerbs are blurred and partly shadowed. The crosswalk edge is slanted, so the reported y represents its approximate position across the receiving carriageway. The opposing stop bar farther up the image is not used. The dashed network line lies left of the visible road divider.\"\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "6886592194aa4542a26921d9db53cec4",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 18.773846
+  },
+  "thinking": "**Analyzing crosswalk and rail details**\n\nI'm analyzing the layout of the road. It looks like there are rail lines around screen positions 335 and 383. The lanes are marked with a yellow center line at x434, and the leftmost lane is receiving at x376. There's a crosswalk extending from coordinates x380, y731 to x540, y749. I should also note the right curb at roughly x548 and consider the upper area from y730 to y810 for crossing decisions."
+}

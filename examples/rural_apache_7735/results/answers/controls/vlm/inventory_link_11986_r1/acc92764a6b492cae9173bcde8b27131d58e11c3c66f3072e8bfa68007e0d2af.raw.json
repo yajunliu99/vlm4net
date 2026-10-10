@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"observations\": [\n    \"gsv_control_link_11986_283610b836 provides the clearest, largest, largely front-facing view of the signal assembly ahead. Its elevated viewing angle does not obscure the faces; the two 2025 views show the assembly at substantially smaller scale.\",\n    \"Three overhead signal faces and a separate face on the right support are visible. Red indications are visible in the 2024 image, but circular versus arrow symbols cannot be reliably distinguished at this resolution.\",\n    \"Small white signs are mounted beside the left overhead face and on the right support. Their regulation text or symbols are not readable in the supplied overview.\",\n    \"The green overhead street-name sign reads Apache Blvd. The nearer oblique street-name sign in gsv_control_link_11986_b9bdb5c442 reads Rural Road.\",\n    \"The assembly's orientation is geometrically consistent with facing the incoming approach, but individual governing lanes and legal turn permissions are not established. No stop sign is clearly visible.\",\n    \"The sources have different capture dates; their displayed signal states do not establish persistent operation. Supplied stations reference an estimated junction envelope, not observed control or stopline distances.\"\n  ],\n  \"detail_requests\": [\n    {\n      \"source_id\": \"gsv_control_link_11986_283610b836\",\n      \"bbox_xyxy\": [0.391, 0.558, 0.438, 0.608],\n      \"question\": \"What text or symbols appear on the white sign beside the leftmost overhead signal, and does that signal contain circular lenses or directional arrows?\"\n    },\n    {\n      \"source_id\": \"gsv_control_link_11986_283610b836\",\n      \"bbox_xyxy\": [0.465, 0.558, 0.495, 0.61],\n      \"question\": \"Resolve the middle overhead signal face: are its indications circular or arrow-shaped, and which direction does any clearly visible arrow point?\"\n    },\n    {\n      \"source_id\": \"gsv_control_link_11986_283610b836\",\n      \"bbox_xyxy\": [0.556, 0.558, 0.589, 0.609],\n      \"question\": \"Resolve the right overhead signal face and identify any visible directional arrow without inferring lane assignment.\"\n    },\n    {\n      \"source_id\": \"gsv_control_link_11986_283610b836\",\n      \"bbox_xyxy\": [0.69, 0.593, 0.747, 0.697],\n      \"question\": \"Read the small white sign on the right support and resolve the separate signal face below it, including any arrow symbols.\"\n    }\n  ]\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "798a4320fa1141b1bf370d0d81cf482c",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 10.182583
+  }
+}

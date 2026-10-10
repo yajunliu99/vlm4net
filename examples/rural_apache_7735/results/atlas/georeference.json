@@ -1,0 +1,54 @@
+{
+  "atlas_viewport": {
+    "width": 2560,
+    "height": 2560,
+    "mercator_bounds": [
+      -12459672.999618338,
+      3950391.321945992,
+      -12459481.907047624,
+      3950582.4145167046
+    ],
+    "provenance": "mapbox_static_centre_zoom: zoom 19, 512 px tiles, @2x; imagery alignment itself unverified",
+    "absolute_error_m": null
+  },
+  "primary_to_atlas": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "primary_effective_ground_mpp": 0.062307077372852356,
+  "primary_effective_width_m": 159.50611807450204,
+  "primary_footprint_atlas_px": [
+    [
+      0,
+      0
+    ],
+    [
+      2560,
+      0
+    ],
+    [
+      2560,
+      2560
+    ],
+    [
+      0,
+      2560
+    ]
+  ],
+  "basis": "Static image requested by centre and zoom; its Web Mercator extent follows from the tile arithmetic, so no registration is needed.",
+  "absolute_accuracy": {
+    "status": "unverified",
+    "error_m": null,
+    "reason": "No independent surveyed geographic ground-control points; imagery alignment itself is the provider's."
+  },
+  "satellite_capture_date": null,
+  "provider_docs": "https://docs.mapbox.com/api/maps/static-images/"
+}

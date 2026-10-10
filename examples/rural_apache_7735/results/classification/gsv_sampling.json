@@ -1,0 +1,343 @@
+{
+  "checked": true,
+  "complete": true,
+  "missing": [],
+  "position_order": [
+    "near",
+    "mid",
+    "far"
+  ],
+  "positions": [
+    {
+      "direction": "EB",
+      "position": "near",
+      "target_m": 25,
+      "actual_distance_m": 26.49,
+      "north_offset_m": -8.52,
+      "east_offset_m": -25.08,
+      "context_id": "gsv_context_EB_near",
+      "source_id": "gsv_EB_near_forward",
+      "pano_id": "f5TDUoDdYh0EG9D9laSctA",
+      "capture_date": "2013-04",
+      "view_settings": {
+        "pitch": -12,
+        "fov": 90,
+        "size": [
+          640,
+          640
+        ]
+      },
+      "actual_lat": 33.41468439978666,
+      "actual_lon": -111.9265592750139
+    },
+    {
+      "direction": "EB",
+      "position": "mid",
+      "target_m": 50,
+      "actual_distance_m": 50.06,
+      "north_offset_m": -6.35,
+      "east_offset_m": -49.65,
+      "context_id": "gsv_context_EB_mid",
+      "source_id": "gsv_EB_mid_forward",
+      "pano_id": "89nRxL5VI4jGf4KF6MDbcw",
+      "capture_date": "2024-06",
+      "view_settings": {
+        "pitch": 0,
+        "fov": 60,
+        "size": [
+          640,
+          640
+        ]
+      },
+      "actual_lat": 33.41470400375081,
+      "actual_lon": -111.9268244902052
+    },
+    {
+      "direction": "EB",
+      "position": "far",
+      "target_m": 100,
+      "actual_distance_m": 98.86,
+      "north_offset_m": -8.13,
+      "east_offset_m": -98.53,
+      "context_id": "gsv_context_EB_far",
+      "source_id": "gsv_EB_far_forward",
+      "pano_id": "QtEXsd4xrTBsbTm5elhoaQ",
+      "capture_date": "2013-04",
+      "view_settings": {
+        "pitch": 0,
+        "fov": 60,
+        "size": [
+          640,
+          640
+        ]
+      },
+      "actual_lat": 33.41468793558384,
+      "actual_lon": -111.9273519871521
+    },
+    {
+      "direction": "NB",
+      "position": "near",
+      "target_m": 25,
+      "actual_distance_m": 24.98,
+      "north_offset_m": -24.98,
+      "east_offset_m": 0.54,
+      "context_id": "gsv_context_NB_near",
+      "source_id": "gsv_NB_near_forward",
+      "pano_id": "PFwq5E6-EwlfiW2nBqZEaQ",
+      "capture_date": "2025-10",
+      "view_settings": {
+        "pitch": -12,
+        "fov": 90,
+        "size": [
+          640,
+          640
+        ]
+      },
+      "actual_lat": 33.41453618226094,
+      "actual_lon": -111.9262827576316
+    },
+    {
+      "direction": "NB",
+      "position": "mid",
+      "target_m": 50,
+      "actual_distance_m": 46.0,
+      "north_offset_m": -46.0,
+      "east_offset_m": 0.57,
+      "context_id": "gsv_context_NB_mid",
+      "source_id": "gsv_NB_mid_forward",
+      "pano_id": "iMoUbQDt9UsSvWjBbJiDyg",
+      "capture_date": "2025-10",
+      "view_settings": {
+        "pitch": 0,
+        "fov": 60,
+        "size": [
+          640,
+          640
+        ]
+      },
+      "actual_lat": 33.41434680756353,
+      "actual_lon": -111.9262824847185
+    },
+    {
+      "direction": "NB",
+      "position": "far",
+      "target_m": 100,
+      "actual_distance_m": 97.12,
+      "north_offset_m": -97.12,
+      "east_offset_m": 0.69,
+      "context_id": "gsv_context_NB_far",
+      "source_id": "gsv_NB_far_forward",
+      "pano_id": "NKlmfPSQX_8QDBWscqzZBQ",
+      "capture_date": "2025-10",
+      "view_settings": {
+        "pitch": 0,
+        "fov": 60,
+        "size": [
+          640,
+          640
+        ]
+      },
+      "actual_lat": 33.41388623514408,
+      "actual_lon": -111.9262811201527
+    },
+    {
+      "direction": "SB",
+      "position": "near",
+      "target_m": 25,
+      "actual_distance_m": 28.87,
+      "north_offset_m": 28.84,
+      "east_offset_m": -1.24,
+      "context_id": "gsv_context_SB_near",
+      "source_id": "gsv_SB_near_forward",
+      "pano_id": "7wJPoLr56I356gFwFWNmgQ",
+      "capture_date": "2025-10",
+      "view_settings": {
+        "pitch": -12,
+        "fov": 90,
+        "size": [
+          640,
+          640
+        ]
+      },
+      "actual_lat": 33.41502104799319,
+      "actual_lon": -111.9263019525235
+    },
+    {
+      "direction": "SB",
+      "position": "mid",
+      "target_m": 50,
+      "actual_distance_m": 54.1,
+      "north_offset_m": 54.08,
+      "east_offset_m": -1.09,
+      "context_id": "gsv_context_SB_mid",
+      "source_id": "gsv_SB_mid_forward",
+      "pano_id": "f1hgY4rG1zHqFRAygill5w",
+      "capture_date": "2025-10",
+      "view_settings": {
+        "pitch": 0,
+        "fov": 60,
+        "size": [
+          640,
+          640
+        ]
+      },
+      "actual_lat": 33.41524844740209,
+      "actual_lon": -111.9263004060156
+    },
+    {
+      "direction": "SB",
+      "position": "far",
+      "target_m": 100,
+      "actual_distance_m": 95.28,
+      "north_offset_m": 95.28,
+      "east_offset_m": -1.06,
+      "context_id": "gsv_context_SB_far",
+      "source_id": "gsv_SB_far_forward",
+      "pano_id": "1YF8qgf_iYJLtQDbpBILQw",
+      "capture_date": "2025-10",
+      "view_settings": {
+        "pitch": 0,
+        "fov": 60,
+        "size": [
+          640,
+          640
+        ]
+      },
+      "actual_lat": 33.41561954666562,
+      "actual_lon": -111.9263000421314
+    },
+    {
+      "direction": "WB",
+      "position": "near",
+      "target_m": 25,
+      "actual_distance_m": 25.12,
+      "north_offset_m": 9.3,
+      "east_offset_m": 23.33,
+      "context_id": "gsv_context_WB_near",
+      "source_id": "gsv_WB_near_forward",
+      "pano_id": "b0AKKNAOXqJSogVei9mBhw",
+      "capture_date": "2025-11",
+      "view_settings": {
+        "pitch": -12,
+        "fov": 90,
+        "size": [
+          640,
+          640
+        ]
+      },
+      "actual_lat": 33.41484495422529,
+      "actual_lon": -111.9260367718995
+    },
+    {
+      "direction": "WB",
+      "position": "mid",
+      "target_m": 50,
+      "actual_distance_m": 54.81,
+      "north_offset_m": 8.99,
+      "east_offset_m": 54.06,
+      "context_id": "gsv_context_WB_mid",
+      "source_id": "gsv_WB_mid_forward",
+      "pano_id": "hp0konyJHW-Bn_FP0WK4uA",
+      "capture_date": "2025-11",
+      "view_settings": {
+        "pitch": 0,
+        "fov": 60,
+        "size": [
+          640,
+          640
+        ]
+      },
+      "actual_lat": 33.4148421785596,
+      "actual_lon": -111.9257050914078
+    },
+    {
+      "direction": "WB",
+      "position": "far",
+      "target_m": 100,
+      "actual_distance_m": 102.94,
+      "north_offset_m": 7.48,
+      "east_offset_m": 102.66,
+      "context_id": "gsv_context_WB_far",
+      "source_id": "gsv_WB_far_forward",
+      "pano_id": "pP78U1pWrGaGZL1FLwsUQQ",
+      "capture_date": "2025-11",
+      "view_settings": {
+        "pitch": 0,
+        "fov": 60,
+        "size": [
+          640,
+          640
+        ]
+      },
+      "actual_lat": 33.41482860354582,
+      "actual_lon": -111.9251805522044
+    }
+  ],
+  "unique_panoramas": 12,
+  "position_separation_m": {
+    "NB": {
+      "near_mid": 21.02,
+      "near_far": 72.14,
+      "mid_far": 51.12
+    },
+    "EB": {
+      "near_mid": 24.67,
+      "near_far": 73.45,
+      "mid_far": 48.91
+    },
+    "SB": {
+      "near_mid": 25.24,
+      "near_far": 66.44,
+      "mid_far": 41.2
+    },
+    "WB": {
+      "near_mid": 30.73,
+      "near_far": 79.35,
+      "mid_far": 48.62
+    }
+  },
+  "date_comparisons": {
+    "NB": {
+      "dates": {
+        "near": "2025-10",
+        "mid": "2025-10",
+        "far": "2025-10"
+      },
+      "mixed_or_unknown_dates": false,
+      "review_required": false,
+      "note": "Same recorded month is not proof of simultaneous capture."
+    },
+    "EB": {
+      "dates": {
+        "near": "2013-04",
+        "mid": "2024-06",
+        "far": "2013-04"
+      },
+      "mixed_or_unknown_dates": true,
+      "review_required": true,
+      "note": "Different image dates must not be interpreted as a purely spatial lane transition."
+    },
+    "SB": {
+      "dates": {
+        "near": "2025-10",
+        "mid": "2025-10",
+        "far": "2025-10"
+      },
+      "mixed_or_unknown_dates": false,
+      "review_required": false,
+      "note": "Same recorded month is not proof of simultaneous capture."
+    },
+    "WB": {
+      "dates": {
+        "near": "2025-11",
+        "mid": "2025-11",
+        "far": "2025-11"
+      },
+      "mixed_or_unknown_dates": false,
+      "review_required": false,
+      "note": "Same recorded month is not proof of simultaneous capture."
+    }
+  },
+  "distance_reference": "intersection center, not stopbar",
+  "note": "Coverage check only; comparable locations do not prove visible complete lane cross-sections."
+}

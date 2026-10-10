@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"issue_responses\": [\n    {\n      \"issue\": \"e1_alignment\",\n      \"decision\": \"dismiss\",\n      \"reason\": \"The boundary follows the visible yellowish longitudinal marking separating the selected pavement from the carriageway to its left.\"\n    },\n    {\n      \"issue\": \"e2_alignment\",\n      \"decision\": \"dismiss\",\n      \"reason\": \"Faint, intermittent pale marking segments align with e2 in the unobstructed pavement. The vehicle and its shadow obscure part of the boundary.\"\n    },\n    {\n      \"issue\": \"e3_boundary\",\n      \"decision\": \"unresolved\",\n      \"reason\": \"There is a longitudinal tonal transition near e3, but the resampled pixels do not clearly distinguish a painted separator from pavement variation. They do not support moving or removing this boundary.\"\n    },\n    {\n      \"issue\": \"outer_extent\",\n      \"decision\": \"dismiss\",\n      \"reason\": \"The right boundary follows the transition from darker roadway to the pale roadside surface. No additional roadway strip is visibly established beyond it.\"\n    }\n  ],\n  \"edits\": [],\n  \"verdict\": \"accept\",\n  \"notes\": [\n    \"Retain the current geometry; e3 remains unconfirmed rather than positively validated.\",\n    \"The image does not establish the use or legal permissions of the rightmost strip.\"\n  ]\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "58ce2997f7b2405aae22c6394f4469db",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 16.766203
+  }
+}

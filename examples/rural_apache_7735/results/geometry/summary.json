@@ -1,0 +1,59 @@
+{
+  "state": "complete",
+  "version": "autoloop-geometry-6",
+  "site_id": "7735",
+  "sections": 8,
+  "status_counts": {
+    "accepted": 4,
+    "accepted_after_revision": 3,
+    "unresolved": 1
+  },
+  "stop_reasons": {
+    "in_EB": "accepted",
+    "in_NB": "accepted",
+    "in_SB": "accepted",
+    "in_WB": "accepted",
+    "out_EB": "accepted",
+    "out_NB": "accepted",
+    "out_SB": "accepted",
+    "out_WB": "accepted"
+  },
+  "review_rounds": {
+    "in_EB": 2,
+    "in_NB": 2,
+    "in_SB": 1,
+    "in_WB": 1,
+    "out_EB": 1,
+    "out_NB": 3,
+    "out_SB": 1,
+    "out_WB": 1
+  },
+  "vlm_calls_this_run": 30,
+  "vlm_cache_hits_this_run": 0,
+  "actual_models": [
+    "openai/gpt6_astra"
+  ],
+  "budget": {
+    "sections": 8,
+    "anchoring_calls": 8,
+    "typical_calls": [
+      24,
+      40
+    ],
+    "stages_upper_bound": 48,
+    "with_one_repair_per_stage": 96,
+    "hard_cap": 56
+  },
+  "reference_used_in_inference": false,
+  "anchoring": {
+    "in_EB": "anchored",
+    "in_NB": "anchored",
+    "in_SB": "anchored",
+    "in_WB": "anchored",
+    "out_EB": "anchored",
+    "out_NB": "anchored",
+    "out_SB": "anchored",
+    "out_WB": "anchored"
+  },
+  "scope": "Loop termination and provenance only; not an accuracy score for the traced boundaries."
+}

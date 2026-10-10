@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"stop_line\": {\n    \"y\": 742,\n    \"kind\": \"stop_bar\",\n    \"evidence\": \"A transverse white bar across the right-hand approach lies just below the junction's near-side crosswalk.\"\n  },\n  \"cross_sections\": [\n    {\n      \"y\": 742,\n      \"left_x\": 377,\n      \"right_x\": 599,\n      \"evidence\": \"The left limit follows the visible central directional division; the right limit is the kerb beside the rounded junction corner.\"\n    },\n    {\n      \"y\": 1143,\n      \"left_x\": 376,\n      \"right_x\": 594,\n      \"evidence\": \"The carriageway extends from the central dividing line to the right-hand kerb, excluding the sidewalk.\"\n    }\n  ],\n  \"confidence\": \"medium\",\n  \"notes\": \"Positions are approximate because the image is blurred and vehicles partially obscure the central markings. The crossing road occupies the broad junction above the selected stop bar; the magenta cross and dashed network line were not used as painted-road boundaries.\"\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "121de8583f8f4311b3b0c01e95dfd052",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 31.13181
+  }
+}

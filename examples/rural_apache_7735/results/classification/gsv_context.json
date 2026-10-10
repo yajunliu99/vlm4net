@@ -1,0 +1,799 @@
+[
+  {
+    "section_id": "gsv_context_EB_near",
+    "kind": "gsv_forward_context",
+    "direction": "EB",
+    "source_id": "gsv_EB_near_forward",
+    "reverse_view": false,
+    "capture_date": "2013-04",
+    "sampling_position": "near",
+    "distance_to_center_m": 26.49,
+    "pano_id": "f5TDUoDdYh0EG9D9laSctA",
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "The foreground approach meets a broad intersection. At lower right, a raised sidewalk curb curves around the near corner, with a textured curb-ramp panel visible. This is the right edge of the target incoming approach locally."
+      },
+      {
+        "id": "o2",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "White transverse pavement markings are visible across portions of the foreground approach. Their faded and partially blurred appearance prevents confident separation of stop-line and crosswalk components."
+      },
+      {
+        "id": "o3",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "no",
+        "evidence": "A prominent diagonal-in-image white line extends from center-right toward the near-right corner across the mouth of the cross street. It is not evidence of a longitudinal lane divider on the target incoming approach."
+      },
+      {
+        "id": "o4",
+        "kind": "other",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "No directional pavement arrow is clearly readable on the visible incoming pavement. Pale foreground marks are too blurred or incomplete to classify as arrows."
+      },
+      {
+        "id": "o5",
+        "kind": "facility",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "No bicycle symbol, clearly designated bicycle lane, or rail track is identifiable in this view. The upper-right object hinted as a train is visibly an overhead traffic-signal assembly, not evidence of rail facilities."
+      },
+      {
+        "id": "o6",
+        "kind": "sign",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "Green overhead guide or street-name signs and smaller roadside signs are present, but their text is not sufficiently readable to extract a restriction. No readable turn restriction is established."
+      },
+      {
+        "id": "o7",
+        "kind": "occlusion",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Substantial blur and stitching distortion obscure the lower-center foreground pavement, limiting interpretation of approach markings."
+      },
+      {
+        "id": "o8",
+        "kind": "occlusion",
+        "observed_arrows": [],
+        "applies_to_incoming": "no",
+        "evidence": "Vehicles on the right-hand cross street obscure portions of that street's pavement near the intersection; those areas are not the target incoming approach."
+      }
+    ],
+    "notes": [
+      "This is the supplied forward-facing EB context, locally near the right-hand corner and intersection entrance, 26.49 m from the intersection center rather than from the stopbar.",
+      "The view does not establish a full incoming lane count, lane-specific turn permissions, or a median configuration. No observations are assigned to numbered regions.",
+      "Pavement beyond the intersection belongs to the outgoing roadway and cannot independently establish incoming lane markings or facilities.",
+      "Traffic movement and signal indications are not evidence of pavement arrows or legal turn permissions.",
+      "Temporal applicability is limited to the supplied capture date, 2013-04; this view cannot prove a newer layout."
+    ]
+  },
+  {
+    "section_id": "gsv_context_EB_mid",
+    "kind": "gsv_forward_context",
+    "direction": "EB",
+    "source_id": "gsv_EB_mid_forward",
+    "reverse_view": false,
+    "capture_date": "2024-06",
+    "sampling_position": "mid",
+    "distance_to_center_m": 50.06,
+    "pano_id": "89nRxL5VI4jGf4KF6MDbcw",
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "facility",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Embedded parallel rail tracks run longitudinally along the left side of the target incoming roadway, immediately left of the camera's travel corridor. Overhead wires are also visible. Rail operating direction and vehicle access to the track area are not established."
+      },
+      {
+        "id": "o2",
+        "kind": "facility",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "A green-painted longitudinal pavement strip is visible to the right of the camera's travel corridor, beside the bus and the red curbside car. Its appearance is consistent with bicycle accommodation, but no bicycle stencil or facility designation is readable in the visible portion."
+      },
+      {
+        "id": "o3",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Broken white markings separate the camera's travel corridor from the rail-containing pavement on the left. White longitudinal markings border the green-painted area on the right; the red car occupies pavement farther toward the curb."
+      },
+      {
+        "id": "o4",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "A narrow line of raised yellow separator elements is visible farther left, beyond the nearby rail alignment. It appears to separate opposing roadway space, but its full extent toward the intersection is not clear."
+      },
+      {
+        "id": "o5",
+        "kind": "sign",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "A small roadside sign on the right shows a crossed-out P parking-restriction symbol. Any supplementary wording, hours, arrows, or exact extent of the restriction are unreadable."
+      },
+      {
+        "id": "o6",
+        "kind": "occlusion",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "The utility truck ahead obscures central incoming pavement, the bus obscures much of the right-side pavement farther ahead, and the red car blocks part of the near curbside area. These occlusions limit inspection for arrows, bicycle markings, and boundary continuity."
+      }
+    ],
+    "notes": [
+      "This is the supplied forward-facing eastbound approach view, locally upstream of the intersection at approximately 50.06 m from its center, not from its stopbar.",
+      "No pavement direction arrow is clearly discernible on the exposed incoming pavement. Occluded or distant pavement cannot be treated as unmarked.",
+      "The observations describe the local upstream cross-section, not a confirmed stopbar layout or complete lane count. Turn pockets, lane splits, and facility transitions nearer the intersection remain unresolved.",
+      "No crossing or outgoing pavement marking is sufficiently clear here to assign a directional arrow to it or to the target approach.",
+      "Vehicle positions and signal indications do not establish permitted movements.",
+      "Temporal applicability is limited to the supplied June 2024 capture context; this view does not establish a newer layout."
+    ]
+  },
+  {
+    "section_id": "gsv_context_EB_far",
+    "kind": "gsv_forward_context",
+    "direction": "EB",
+    "source_id": "gsv_EB_far_forward",
+    "reverse_view": false,
+    "capture_date": "2013-04",
+    "sampling_position": "far",
+    "distance_to_center_m": 98.86,
+    "pano_id": "QtEXsd4xrTBsbTm5elhoaQ",
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "facility",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "A narrow longitudinal strip on the right of the incoming motor roadway is bounded by solid white lines. A faint bicycle pavement symbol is visible within it in the middle distance, supporting identification as a bicycle lane at this upstream position."
+      },
+      {
+        "id": "o2",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Dashed white markings separate incoming motor-vehicle travel space to the left of the bicycle lane. A raised, light-colored median lies farther left and separates the opposing roadway. This does not establish a complete approach lane count."
+      },
+      {
+        "id": "o3",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "A paved strip lies between the bicycle lane's right-hand solid line and the right curb. The curb borders a sidewalk and is interrupted by access to the adjacent property; the strip's legal use is not established."
+      },
+      {
+        "id": "o4",
+        "kind": "occlusion",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Vehicles ahead obscure portions of the incoming pavement. Perspective compression and low detail near the intersection prevent reliable inspection of distant pavement markings and lane transitions."
+      },
+      {
+        "id": "o5",
+        "kind": "other",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "No directional pavement arrow is clearly identifiable on the target incoming approach in this image."
+      }
+    ],
+    "notes": [
+      "This is the supplied forward-facing EB context, approximately 98.86 m from the intersection center, showing an upstream cross-section rather than the stopbar.",
+      "Turn pockets, lane splits, median changes and bicycle-facility transitions closer to the intersection cannot be resolved from this view.",
+      "No readable approach restriction or identifiable rail facility is established here. Overhead wires alone do not establish rail infrastructure.",
+      "Markings in the property parking area on the right are not incoming-approach lane markings.",
+      "No turn permission or through arrow is inferred from vehicles, signals or absent signs. Failure to identify arrows does not prove clear or unmarked pavement.",
+      "Temporal applicability is limited to the supplied April 2013 capture context; this image cannot confirm a newer layout."
+    ]
+  },
+  {
+    "section_id": "gsv_context_NB_near",
+    "kind": "gsv_forward_context",
+    "direction": "NB",
+    "source_id": "gsv_NB_near_forward",
+    "reverse_view": false,
+    "capture_date": "2025-10",
+    "sampling_position": "near",
+    "distance_to_center_m": 24.98,
+    "pano_id": "PFwq5E6-EwlfiW2nBqZEaQ",
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "facility",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Parallel rail-like metal lines are embedded in the foreground pavement and extend toward the intersection along the viewing direction. Overhead wires and supporting poles are also visible. This supports a rail corridor aligned with the approach, but does not establish its operating rules or exclusivity."
+      },
+      {
+        "id": "o2",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Broad transverse white pavement markings cross the foreground approach and the nearer portion of the junction. Their placement is visible, but the image alone does not securely distinguish each marking as a stop line versus a crossing boundary."
+      },
+      {
+        "id": "o3",
+        "kind": "other",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "A partially visible white angular marking lies at the lower right beside and partly behind the cropped vehicle. Its complete shape and relationship to an incoming lane are not sufficiently clear to classify a directional arrow."
+      },
+      {
+        "id": "o4",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "Short white lane-guide or divider markings are visible across the junction, particularly right of center. These are intersection or farther-side pavement observations, not evidence of a complete incoming lane arrangement."
+      },
+      {
+        "id": "o5",
+        "kind": "occlusion",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "The cropped vehicle at the lower right obscures near-approach pavement. The dark car left of center covers pavement near the transverse markings; other vehicles obscure portions of the crossing and farther roadway."
+      },
+      {
+        "id": "o6",
+        "kind": "sign",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "Signals and several roadside or overhead signs are visible, but no lane-use or turn restriction text is reliably readable at this resolution."
+      }
+    ],
+    "notes": [
+      "This is the supplied forward-facing NB context, locally very near the intersection entrance, with substantial crossing and outgoing pavement in view. The supplied 24.98 m distance is to the intersection center, not to a stopbar.",
+      "No complete directional pavement arrow is confidently resolved for the target incoming approach. Vehicle trajectories and signal indications do not establish arrows or legal turn permissions.",
+      "No bicycle-specific marking or facility is clearly identifiable; occlusion and image resolution prevent treating this as proof of absence.",
+      "The view does not support a full incoming lane count, confirmed median configuration, or numbered-region assignments.",
+      "The supplied source date is 2025-10; it is metadata, not a visibly established image date. These observations do not prove a later layout."
+    ]
+  },
+  {
+    "section_id": "gsv_context_NB_mid",
+    "kind": "gsv_forward_context",
+    "direction": "NB",
+    "source_id": "gsv_NB_mid_forward",
+    "reverse_view": false,
+    "capture_date": "2025-10",
+    "sampling_position": "mid",
+    "distance_to_center_m": 46.0,
+    "pano_id": "iMoUbQDt9UsSvWjBbJiDyg",
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Paired yellow lines extend from the lower-right foreground toward the intersection near image center. Vehicles showing their rears are queued to their right, while a front-facing dark car is visible to their left. This supports interpreting the lines as a directional separation, rather than an incoming lane divider."
+      },
+      {
+        "id": "o2",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "no",
+        "evidence": "A broken white line is visible in the foreground left of the paired yellow lines. Geometrically, this appears to divide pavement on the opposing side, not the target incoming NB approach."
+      },
+      {
+        "id": "o3",
+        "kind": "occlusion",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "The white Toyota pickup, SUV ahead of it, and other vehicles on the right obscure substantial portions of the incoming pavement and its internal lane markings. The right roadway edge is also obscured or outside the frame."
+      },
+      {
+        "id": "o4",
+        "kind": "other",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "No directional pavement arrow is clearly readable in the exposed pavement. Incoming pavement is heavily vehicle-occluded, so this does not establish that arrows are absent."
+      },
+      {
+        "id": "o5",
+        "kind": "sign",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "The overhead green sign at upper left reads 'Apache Blvd'. Smaller details are not reliably readable. It is a street-identification sign; no readable turn, lane-use, parking, or bicycle restriction is established."
+      },
+      {
+        "id": "o6",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "no",
+        "evidence": "A sidewalk and curb are visible along the left roadside, on the apparent opposing side. They do not establish the target incoming approach's right-curb configuration. No raised median is visible along the exposed foreground yellow-line separation."
+      },
+      {
+        "id": "o7",
+        "kind": "facility",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "Overhead wires are visible, but no rail tracks, bicycle symbols, or clearly delineated bicycle facility can be confidently identified. The wires alone do not establish a rail facility."
+      }
+    ],
+    "notes": [
+      "Treated as the supplied forward-facing NB context, not a reverse view. Directional-side assignments above are geometric inferences from markings and vehicle-facing orientation.",
+      "This is a mid-approach view approximately 46 m from the intersection center, not a measured distance to the stopbar. The foreground cross-section does not establish the stopbar layout; pockets, splits, or facility changes may occur ahead.",
+      "Crossing vehicles and distant outgoing pavement do not establish incoming lane arrows or turn permissions.",
+      "A full incoming lane count cannot be reliably extracted from this frame. No numbered-region assignments are made.",
+      "Temporal applicability is limited to the supplied 2025-10 source date; this view does not prove a later layout."
+    ]
+  },
+  {
+    "section_id": "gsv_context_NB_far",
+    "kind": "gsv_forward_context",
+    "direction": "NB",
+    "source_id": "gsv_NB_far_forward",
+    "reverse_view": false,
+    "capture_date": "2025-10",
+    "sampling_position": "far",
+    "distance_to_center_m": 97.12,
+    "pano_id": "NKlmfPSQX_8QDBWscqzZBQ",
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "A double yellow line extends from the lower-right foreground toward the distant intersection. It appears to separate opposing traffic directions, with the target northbound approach on its image-right side. No raised median is visible along this local segment."
+      },
+      {
+        "id": "o2",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "no",
+        "evidence": "Broken white longitudinal markings are clearly visible on the image-left side of the double yellow line. Geometrically, these belong to the opposing-direction carriageway, not the target incoming approach."
+      },
+      {
+        "id": "o3",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "The incoming roadway extends rightward from the double yellow divider toward the commercial frontage and curbside area. Vehicles obscure much of its lane separation and right-edge relationship; a complete incoming lane count cannot be read."
+      },
+      {
+        "id": "o4",
+        "kind": "occlusion",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Multiple vehicles occupy the image-right approach ahead, concealing pavement markings and parts of the curbside area. The distant intersection pavement is also compressed by perspective."
+      },
+      {
+        "id": "o5",
+        "kind": "other",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "No directional pavement arrow is clearly identifiable on the visible target incoming pavement. The pale circular feature near the lower-right edge is not a recognizable directional arrow."
+      },
+      {
+        "id": "o6",
+        "kind": "facility",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "No bicycle symbol, clearly designated bicycle lane, or embedded rail track is identifiable in this view. Roadside utility poles and overhead wires alone do not establish a rail facility."
+      },
+      {
+        "id": "o7",
+        "kind": "sign",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "Signs are visible ahead and along the roadside, but no lane-use, turn, bicycle, or curb restriction is readable with sufficient confidence."
+      }
+    ],
+    "notes": [
+      "This is the supplied forward-facing primary context, locally an upstream street segment approximately 97.12 m from the intersection center, not from its stopbar.",
+      "The visible upstream cross-section does not establish the stopbar layout; turn pockets, lane splits, or facility changes may occur farther ahead.",
+      "No crossing or outgoing pavement arrow is sufficiently clear to report. Vehicle positions do not establish arrows or legal turn permissions.",
+      "Temporal applicability is limited to the supplied source date of 2025-10; this view does not establish a later layout."
+    ]
+  },
+  {
+    "section_id": "gsv_context_SB_near",
+    "kind": "gsv_forward_context",
+    "direction": "SB",
+    "source_id": "gsv_SB_near_forward",
+    "reverse_view": false,
+    "capture_date": "2025-10",
+    "sampling_position": "near",
+    "distance_to_center_m": 28.87,
+    "pano_id": "7wJPoLr56I356gFwFWNmgQ",
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Broad, worn white transverse pavement markings cross the near foreground at the intersection entrance. Their appearance is consistent with crossing or stop-line markings, but their individual functions are not fully distinguishable."
+      },
+      {
+        "id": "o2",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "A raised sidewalk curb on the right curves around the near intersection corner. No clearly delineated median or complete set of incoming lane-divider markings can be resolved in the foreground."
+      },
+      {
+        "id": "o3",
+        "kind": "facility",
+        "observed_arrows": [],
+        "applies_to_incoming": "no",
+        "evidence": "Green-painted pavement is visible on the right along the cross street, beyond the near corner. It appears consistent with bicycle-facility surfacing, but no bicycle symbol is readable. It does not establish a bicycle lane on the target incoming approach."
+      },
+      {
+        "id": "o4",
+        "kind": "other",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "An orange-and-white temporary delineator stands near the right portion of the foreground transverse markings. Its presence alone does not establish a lane closure or permitted movement."
+      },
+      {
+        "id": "o5",
+        "kind": "occlusion",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "Vehicles obscure portions of the intersection and more distant pavement. Two prominent cars near image center cover pavement beyond the foreground crossing markings; that pavement should not automatically be treated as the target incoming approach."
+      },
+      {
+        "id": "o6",
+        "kind": "other",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "No directional pavement arrow is clearly identifiable on the exposed incoming foreground. Worn markings, image blur and the limited visible approach length prevent confirming that arrows are absent."
+      },
+      {
+        "id": "o7",
+        "kind": "sign",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "Traffic signals and small roadside or suspended signs are visible, but no movement restriction, lane-use instruction or time restriction is readable."
+      }
+    ],
+    "notes": [
+      "This is the supplied forward-facing southbound context, locally at the near intersection entrance with foreground transverse markings and the right corner visible. The supplied distance is 28.87 m to intersection center, not to a stopbar.",
+      "No full incoming lane count, numbered-region assignment or legal turn permission is established. Crossing and distant pavement are not interchangeable with the incoming approach.",
+      "Overhead wires are visible, but no identifiable rail tracks or other confirmed rail facility can be resolved.",
+      "Temporal applicability is limited to the supplied source date of 2025-10; that date is metadata, not visibly verified in the image.",
+      "YOLO hints are used only as object-location aids. Missing detections do not establish unobstructed pavement."
+    ]
+  },
+  {
+    "section_id": "gsv_context_SB_mid",
+    "kind": "gsv_forward_context",
+    "direction": "SB",
+    "source_id": "gsv_SB_mid_forward",
+    "reverse_view": false,
+    "capture_date": "2025-10",
+    "sampling_position": "mid",
+    "distance_to_center_m": 54.1,
+    "pano_id": "f1hgY4rG1zHqFRAygill5w",
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "occlusion",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Queued vehicles cover substantial portions of the incoming pavement, including directly ahead of the camera and farther left toward the intersection. No pavement arrow is clearly readable in the exposed areas."
+      },
+      {
+        "id": "o2",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "White broken lane-divider segments are visible to the left of the nearest white sedan, separating adjacent incoming vehicle paths. Vehicles obscure their continuation toward the intersection."
+      },
+      {
+        "id": "o3",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "A raised curb and sidewalk bound the right side of the approach. An asphalt strip lies between the queued vehicles and this curb; its designated use is not readable."
+      },
+      {
+        "id": "o4",
+        "kind": "sign",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "A portable white panel with a black directional graphic and an amber lamp stands immediately right of the nearest queued sedan. The graphic is too small to establish its precise instruction; it is not a pavement arrow."
+      },
+      {
+        "id": "o5",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Orange temporary channelizing devices continue ahead near the right side of the vehicle queue. They suggest temporary channelization, but the exact closure limits and affected lane designation cannot be established."
+      },
+      {
+        "id": "o6",
+        "kind": "facility",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "Overhead wires are visible along the corridor. No bicycle symbol, clearly designated bicycle lane, or unambiguous rail track pair can be identified in this view; the wires alone do not establish a rail facility."
+      },
+      {
+        "id": "o7",
+        "kind": "other",
+        "observed_arrows": [],
+        "applies_to_incoming": "no",
+        "evidence": "Crossing roadway and distant pavement beyond the intersection are visible ahead. Their markings are not sufficiently resolved to attribute any arrows or lane arrangement to the target incoming approach."
+      }
+    ],
+    "notes": [
+      "This is the supplied forward-facing SB mid-approach context, approximately 54.1 m from the intersection center, with queued traffic ahead and temporary devices along the right. That distance is not a distance to the stopbar.",
+      "The visible upstream cross-section does not establish the stopbar layout, full lane count, turn pockets, or possible downstream lane and facility changes.",
+      "No readable turn restriction or confirmed turn permission is established. Vehicle positions, signal colors, and unreadable or absent signs are not evidence of permitted movements.",
+      "Temporal applicability is limited to the supplied capture date of 2025-10; this view cannot establish a later layout."
+    ]
+  },
+  {
+    "section_id": "gsv_context_SB_far",
+    "kind": "gsv_forward_context",
+    "direction": "SB",
+    "source_id": "gsv_SB_far_forward",
+    "reverse_view": false,
+    "capture_date": "2025-10",
+    "sampling_position": "far",
+    "distance_to_center_m": 95.28,
+    "pano_id": "1YF8qgf_iYJLtQDbpBILQw",
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "arrow",
+        "observed_arrows": [
+          "left"
+        ],
+        "applies_to_incoming": "uncertain",
+        "evidence": "A white bent left-pointing pavement arrow is visible left of the camera's forward travel corridor, near image coordinates (155, 381). Its placement is visible, but its assignment to the target SB incoming approach is not securely established."
+      },
+      {
+        "id": "o2",
+        "kind": "other",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "Another white pavement marking appears farther left, near (75, 381). Foreshortening makes its complete shape and directional assignment insufficiently clear."
+      },
+      {
+        "id": "o3",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Broken white longitudinal markings divide the foreground approach pavement. Longer, apparently solid white boundaries run along the left-side portion of the roadway. These show the local upstream cross-section, not a confirmed stopbar lane arrangement."
+      },
+      {
+        "id": "o4",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "The approach has a raised curb on the right, beside landscaping and a sidewalk. No raised median is clearly identifiable within the foreground travel pavement."
+      },
+      {
+        "id": "o5",
+        "kind": "occlusion",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Vehicles obscure portions of the distant approach pavement. Distance and perspective compress the intersection area, limiting identification of markings and lane transitions."
+      },
+      {
+        "id": "o6",
+        "kind": "other",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "An orange-and-white striped temporary delineator with an amber lamp occupies the lower-right edge beside the curb. It is not a visibly readable stop sign."
+      }
+    ],
+    "notes": [
+      "This is the supplied forward-facing SB context, locally an upstream view approximately 95.28 m from the intersection center, not from the stopbar.",
+      "No unambiguous through, right-turn or U-turn pavement arrows are identified on the target incoming corridor.",
+      "No clearly identifiable bicycle lane, bicycle symbol or rail tracks are visible; this does not establish their absence farther along the approach.",
+      "No readable movement restriction is established. Small distant signs cannot be reliably read.",
+      "No full lane count or legal turn permission is inferred. Turn pockets, lane splits and facility changes may occur between this position and the intersection.",
+      "Temporal applicability is limited to the supplied 2025-10 source date; this image alone cannot establish a newer layout."
+    ]
+  },
+  {
+    "section_id": "gsv_context_WB_near",
+    "kind": "gsv_forward_context",
+    "direction": "WB",
+    "source_id": "gsv_WB_near_forward",
+    "reverse_view": false,
+    "capture_date": "2025-11",
+    "sampling_position": "near",
+    "distance_to_center_m": 25.12,
+    "pano_id": "b0AKKNAOXqJSogVei9mBhw",
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "facility",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "A green-painted pavement strip bounded by white markings enters from the lower-left foreground on the near side of the intersection. It is consistent with bicycle-lane treatment; no bicycle stencil or directional arrow is clearly readable on this patch."
+      },
+      {
+        "id": "o2",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "The near-right concrete curb curves around the intersection corner. A paved strip lies between this curb and the foreground green treatment; its precise lane function is not established by a readable marking."
+      },
+      {
+        "id": "o3",
+        "kind": "facility",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "Embedded rail tracks are visible across the left portion of the roadway, extending diagonally from the left foreground toward the road ahead. Overhead wires are also visible. Their exact allocation relative to the target incoming lanes cannot be resolved from this view."
+      },
+      {
+        "id": "o4",
+        "kind": "facility",
+        "observed_arrows": [],
+        "applies_to_incoming": "no",
+        "evidence": "A narrow green pavement treatment is visible beyond the intersection near the right edge of the road continuing ahead. This is far-side/outgoing pavement, not direct evidence of the incoming stopbar layout."
+      },
+      {
+        "id": "o5",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "White transverse and oblique pavement markings are visible across the intersection and foreground, but blur and perspective prevent confidently assigning every line as a stop line, crosswalk edge, or lane boundary."
+      },
+      {
+        "id": "o6",
+        "kind": "occlusion",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "Vehicles obscure portions of the right-side cross-street pavement and distant roadway. Foreground image blur and worn or faint markings also limit pavement interpretation."
+      },
+      {
+        "id": "o7",
+        "kind": "sign",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "Signal equipment and small distant signs are visible, but no lane-use or turn-restriction text or symbol is legible enough to report."
+      }
+    ],
+    "notes": [
+      "This is the supplied forward-facing WB context, locally at the near-side intersection corner with the intersection opening immediately ahead. The supplied 25.12 m distance is to the center, not to a confirmed stopbar.",
+      "No directly visible directional pavement arrow can be confidently identified. Empty arrow lists do not establish that arrows are absent.",
+      "No full lane count, numbered-region assignment, or legal turn permission is established. Vehicle positions and signal indications are not used to infer arrows or permissions.",
+      "No raised median is clearly identifiable on the immediate incoming pavement; this does not establish its absence elsewhere.",
+      "Temporal applicability is limited to the supplied 2025-11 source date; the image does not independently establish a capture date or a later layout."
+    ]
+  },
+  {
+    "section_id": "gsv_context_WB_mid",
+    "kind": "gsv_forward_context",
+    "direction": "WB",
+    "source_id": "gsv_WB_mid_forward",
+    "reverse_view": false,
+    "capture_date": "2025-11",
+    "sampling_position": "mid",
+    "distance_to_center_m": 54.81,
+    "pano_id": "hp0konyJHW-Bn_FP0WK4uA",
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "facility",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "A longitudinal strip bounded by white lines runs along the right side of the approaching roadway, with green pavement patches toward the intersection. This supports identification as a bicycle lane; no bicycle stencil or directional arrow is clearly readable."
+      },
+      {
+        "id": "o2",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "The green-marked strip is to the right of the general roadway and left of a curbside asphalt strip. A raised curb and sidewalk border the roadway on the right. These relationships are visible at the upstream sampling position, not a confirmed stopbar cross-section."
+      },
+      {
+        "id": "o3",
+        "kind": "facility",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Embedded rail tracks extend from the lower-left foreground toward the intersection, left of the green-marked bicycle facility. Overhead wires and suspension fittings follow the corridor. The tracks occupy paved roadway rather than a visibly fenced or segregated reservation here."
+      },
+      {
+        "id": "o4",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "A broken white longitudinal marking is visible between the rail-bearing portion of the approach and the roadway space to its right. A narrow yellow-edged raised separator is visible farther left, apparently separating opposing roadway portions; its exact continuation through the intersection is not resolved."
+      },
+      {
+        "id": "o5",
+        "kind": "occlusion",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "The white vehicle ahead covers part of the rail-bearing approach pavement. A partial vehicle at the lower-left edge, foreground shadows, and more distant vehicles also limit pavement inspection. Intersection markings are small and foreshortened."
+      },
+      {
+        "id": "o6",
+        "kind": "other",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "No directional pavement arrow is clearly discernible. Pavement beyond the intersection is visible in the distance, but markings there cannot reliably be assigned to the target incoming approach."
+      },
+      {
+        "id": "o7",
+        "kind": "sign",
+        "observed_arrows": [],
+        "applies_to_incoming": "uncertain",
+        "evidence": "Signal assemblies and distant overhead signs are visible, but no lane-use or turn restriction text is readable at this resolution."
+      }
+    ],
+    "notes": [
+      "This is the supplied forward-facing WB approach view, locally upstream of the intersection at a supplied distance of 54.81 m from its center, not from the stopbar.",
+      "No full lane count or numbered-region assignment is established. Turn pockets, lane splits, and bicycle-facility transitions closer to the intersection may not be resolved here.",
+      "Vehicle positions, signal indications, and unreadable or absent signs do not establish arrows or legal turn permissions.",
+      "Temporal applicability is limited to the supplied source date of 2025-11; that date is metadata, not independently visible evidence, and this view does not establish a later layout."
+    ]
+  },
+  {
+    "section_id": "gsv_context_WB_far",
+    "kind": "gsv_forward_context",
+    "direction": "WB",
+    "source_id": "gsv_WB_far_forward",
+    "reverse_view": false,
+    "capture_date": "2025-11",
+    "sampling_position": "far",
+    "distance_to_center_m": 102.94,
+    "pano_id": "pP78U1pWrGaGZL1FLwsUQQ",
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "arrow",
+        "observed_arrows": [
+          "through"
+        ],
+        "applies_to_incoming": "yes",
+        "evidence": "A white forward-pointing pavement arrow is visible in the narrow longitudinal strip to the right of the main travel pavement, approximately mid-image. This is an upstream marking, not a confirmed stopbar lane arrow."
+      },
+      {
+        "id": "o2",
+        "kind": "facility",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Parallel embedded rail tracks run along the left portion of the approach. Overhead wires and support poles follow the rail alignment. A white car partially covers the track-bearing pavement ahead."
+      },
+      {
+        "id": "o3",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Two longitudinal white boundaries delineate a narrow strip between the main travel pavement and the right-side parking area. Its geometry is consistent with a bicycle lane, but no readable bicycle symbol or bicycle-specific sign confirms that designation here."
+      },
+      {
+        "id": "o4",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "Vehicles occupy marked curbside parking space on the right, outside the narrow longitudinal strip. A sidewalk and trees lie beyond the right curb."
+      },
+      {
+        "id": "o5",
+        "kind": "boundary",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "A raised, landscaped and partly fenced separation runs beside the rail-bearing pavement on the left. It provides a local physical boundary; its continuation and configuration at the target intersection are not resolved."
+      },
+      {
+        "id": "o6",
+        "kind": "occlusion",
+        "observed_arrows": [],
+        "applies_to_incoming": "yes",
+        "evidence": "The white car ahead obscures some left-side pavement and rails. Right-side parked vehicles obscure parking-area pavement, while shadows reduce marking contrast. Distance limits inspection of the target intersection pavement."
+      }
+    ],
+    "notes": [
+      "This is the supplied forward-facing WB approach view, locally an upstream street cross-section approximately 102.94 m from the intersection center, not from its stopbar.",
+      "The observed narrow-strip arrow does not establish a through arrow or legal movement permission for the adjacent general traffic pavement.",
+      "No additional pavement arrows or readable movement restrictions can be confidently extracted. This does not establish their absence.",
+      "A full incoming lane count and stopbar configuration cannot be established; turn pockets, lane splits and facility changes may occur farther ahead.",
+      "Temporal applicability is limited to the supplied source date of 2025-11; the image does not independently verify that date or establish a later layout."
+    ]
+  }
+]

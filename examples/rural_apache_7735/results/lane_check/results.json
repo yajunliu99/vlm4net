@@ -1,0 +1,79 @@
+[
+  {
+    "approach": "NB",
+    "link": "15301",
+    "vlm_count": 4,
+    "reference_name": "NB",
+    "reference": [
+      "L",
+      "L",
+      "T",
+      "T",
+      "TR"
+    ],
+    "reference_count": 5,
+    "reference_also_on_link": [],
+    "reading": {
+      "lanes": [],
+      "bicycle_lanes": 0,
+      "rail_or_bus_only_lanes": 0,
+      "parking_lanes": 0,
+      "count_confidence": "low",
+      "count_settled": false,
+      "limitations": "A reliable lane count at the stop bar cannot be established. The satellite crop shows approach vehicles and longitudinal markings, but the blurred markings do not clearly resolve all lane boundaries or any pavement arrows. Both street views appear to be taken from the opposing carriageway: the approach traffic is queued to the camera's right across the double-yellow line. Those vehicles obscure the approach's lane divisions and arrows. No bicycle, rail/bus-only, or parking lane is positively identified; the reported zeros do not confirm their absence. The empty lane list represents an unresolved layout, not zero motor-traffic lanes."
+    },
+    "layout_seen": "",
+    "verdict": "unclear",
+    "cause": "imagery_not_settled",
+    "confidence": "low",
+    "note": "A reliable lane count at the stop bar cannot be established. The satellite crop shows approach vehicles and longitudinal markings, but the blurred markings do not clearly resolve all lane boundaries or any pavement arrows. Both street views appear to be taken from the opposing carriageway: the approach traffic is queued to the camera's right across the double-yellow line. Those vehicles obscure the approach's lane divisions and arrows. No bicycle, rail/bus-only, or parking lane is positively identified; the reported zeros do not confirm their absence. The empty lane list represents an unresolved layout, not zero motor-traffic lanes.",
+    "sheet": "sheets/NB.jpg"
+  },
+  {
+    "approach": "WB",
+    "link": "10882",
+    "vlm_count": 6,
+    "reference_name": "WB",
+    "reference": [
+      "LU",
+      "T",
+      "T",
+      "R"
+    ],
+    "reference_count": 4,
+    "reference_also_on_link": [],
+    "reading": {
+      "lanes": [
+        {
+          "lane": 1,
+          "turns": [
+            "left"
+          ],
+          "evidence": "The satellite view shows a narrow left-turn pocket beside the central divider, with a legible bent-left pavement arrow."
+        },
+        {
+          "lane": 2,
+          "turns": [],
+          "evidence": "A lane follows the approach-side streetcar tracks immediately right of the turn pocket. Vehicles in the satellite and street views support its use as a shared motor-traffic lane. No pavement arrow is legible."
+        },
+        {
+          "lane": 3,
+          "turns": [],
+          "evidence": "A separate motor lane lies between the track-sharing lane and the green bicycle lane, with a dashed divider visible in the satellite view. No pavement arrow is legible."
+        }
+      ],
+      "bicycle_lanes": 1,
+      "rail_or_bus_only_lanes": 0,
+      "parking_lanes": 1,
+      "count_confidence": "medium",
+      "count_settled": true,
+      "limitations": "Satellite blur, shadows and vehicles obscure some markings. The street views support the shared-track and bicycle-lane layout but do not clearly show every stop-bar marking. Curbside parking is visible upstream, outside the bicycle lane, rather than as an additional approach lane. Street-view dates are supplied labels; the satellite date is unknown. Empty movement lists mean no legible arrow, not a prohibition on movement."
+    },
+    "layout_seen": "L ? ? +1 bike +1 parking",
+    "verdict": "neither",
+    "cause": "imagery_differs_from_both",
+    "confidence": "medium",
+    "note": "Satellite blur, shadows and vehicles obscure some markings. The street views support the shared-track and bicycle-lane layout but do not clearly show every stop-bar marking. Curbside parking is visible upstream, outside the bicycle lane, rather than as an additional approach lane. Street-view dates are supplied labels; the satellite date is unknown. Empty movement lists mean no legible arrow, not a prohibition on movement.",
+    "sheet": "sheets/WB.jpg"
+  }
+]

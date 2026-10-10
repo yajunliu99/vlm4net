@@ -1,0 +1,14 @@
+{
+  "response": "{\n  \"observations\": [\n    \"The clearest front-facing panorama for the far-side controls is gsv_control_link_15301_eeeda77659, with its supplied detail views: the overhead faces are unobstructed and larger than in the earlier approach views.\",\n    \"gsv_detail_link_15301_1517a82bd2a7 clearly shows an illuminated red left arrow beside a readable sign stating 'LEFT ON GREEN ARROW ONLY'. Unlit lens symbols are not reliably resolved.\",\n    \"The adjacent overhead head shows a circular red indication in gsv_detail_link_15301_ccffb106a90e. A separate overhead head farther right also shows a circular red indication in gsv_detail_link_15301_15aa01782ed3.\",\n    \"A green overhead street-name sign reads 'Apache Blvd'; smaller supplementary characters are not reliably readable.\",\n    \"The right-side pole-mounted head in gsv_detail_link_15301_1cdb958865c1 is viewed obliquely. Its middle lens has an amber-colored feature, but its symbol and illumination state are not sufficiently clear to identify confidently.\",\n    \"Geometry suggests the far-side overhead faces serve the incoming approach, but exact lane-to-head assignments are not established by the images or proposed region boundaries. No confirmed right-turn permission is inferred.\",\n    \"Supplied stations are relative to the road endpoint, and the estimated junction envelope is not an observed stopline.\"\n  ],\n  \"detail_requests\": [\n    {\n      \"source_id\": \"gsv_detail_link_15301_1cdb958865c1\",\n      \"bbox_xyxy\": [0.45, 0.41, 0.54, 0.61],\n      \"question\": \"Can the pole-mounted signal's lens symbols, especially the amber-colored middle lens, be resolved as circular or directional? If directional, which direction is visibly indicated?\"\n    }\n  ]\n}",
+  "metadata": {
+    "sources": {},
+    "query_id": "215a07a57ad94f2eafd19601f88d5a04",
+    "model_details": {
+      "inference_provider": "openai",
+      "inference_model": "gpt6_astra"
+    },
+    "produced_assets": [],
+    "tool_trace": [],
+    "time_query": 10.36416
+  }
+}
